@@ -3,14 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
+    <style>
+      .material-symbols-outlined {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        height: 30px;
+        font-variation-settings:
+          'FILL' 0,
+          'wght' 200,
+          'GRAD' 0,
+          'opsz' 24;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <div class="logo-section">
+    <header class="flex">
+      <div class="logo-section | flex">
         <div class="logo-box"></div>
+        <div class="main-drop-down">
+          <span class="material-symbols-outlined"> expand_more </span>
+        </div>
       </div>
-      <nav>kjhdf</nav>
+      <nav class="flex">
+        <ul class="left-nav | flex">
+          <li class="store">Store</li>
+          <li class="support"><a href="#">Support</a></li>
+          <li class="distribute"><a href="#">Distribute</a></li>
+        </ul>
+        <div class="right-nav | flex">
+          <li class="language">
+            <span class="material-symbols-outlined">language</span>
+          </li>
+          <li class="user | flex">
+            <span class="material-symbols-outlined"> account_circle </span>
+          </li>
+          <button class="btn">Download</button>
+        </div>
+      </nav>
     </header>
+    <main>
+      <div class="search-container">
+        <div class="search-bar">
+          <span class="material-symbols-outlined"> search </span>
+          <input type="text" />
+        </div>
+      </div>
+    </main>
   </body>
 </html>
