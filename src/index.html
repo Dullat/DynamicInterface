@@ -20,6 +20,7 @@
         align-items: center;
         font-size: 30px;
         height: 30px;
+        cursor: pointer;
         font-variation-settings:
           'FILL' 0,
           'wght' 200,
@@ -54,11 +55,29 @@
       </nav>
     </header>
     <main>
-      <div class="search-container">
-        <div class="search-bar">
+      <div class="search-container | flex">
+        <div class="search-bar | flex">
           <span class="material-symbols-outlined"> search </span>
-          <input type="text" />
+          <input type="text" placeholder="Search-item" />
         </div>
+        <div class="discover-menu | flex">
+          <li class="discover"><a href="#">Discover</a></li>
+          <li class="browse"><a href="#">Browse</a></li>
+          <li class="news"><a href="#">News</a></li>
+        </div>
+        <div class="cart">
+          <span class="material-symbols-outlined"> shopping_cart </span>
+        </div>
+      </div>
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item-1"></div>
+            <div class="carousel-item-2"></div>
+            <div class="carousel-item-3"></div>
+          </div>
+        </div>
+        <div class="items-box">hj</div>
       </div>
     </main>
   </body>

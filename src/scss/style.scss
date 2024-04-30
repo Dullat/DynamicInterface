@@ -74,4 +74,89 @@ header {
 
 main {
     background-color: hsl(0, 0%, 7%);
+
+    .search-container {
+        max-width: 1430px;
+        margin-inline: auto;
+        height: 100px;
+        align-items: center;
+        gap: 1.5rem;
+
+        .search-bar {
+            background-color: hsl(0, 0%, 13%);
+            border-radius: 100vw;
+            height: 40px;
+            max-width: 230px;
+            padding: .5rem;
+            gap: .5rem;
+
+            span {
+                font-size: 20px;
+            }
+
+            input {
+                background-color: transparent;
+                outline: none;
+                border: none;
+                color: white;
+                font-family: poppins;
+            }
+        }
+
+        .discover-menu {
+            gap: 1.5rem;
+        }
+
+        .cart {
+            margin-left: auto;
+
+            >span {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .carousel-container {
+        max-width: 1430px;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: 8fr 2fr;
+        height: 50vw;
+
+        .carousel {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1.5rem;
+            background-color: red;
+
+            .carousel-inner {
+                display: flex;
+                height: 100%;
+
+                .carousel-item-1 {
+                    background: url(../imgs/carousel/controll.png);
+                }
+
+                .carousel-item-2 {
+                    background: url(../imgs/carousel/genshin-impact.jpg);
+                }
+
+                .carousel-item-3 {
+                    background: url(../imgs/carousel/watch-dogs2.jpg);
+                }
+
+                [class*="carousel-item"] {
+                    width: 100%;
+                    height: 100%;
+                    background-size: cover;
+                    transition: transform 0.5s ease;
+                    display: none;
+                }
+
+                [class*="carousel-item"].active {
+                    display: block;
+                }
+            }
+        }
+    }
 }
