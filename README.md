@@ -1,2 +1,2 @@
 # Epic Games Store Clone
-[here](dullat.github.io/EpicGamesClone/dist/index.html)
+[here](https://dullat.github.io/EpicGamesClone/dist/index.html)
