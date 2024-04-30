@@ -14,9 +14,9 @@ function runSlider() {
 
 function showSlide(i) {
   items.forEach((item) => {
-    item.classList.remove('active');
+    item.classList.remove('active', 'hide');
   });
-  items[i].classList.add('active');
+  items[i].classList.add('active', 'hide');
 }
 
 function nextSlide() {

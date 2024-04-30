@@ -61,8 +61,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/jashandullat.jpg */ "./src/imgs/jashandullat.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/genshin-impact.jpg */ "./src/imgs/carousel/genshin-impact.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/watch-dogs2.jpg */ "./src/imgs/carousel/watch-dogs2.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `body {
   color: #f6f6ef;
@@ -118,7 +124,82 @@ header {
 
 main {
   background-color: #121212; }
-`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"AAAA;EAEI,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAqC;EACrC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;EAdlC;IAmBQ,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IArBnC;MAwBY,+BAA8B,EAAA;MAxB1C;QA2BgB,yBAAyB;QACzB,iBAAiB;QACjB,gBAAgB,EAAA;MA7BhC;;QAkCgB,WAAW,EAAA;IAlC3B;MAuCY,6BAA4B,EAAA;MAvCxC;QA0CgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA;;AAMvC;EACI,yBAAgC,EAAA","sourcesContent":["body {\r\n    // background-color: red;\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n    background-color: hsl(0, 0%, 7%);\r\n}\r\n"],"sourceRoot":""}]);
+  main .search-container {
+    max-width: 1430px;
+    width: 80%;
+    margin-inline: auto;
+    height: 100px;
+    align-items: center;
+    gap: 1.5rem; }
+    main .search-container .search-bar {
+      background-color: #212121;
+      border-radius: 100vw;
+      height: 40px;
+      max-width: 230px;
+      padding: .5rem;
+      gap: .5rem; }
+      main .search-container .search-bar span {
+        font-size: 20px; }
+      main .search-container .search-bar input {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: white;
+        font-family: poppins; }
+    main .search-container .discover-menu {
+      gap: 1.5rem; }
+    main .search-container .cart {
+      margin-left: auto; }
+      main .search-container .cart > span {
+        font-size: 25px; }
+  main .carousel-container {
+    max-width: 1430px;
+    width: 80%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    font-size: 1vw;
+    height: 35em; }
+    main .carousel-container .carousel {
+      position: relative;
+      overflow: hidden;
+      border-radius: 1.5rem; }
+      main .carousel-container .carousel .carousel-inner {
+        display: flex;
+        height: 100%; }
+        main .carousel-container .carousel .carousel-inner .carousel-item-1 {
+          background: url(${___CSS_LOADER_URL_REPLACEMENT_1___}); }
+        main .carousel-container .carousel .carousel-inner .carousel-item-2 {
+          background: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+        main .carousel-container .carousel .carousel-inner .carousel-item-3 {
+          background: url(${___CSS_LOADER_URL_REPLACEMENT_3___}); }
+        main .carousel-container .carousel .carousel-inner [class*="carousel-item"] {
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          display: none;
+          transform: translateX(20%);
+          transition: transform 0.5s ease; }
+        main .carousel-container .carousel .carousel-inner [class*="carousel-item"].active {
+          display: block;
+          transform: translateX(0%);
+          animation: slidein 0.7s ease forwards; }
+        main .carousel-container .carousel .carousel-inner [class*="carousel-item"].hide {
+          animation: slideout 0.5s ease forwards;
+          animation-delay: 3.9s; }
+
+@keyframes slidein {
+  from {
+    transform: translateX(-100%); }
+  to {
+    transform: translateX(0%); } }
+
+@keyframes slideout {
+  from {
+    transform: translateX(0%); }
+  to {
+    transform: translateX(-100%); } }
+`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"AAAA;EAEI,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAqC;EACrC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;EAdlC;IAmBQ,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IArBnC;MAwBY,+BAA8B,EAAA;MAxB1C;QA2BgB,yBAAyB;QACzB,iBAAiB;QACjB,gBAAgB,EAAA;MA7BhC;;QAkCgB,WAAW,EAAA;IAlC3B;MAuCY,6BAA4B,EAAA;MAvCxC;QA0CgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA;;AAMvC;EACI,yBAAgC,EAAA;EADpC;IAIQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,mBAAmB;IACnB,WAAW,EAAA;IATnB;MAYY,yBAAiC;MACjC,oBAAoB;MACpB,YAAY;MACZ,gBAAgB;MAChB,cAAc;MACd,UAAU,EAAA;MAjBtB;QAoBgB,eAAe,EAAA;MApB/B;QAwBgB,6BAA6B;QAC7B,aAAa;QACb,YAAY;QACZ,YAAY;QACZ,oBAAoB,EAAA;IA5BpC;MAiCY,WAAW,EAAA;IAjCvB;MAqCY,iBAAiB,EAAA;MArC7B;QAwCgB,eAAe,EAAA;EAxC/B;IA8CQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,8BAA8B;IAC9B,cAAc;IACd,YAAY,EAAA;IApDpB;MAuDY,kBAAkB;MAClB,gBAAgB;MAChB,qBAAqB,EAAA;MAzDjC;QA4DgB,aAAa;QACb,YAAY,EAAA;QA7D5B;UAgEoB,mDAA8C,EAAA;QAhElE;UAoEoB,mDAAoD,EAAA;QApExE;UAwEoB,mDAAiD,EAAA;QAxErE;UA4EoB,WAAW;UACX,YAAY;UACZ,sBAAsB;UACtB,aAAa;UACb,0BAA0B;UAC1B,+BAA+B,EAAA;QAjFnD;UAqFoB,cAAc;UACd,yBAAyB;UACzB,qCAAqC,EAAA;QAvFzD;UA2FoB,sCAAsC;UACtC,qBACJ,EAAA;;AAEA;EACI;IACI,4BAA4B,EAAA;EAGhC;IACI,yBAAyB,EAAA,EAAA;;AAIjC;EACI;IACI,yBAAyB,EAAA;EAG7B;IACI,4BAA4B,EAAA,EAAA","sourcesContent":["body {\r\n    // background-color: red;\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n    background-color: hsl(0, 0%, 7%);\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        font-size: 1vw;\r\n        height: 35em;\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    display: none;\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: block;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.7s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.5s ease forwards;\r\n                    animation-delay: 3.9s\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-100%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-100%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -650,6 +731,36 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/imgs/carousel/controll.png":
+/*!****************************************!*\
+  !*** ./src/imgs/carousel/controll.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4777b59c557ed976c036.png";
+
+/***/ }),
+
+/***/ "./src/imgs/carousel/genshin-impact.jpg":
+/*!**********************************************!*\
+  !*** ./src/imgs/carousel/genshin-impact.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0a8ec79b0cea58b3cfd6.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/carousel/watch-dogs2.jpg":
+/*!*******************************************!*\
+  !*** ./src/imgs/carousel/watch-dogs2.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "76343d5edb4478a07341.jpg";
+
+/***/ }),
+
 /***/ "./src/imgs/jashandullat.jpg":
 /*!***********************************!*\
   !*** ./src/imgs/jashandullat.jpg ***!
@@ -809,8 +920,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const items = document.querySelectorAll(`[class*="carousel-item"]`);
+
+let slideIndex = 0;
+
+document.addEventListener('DOMContentLoaded', runSlider);
+
+function runSlider() {
+  items[slideIndex].classList.add('active');
+  setInterval(nextSlide, 4000);
+}
+
+function showSlide(i) {
+  items.forEach((item) => {
+    item.classList.remove('active', 'hide');
+  });
+  items[i].classList.add('active', 'hide');
+}
+
+function nextSlide() {
+  slideIndex += 1;
+  if (slideIndex >= items.length) {
+    slideIndex = 0;
+  }
+  showSlide(slideIndex);
+}
+
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=maincda048b3031590f3103f.bundle.js.map
+//# sourceMappingURL=main052a277d456f0bf8236f.bundle.js.map
