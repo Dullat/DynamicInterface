@@ -61,7 +61,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/jashandullat.jpg */ "./src/imgs/jashandullat.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png?a9ab"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/genshin-impact.jpg */ "./src/imgs/carousel/genshin-impact.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/watch-dogs2.jpg */ "./src/imgs/carousel/watch-dogs2.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
@@ -158,6 +158,7 @@ main {
     margin-inline: auto;
     display: grid;
     grid-template-columns: 8fr 2fr;
+    gap: 1rem;
     font-size: 1vw;
     height: 35em; }
     main .carousel-container .carousel {
@@ -183,10 +184,10 @@ main {
         main .carousel-container .carousel .carousel-inner [class*="carousel-item"].active {
           display: block;
           transform: translateX(0%);
-          animation: slidein 0.7s ease forwards; }
+          animation: slidein 0.5s ease forwards; }
         main .carousel-container .carousel .carousel-inner [class*="carousel-item"].hide {
           animation: slideout 0.5s ease forwards;
-          animation-delay: 3.9s; }
+          animation-delay: 3.8s; }
 
 @keyframes slidein {
   from {
@@ -199,7 +200,23 @@ main {
     transform: translateX(0%); }
   to {
     transform: translateX(-100%); } }
-`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"AAAA;EAEI,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAqC;EACrC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;EAdlC;IAmBQ,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IArBnC;MAwBY,+BAA8B,EAAA;MAxB1C;QA2BgB,yBAAyB;QACzB,iBAAiB;QACjB,gBAAgB,EAAA;MA7BhC;;QAkCgB,WAAW,EAAA;IAlC3B;MAuCY,6BAA4B,EAAA;MAvCxC;QA0CgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA;;AAMvC;EACI,yBAAgC,EAAA;EADpC;IAIQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,mBAAmB;IACnB,WAAW,EAAA;IATnB;MAYY,yBAAiC;MACjC,oBAAoB;MACpB,YAAY;MACZ,gBAAgB;MAChB,cAAc;MACd,UAAU,EAAA;MAjBtB;QAoBgB,eAAe,EAAA;MApB/B;QAwBgB,6BAA6B;QAC7B,aAAa;QACb,YAAY;QACZ,YAAY;QACZ,oBAAoB,EAAA;IA5BpC;MAiCY,WAAW,EAAA;IAjCvB;MAqCY,iBAAiB,EAAA;MArC7B;QAwCgB,eAAe,EAAA;EAxC/B;IA8CQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,8BAA8B;IAC9B,cAAc;IACd,YAAY,EAAA;IApDpB;MAuDY,kBAAkB;MAClB,gBAAgB;MAChB,qBAAqB,EAAA;MAzDjC;QA4DgB,aAAa;QACb,YAAY,EAAA;QA7D5B;UAgEoB,mDAA8C,EAAA;QAhElE;UAoEoB,mDAAoD,EAAA;QApExE;UAwEoB,mDAAiD,EAAA;QAxErE;UA4EoB,WAAW;UACX,YAAY;UACZ,sBAAsB;UACtB,aAAa;UACb,0BAA0B;UAC1B,+BAA+B,EAAA;QAjFnD;UAqFoB,cAAc;UACd,yBAAyB;UACzB,qCAAqC,EAAA;QAvFzD;UA2FoB,sCAAsC;UACtC,qBACJ,EAAA;;AAEA;EACI;IACI,4BAA4B,EAAA;EAGhC;IACI,yBAAyB,EAAA,EAAA;;AAIjC;EACI;IACI,yBAAyB,EAAA;EAG7B;IACI,4BAA4B,EAAA,EAAA","sourcesContent":["body {\r\n    // background-color: red;\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n    background-color: hsl(0, 0%, 7%);\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        font-size: 1vw;\r\n        height: 35em;\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    display: none;\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: block;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.7s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.5s ease forwards;\r\n                    animation-delay: 3.9s\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-100%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-100%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
+    main .carousel-container .items-container {
+      display: grid;
+      font-size: 1rem;
+      grid-template-rows: repeat(5, 1fr); }
+      main .carousel-container .items-container [class*="item-box"] {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem; }
+        main .carousel-container .items-container [class*="item-box"] .item-image {
+          background-color: #262626;
+          height: 100%;
+          width: auto;
+          border-radius: 1vh;
+          background-size: cover; }
+`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"AAAA;EAEI,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAqC;EACrC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;EAdlC;IAmBQ,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IArBnC;MAwBY,+BAA8B,EAAA;MAxB1C;QA2BgB,yBAAyB;QACzB,iBAAiB;QACjB,gBAAgB,EAAA;MA7BhC;;QAkCgB,WAAW,EAAA;IAlC3B;MAuCY,6BAA4B,EAAA;MAvCxC;QA0CgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA;;AAMvC;EACI,yBAAgC,EAAA;EADpC;IAIQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,mBAAmB;IACnB,WAAW,EAAA;IATnB;MAYY,yBAAiC;MACjC,oBAAoB;MACpB,YAAY;MACZ,gBAAgB;MAChB,cAAc;MACd,UAAU,EAAA;MAjBtB;QAoBgB,eAAe,EAAA;MApB/B;QAwBgB,6BAA6B;QAC7B,aAAa;QACb,YAAY;QACZ,YAAY;QACZ,oBAAoB,EAAA;IA5BpC;MAiCY,WAAW,EAAA;IAjCvB;MAqCY,iBAAiB,EAAA;MArC7B;QAwCgB,eAAe,EAAA;EAxC/B;IA8CQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,8BAA8B;IAC9B,SAAS;IACT,cAAc;IACd,YAAY,EAAA;IArDpB;MAwDY,kBAAkB;MAClB,gBAAgB;MAChB,qBAAqB,EAAA;MA1DjC;QA6DgB,aAAa;QACb,YAAY,EAAA;QA9D5B;UAiEoB,mDAA8C,EAAA;QAjElE;UAqEoB,mDAAoD,EAAA;QArExE;UAyEoB,mDAAiD,EAAA;QAzErE;UA6EoB,WAAW;UACX,YAAY;UACZ,sBAAsB;UACtB,aAAa;UACb,0BAA0B;UAC1B,+BAA+B,EAAA;QAlFnD;UAsFoB,cAAc;UACd,yBAAyB;UACzB,qCAAqC,EAAA;QAxFzD;UA4FoB,sCAAsC;UACtC,qBACJ,EAAA;;AAEA;EACI;IACI,4BAA4B,EAAA;EAGhC;IACI,yBAAyB,EAAA,EAAA;;AAIjC;EACI;IACI,yBAAyB,EAAA;EAG7B;IACI,4BAA4B,EAAA,EAAA;IAhHpD;MAuHY,aAAa;MACb,eAAe;MACf,kCAAkC,EAAA;MAzH9C;QA4HgB,aAAa;QACb,8BAA8B;QAC9B,mBAAmB;QACnB,SAAS;QACT,aAAa,EAAA;QAhI7B;UAmIoB,yBAAiC;UACjC,YAAY;UACZ,WAAW;UACX,kBAAkB;UAClB,sBAAsB,EAAA","sourcesContent":["body {\r\n    // background-color: red;\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n    background-color: hsl(0, 0%, 7%);\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        font-size: 1vw;\r\n        height: 35em;\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    display: none;\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: block;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.5s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.5s ease forwards;\r\n                    animation-delay: 3.8s\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-100%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-100%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            font-size: 1rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n\r\n                .item-image {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -357,6 +374,20 @@ module.exports = function (item) {
   }
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ "./src/imgs/carousel/controll.png?3d48":
+/*!****************************************!*\
+  !*** ./src/imgs/carousel/controll.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "dist/images/4777b59c557ed976c036d50c5e00c525.png");
 
 /***/ }),
 
@@ -731,13 +762,13 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/imgs/carousel/controll.png":
+/***/ "./src/imgs/carousel/controll.png?a9ab":
 /*!****************************************!*\
   !*** ./src/imgs/carousel/controll.png ***!
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "4777b59c557ed976c036.png";
+module.exports = __webpack_require__.p + "31e4f2689e7d6adddfc1.png";
 
 /***/ }),
 
@@ -747,7 +778,7 @@ module.exports = __webpack_require__.p + "4777b59c557ed976c036.png";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "0a8ec79b0cea58b3cfd6.jpg";
+module.exports = __webpack_require__.p + "0e1a7dde06ae7340e076.jpg";
 
 /***/ }),
 
@@ -757,7 +788,7 @@ module.exports = __webpack_require__.p + "0a8ec79b0cea58b3cfd6.jpg";
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "76343d5edb4478a07341.jpg";
+module.exports = __webpack_require__.p + "9bebfec93200ef20767b.jpg";
 
 /***/ }),
 
@@ -767,7 +798,7 @@ module.exports = __webpack_require__.p + "76343d5edb4478a07341.jpg";
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "ee0b6d70b162684ab0ec.jpg";
+module.exports = __webpack_require__.p + "cbe9591f030a994896df.jpg";
 
 /***/ })
 
@@ -917,6 +948,8 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ "./src/scss/style.scss");
 /* harmony import */ var _scss_reset_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/reset.scss */ "./src/scss/reset.scss");
+/* harmony import */ var _imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png?3d48");
+
 
 
 
@@ -946,8 +979,13 @@ function nextSlide() {
   showSlide(slideIndex);
 }
 
+document.querySelector('.item-image').style.backgroundImage =
+  `url(${_imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_2__["default"]})`;
+
+console.log(_imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_2__["default"]);
+
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main052a277d456f0bf8236f.bundle.js.map
+//# sourceMappingURL=main5660470fd9b1b6728fb3.bundle.js.map

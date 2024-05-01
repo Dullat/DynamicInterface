@@ -1,5 +1,6 @@
 import './scss/style.scss';
 import './scss/reset.scss';
+import backgroundImage from './imgs/carousel/controll.png';
 
 const items = document.querySelectorAll(`[class*="carousel-item"]`);
 
@@ -26,3 +27,8 @@ function nextSlide() {
   }
   showSlide(slideIndex);
 }
+
+document.querySelector('.item-image').style.backgroundImage =
+  `url(${backgroundImage})`;
+
+console.log(backgroundImage);

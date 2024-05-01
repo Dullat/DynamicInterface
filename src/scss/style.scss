@@ -123,6 +123,7 @@ main {
         margin-inline: auto;
         display: grid;
         grid-template-columns: 8fr 2fr;
+        gap: 1rem;
         font-size: 1vw;
         height: 35em;
 
@@ -159,12 +160,12 @@ main {
                 [class*="carousel-item"].active {
                     display: block;
                     transform: translateX(0%);
-                    animation: slidein 0.7s ease forwards;
+                    animation: slidein 0.5s ease forwards;
                 }
 
                 [class*="carousel-item"].hide {
                     animation: slideout 0.5s ease forwards;
-                    animation-delay: 3.9s
+                    animation-delay: 3.8s
                 }
 
                 @keyframes slidein {
@@ -185,6 +186,28 @@ main {
                     to {
                         transform: translateX(-100%);
                     }
+                }
+            }
+        }
+
+        .items-container {
+            display: grid;
+            font-size: 1rem;
+            grid-template-rows: repeat(5, 1fr);
+
+            [class*="item-box"] {
+                display: grid;
+                grid-template-columns: 2fr 5fr;
+                align-items: center;
+                gap: 1rem;
+                padding: 1rem;
+
+                .item-image {
+                    background-color: hsl(0, 0%, 15%);
+                    height: 100%;
+                    width: auto;
+                    border-radius: 1vh;
+                    background-size: cover;
                 }
             }
         }
