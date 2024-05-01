@@ -165,7 +165,7 @@ main {
 
                 [class*="carousel-item"].hide {
                     animation: slideout 0.5s ease forwards;
-                    animation-delay: 3.8s
+                    animation-delay: 3.8s;
                 }
 
                 @keyframes slidein {
