@@ -61,7 +61,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/jashandullat.jpg */ "./src/imgs/jashandullat.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png?a9ab"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/genshin-impact.jpg */ "./src/imgs/carousel/genshin-impact.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/watch-dogs2.jpg */ "./src/imgs/carousel/watch-dogs2.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
@@ -71,6 +71,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `body {
+  background-color: #121212;
   color: #f6f6ef;
   font-family: poppins; }
 
@@ -100,6 +101,13 @@ header {
       width: 30px;
       background: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
       background-size: cover; }
+    header .logo-section .material-symbols-outlined {
+      color: rgba(255, 255, 255, 0.623);
+      transform: rotate(180deg); }
+    header .logo-section .material-symbols-outlined:hover {
+      transition: all .4s;
+      transform: translateY(10%);
+      color: white; }
   header nav {
     justify-content: space-between;
     width: 100%;
@@ -115,6 +123,50 @@ header {
         opacity: .7; }
     header nav .right-nav {
       gap: clamp(0.5rem, 1vw, 1rem); }
+      header nav .right-nav .language {
+        position: relative; }
+        header nav .right-nav .language span {
+          color: rgba(255, 255, 255, 0.5); }
+        header nav .right-nav .language .friendly-div {
+          position: absolute;
+          bottom: -3rem;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: transparent;
+          height: 3rem;
+          width: 8rem;
+          display: none; }
+        header nav .right-nav .language > ul {
+          position: absolute;
+          visibility: hidden;
+          left: 50%;
+          transform: translateX(-50%);
+          inset-block-start: 4.25rem;
+          z-index: 2;
+          background-color: #1f1f23;
+          padding: 1rem;
+          width: 8rem;
+          border-radius: 2vh;
+          font-size: .9rem;
+          display: flex;
+          flex-direction: column;
+          gap: .5rem; }
+          header nav .right-nav .language > ul li {
+            color: rgba(255, 255, 255, 0.5);
+            border-radius: 1rem;
+            padding: .5rem 1rem;
+            cursor: pointer; }
+          header nav .right-nav .language > ul li:hover {
+            background-color: #404044;
+            color: white; }
+        header nav .right-nav .language ul:hover {
+          visibility: visible; }
+      header nav .right-nav .language:hover > ul {
+        visibility: visible; }
+      header nav .right-nav .language:hover > .friendly-div {
+        display: block; }
+      header nav .right-nav .language:hover span {
+        color: white; }
       header nav .right-nav .user {
         height: 40px;
         aspect-ratio: 1;
@@ -122,76 +174,75 @@ header {
         border-radius: 100vh;
         justify-content: center; }
 
-main {
-  background-color: #121212; }
-  main .search-container {
-    max-width: 1430px;
-    width: 80%;
-    margin-inline: auto;
-    height: 100px;
-    align-items: center;
+main .search-container {
+  max-width: 1430px;
+  width: 80%;
+  margin-inline: auto;
+  height: 100px;
+  align-items: center;
+  gap: 1.5rem; }
+  main .search-container .search-bar {
+    background-color: #212121;
+    border-radius: 100vw;
+    height: 40px;
+    max-width: 230px;
+    padding: .5rem;
+    gap: .5rem; }
+    main .search-container .search-bar span {
+      font-size: 20px; }
+    main .search-container .search-bar input {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      color: white;
+      font-family: poppins; }
+  main .search-container .discover-menu {
     gap: 1.5rem; }
-    main .search-container .search-bar {
-      background-color: #212121;
-      border-radius: 100vw;
-      height: 40px;
-      max-width: 230px;
-      padding: .5rem;
-      gap: .5rem; }
-      main .search-container .search-bar span {
-        font-size: 20px; }
-      main .search-container .search-bar input {
-        background-color: transparent;
-        outline: none;
-        border: none;
-        color: white;
-        font-family: poppins; }
-    main .search-container .discover-menu {
-      gap: 1.5rem; }
-    main .search-container .cart {
-      margin-left: auto; }
-      main .search-container .cart > span {
-        font-size: 25px; }
-  main .carousel-container {
-    max-width: 1430px;
-    width: 80%;
-    margin-inline: auto;
-    display: grid;
-    grid-template-columns: 8fr 2fr;
-    gap: 1rem;
-    font-size: 1vw;
-    height: 35em; }
-    main .carousel-container .carousel {
-      position: relative;
-      overflow: hidden;
-      border-radius: 1.5rem; }
-      main .carousel-container .carousel .carousel-inner {
-        display: flex;
-        height: 100%; }
-        main .carousel-container .carousel .carousel-inner .carousel-item-1 {
-          background: url(${___CSS_LOADER_URL_REPLACEMENT_1___}); }
-        main .carousel-container .carousel .carousel-inner .carousel-item-2 {
-          background: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
-        main .carousel-container .carousel .carousel-inner .carousel-item-3 {
-          background: url(${___CSS_LOADER_URL_REPLACEMENT_3___}); }
-        main .carousel-container .carousel .carousel-inner [class*="carousel-item"] {
-          width: 100%;
-          height: 100%;
-          background-size: cover;
-          display: none;
-          transform: translateX(20%);
-          transition: transform 0.5s ease; }
-        main .carousel-container .carousel .carousel-inner [class*="carousel-item"].active {
-          display: block;
-          transform: translateX(0%);
-          animation: slidein 0.5s ease forwards; }
-        main .carousel-container .carousel .carousel-inner [class*="carousel-item"].hide {
-          animation: slideout 0.5s ease forwards;
-          animation-delay: 3.8s; }
+  main .search-container .cart {
+    margin-left: auto; }
+    main .search-container .cart > span {
+      font-size: 25px; }
+
+main .carousel-container {
+  max-width: 1430px;
+  width: 80%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  gap: 1rem;
+  font-size: 1vw;
+  height: 35em; }
+  main .carousel-container .carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.5rem; }
+    main .carousel-container .carousel .carousel-inner {
+      display: flex;
+      height: 100%; }
+      main .carousel-container .carousel .carousel-inner .carousel-item-1 {
+        background: url(${___CSS_LOADER_URL_REPLACEMENT_1___}); }
+      main .carousel-container .carousel .carousel-inner .carousel-item-2 {
+        background: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+      main .carousel-container .carousel .carousel-inner .carousel-item-3 {
+        background: url(${___CSS_LOADER_URL_REPLACEMENT_3___}); }
+      main .carousel-container .carousel .carousel-inner [class*="carousel-item"] {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        display: none;
+        transform: translateX(20%);
+        transition: transform 0.5s ease; }
+      main .carousel-container .carousel .carousel-inner [class*="carousel-item"].active {
+        display: block;
+        transform: translateX(0%);
+        animation: slidein 0.3s ease forwards; }
+      main .carousel-container .carousel .carousel-inner [class*="carousel-item"].hide {
+        animation: slideout 0.2s ease forwards;
+        animation-delay: 3.9s; }
 
 @keyframes slidein {
   from {
-    transform: translateX(-100%); }
+    transform: translateX(-50%); }
   to {
     transform: translateX(0%); } }
 
@@ -199,24 +250,51 @@ main {
   from {
     transform: translateX(0%); }
   to {
-    transform: translateX(-100%); } }
-    main .carousel-container .items-container {
+    transform: translateX(-50%); } }
+  main .carousel-container .items-container {
+    display: grid;
+    font-size: 1rem;
+    gap: .3rem;
+    grid-template-rows: repeat(5, 1fr); }
+    main .carousel-container .items-container [class*="item-box"] {
       display: grid;
-      font-size: 1rem;
-      grid-template-rows: repeat(5, 1fr); }
-      main .carousel-container .items-container [class*="item-box"] {
-        display: grid;
-        grid-template-columns: 2fr 5fr;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem; }
-        main .carousel-container .items-container [class*="item-box"] .item-image {
-          background-color: #262626;
-          height: 100%;
-          width: auto;
-          border-radius: 1vh;
-          background-size: cover; }
-`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"AAAA;EAEI,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAqC;EACrC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;EAdlC;IAmBQ,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IArBnC;MAwBY,+BAA8B,EAAA;MAxB1C;QA2BgB,yBAAyB;QACzB,iBAAiB;QACjB,gBAAgB,EAAA;MA7BhC;;QAkCgB,WAAW,EAAA;IAlC3B;MAuCY,6BAA4B,EAAA;MAvCxC;QA0CgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA;;AAMvC;EACI,yBAAgC,EAAA;EADpC;IAIQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,mBAAmB;IACnB,WAAW,EAAA;IATnB;MAYY,yBAAiC;MACjC,oBAAoB;MACpB,YAAY;MACZ,gBAAgB;MAChB,cAAc;MACd,UAAU,EAAA;MAjBtB;QAoBgB,eAAe,EAAA;MApB/B;QAwBgB,6BAA6B;QAC7B,aAAa;QACb,YAAY;QACZ,YAAY;QACZ,oBAAoB,EAAA;IA5BpC;MAiCY,WAAW,EAAA;IAjCvB;MAqCY,iBAAiB,EAAA;MArC7B;QAwCgB,eAAe,EAAA;EAxC/B;IA8CQ,iBAAiB;IACjB,UAAU;IACV,mBAAmB;IACnB,aAAa;IACb,8BAA8B;IAC9B,SAAS;IACT,cAAc;IACd,YAAY,EAAA;IArDpB;MAwDY,kBAAkB;MAClB,gBAAgB;MAChB,qBAAqB,EAAA;MA1DjC;QA6DgB,aAAa;QACb,YAAY,EAAA;QA9D5B;UAiEoB,mDAA8C,EAAA;QAjElE;UAqEoB,mDAAoD,EAAA;QArExE;UAyEoB,mDAAiD,EAAA;QAzErE;UA6EoB,WAAW;UACX,YAAY;UACZ,sBAAsB;UACtB,aAAa;UACb,0BAA0B;UAC1B,+BAA+B,EAAA;QAlFnD;UAsFoB,cAAc;UACd,yBAAyB;UACzB,qCAAqC,EAAA;QAxFzD;UA4FoB,sCAAsC;UACtC,qBACJ,EAAA;;AAEA;EACI;IACI,4BAA4B,EAAA;EAGhC;IACI,yBAAyB,EAAA,EAAA;;AAIjC;EACI;IACI,yBAAyB,EAAA;EAG7B;IACI,4BAA4B,EAAA,EAAA;IAhHpD;MAuHY,aAAa;MACb,eAAe;MACf,kCAAkC,EAAA;MAzH9C;QA4HgB,aAAa;QACb,8BAA8B;QAC9B,mBAAmB;QACnB,SAAS;QACT,aAAa,EAAA;QAhI7B;UAmIoB,yBAAiC;UACjC,YAAY;UACZ,WAAW;UACX,kBAAkB;UAClB,sBAAsB,EAAA","sourcesContent":["body {\r\n    // background-color: red;\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n    background-color: hsl(0, 0%, 7%);\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        font-size: 1vw;\r\n        height: 35em;\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    display: none;\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: block;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.5s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.5s ease forwards;\r\n                    animation-delay: 3.8s\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-100%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-100%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            font-size: 1rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n\r\n                .item-image {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
+      grid-template-columns: 2fr 5fr;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      cursor: pointer;
+      border-radius: 2vh;
+      position: relative;
+      overflow: hidden; }
+      main .carousel-container .items-container [class*="item-box"] .fill-background {
+        position: absolute;
+        left: 0;
+        z-index: 0;
+        background: rgba(122, 122, 122, 0.452);
+        height: 100%;
+        width: 0%; }
+      main .carousel-container .items-container [class*="item-box"] .fill-background.active {
+        animation: fillAnimation ease-out 4s; }
+
+@keyframes fillAnimation {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+      main .carousel-container .items-container [class*="item-box"] [class*='item-image'] {
+        background-color: #262626;
+        height: 100%;
+        width: auto;
+        border-radius: 1vh;
+        background-size: cover;
+        position: relative;
+        z-index: 1; }
+      main .carousel-container .items-container [class*="item-box"] .item-name {
+        position: relative;
+        z-index: 1; }
+    main .carousel-container .items-container [class*="item-box"]:hover {
+      background-color: #292929; }
+`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"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","sourcesContent":["body {\r\n    background-color: hsl(0, 0%, 7%);\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n\r\n        .material-symbols-outlined {\r\n            color: rgba(255, 255, 255, 0.623);\r\n            transform: rotate(180deg);\r\n        }\r\n\r\n        .material-symbols-outlined:hover {\r\n            transition: all .4s;\r\n            transform: translateY(10%);\r\n            color: rgb(255, 255, 255);\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .language {\r\n                position: relative;\r\n\r\n                span {\r\n                    color: rgba(255, 255, 255, 0.5);\r\n                }\r\n\r\n                .friendly-div {\r\n                    position: absolute;\r\n                    bottom: -3rem;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    background-color: transparent;\r\n                    height: 3rem;\r\n                    width: 8rem;\r\n                    display: none;\r\n                }\r\n\r\n                >ul {\r\n                    position: absolute;\r\n                    visibility: hidden;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    inset-block-start: 4.25rem;\r\n                    z-index: 2;\r\n\r\n                    background-color: hsl(240, 6%, 13%);\r\n                    padding: 1rem;\r\n                    width: 8rem;\r\n                    border-radius: 2vh;\r\n                    font-size: .9rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    li {\r\n                        color: rgba(255, 255, 255, 0.5);\r\n                        border-radius: 1rem;\r\n                        padding: .5rem 1rem;\r\n                        cursor: pointer;\r\n                    }\r\n\r\n                    li:hover {\r\n                        background-color: hsl(240, 3%, 26%);\r\n                        color: white;\r\n                    }\r\n                }\r\n\r\n                ul:hover {\r\n                    visibility: visible;\r\n                }\r\n            }\r\n\r\n            .language:hover>ul {\r\n                visibility: visible;\r\n            }\r\n\r\n            .language:hover>.friendly-div {\r\n                display: block;\r\n            }\r\n\r\n            .language:hover span {\r\n                color: white;\r\n            }\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        font-size: 1vw;\r\n        height: 35em;\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    display: none;\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: block;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.3s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.2s ease forwards;\r\n                    animation-delay: 3.9s;\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-50%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-50%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            font-size: 1rem;\r\n            gap: .3rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n                cursor: pointer;\r\n                border-radius: 2vh;\r\n                position: relative;\r\n                overflow: hidden;\r\n\r\n                .fill-background {\r\n                    position: absolute;\r\n                    left: 0;\r\n                    z-index: 0;\r\n                    background: hsla(0, 0%, 48%, 0.452);\r\n                    height: 100%;\r\n                    width: 0%;\r\n                }\r\n\r\n                .fill-background.active {\r\n                    animation: fillAnimation ease-out 4s;\r\n                }\r\n\r\n                @keyframes fillAnimation {\r\n                    0% {\r\n                        width: 0;\r\n                    }\r\n\r\n                    100% {\r\n                        width: 100%;\r\n                    }\r\n                }\r\n\r\n                [class*='item-image'] {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n\r\n                .item-name {\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n            }\r\n\r\n            [class*=\"item-box\"]:hover {\r\n                background-color: hsl(0, 0%, 16%);\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -374,20 +452,6 @@ module.exports = function (item) {
   }
   return [content].join("\n");
 };
-
-/***/ }),
-
-/***/ "./src/imgs/carousel/controll.png?3d48":
-/*!****************************************!*\
-  !*** ./src/imgs/carousel/controll.png ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "dist/images/4777b59c557ed976c036d50c5e00c525.png");
 
 /***/ }),
 
@@ -762,13 +826,65 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/imgs/carousel/controll.png?a9ab":
+/***/ "./src/js/loadImages.js":
+/*!******************************!*\
+  !*** ./src/js/loadImages.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   images: () => (/* binding */ images),
+/* harmony export */   preloadImages: () => (/* binding */ preloadImages)
+/* harmony export */ });
+/* harmony import */ var _imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png");
+/* harmony import */ var _imgs_carousel_genshin_impact_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../imgs/carousel/genshin-impact.jpg */ "./src/imgs/carousel/genshin-impact.jpg");
+/* harmony import */ var _imgs_carousel_watch_dogs2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../imgs/carousel/watch-dogs2.jpg */ "./src/imgs/carousel/watch-dogs2.jpg");
+/* harmony import */ var _imgs_carousel_dont_starve_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../imgs/carousel/dont-starve.jpg */ "./src/imgs/carousel/dont-starve.jpg");
+/* harmony import */ var _imgs_carousel_gta_drive_by_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../imgs/carousel/gta-drive-by.jpg */ "./src/imgs/carousel/gta-drive-by.jpg");
+
+
+
+
+
+
+const images = [
+  _imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_0__,
+  _imgs_carousel_genshin_impact_jpg__WEBPACK_IMPORTED_MODULE_1__,
+  _imgs_carousel_watch_dogs2_jpg__WEBPACK_IMPORTED_MODULE_2__,
+  _imgs_carousel_dont_starve_jpg__WEBPACK_IMPORTED_MODULE_3__,
+  _imgs_carousel_gta_drive_by_jpg__WEBPACK_IMPORTED_MODULE_4__,
+];
+
+function preloadImages(imgs) {
+  imgs.forEach((imageSrc) => {
+    const img = new Image();
+    img.src = imageSrc;
+  });
+}
+
+
+
+
+/***/ }),
+
+/***/ "./src/imgs/carousel/controll.png":
 /*!****************************************!*\
   !*** ./src/imgs/carousel/controll.png ***!
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "31e4f2689e7d6adddfc1.png";
+module.exports = __webpack_require__.p + "4777b59c557ed976c036.png";
+
+/***/ }),
+
+/***/ "./src/imgs/carousel/dont-starve.jpg":
+/*!*******************************************!*\
+  !*** ./src/imgs/carousel/dont-starve.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3cc5fe750634fb5c9062.jpg";
 
 /***/ }),
 
@@ -778,7 +894,17 @@ module.exports = __webpack_require__.p + "31e4f2689e7d6adddfc1.png";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "0e1a7dde06ae7340e076.jpg";
+module.exports = __webpack_require__.p + "0a8ec79b0cea58b3cfd6.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/carousel/gta-drive-by.jpg":
+/*!********************************************!*\
+  !*** ./src/imgs/carousel/gta-drive-by.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "b8200cb1cdd3e4182e49.jpg";
 
 /***/ }),
 
@@ -788,7 +914,7 @@ module.exports = __webpack_require__.p + "0e1a7dde06ae7340e076.jpg";
   \*******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "9bebfec93200ef20767b.jpg";
+module.exports = __webpack_require__.p + "76343d5edb4478a07341.jpg";
 
 /***/ }),
 
@@ -798,7 +924,7 @@ module.exports = __webpack_require__.p + "9bebfec93200ef20767b.jpg";
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "cbe9591f030a994896df.jpg";
+module.exports = __webpack_require__.p + "ee0b6d70b162684ab0ec.jpg";
 
 /***/ })
 
@@ -948,44 +1074,57 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ "./src/scss/style.scss");
 /* harmony import */ var _scss_reset_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/reset.scss */ "./src/scss/reset.scss");
-/* harmony import */ var _imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png?3d48");
+/* harmony import */ var _js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/loadImages.js */ "./src/js/loadImages.js");
 
 
 
 
-const items = document.querySelectorAll(`[class*="carousel-item"]`);
-
+const carouseItems = document.querySelectorAll(`[class*="carousel-item"]`);
+const carouselItemBoxes = document.querySelectorAll(`[class*="item-image"]`);
+const carouselItemBoxesFill = document.querySelectorAll(`.fill-background`);
 let slideIndex = 0;
 
-document.addEventListener('DOMContentLoaded', runSlider);
-
-function runSlider() {
-  items[slideIndex].classList.add('active');
-  setInterval(nextSlide, 4000);
-}
+// slider
 
 function showSlide(i) {
-  items.forEach((item) => {
+  carouseItems.forEach((item) => {
     item.classList.remove('active', 'hide');
+    carouselItemBoxesFill[i].classList.remove('active');
   });
-  items[i].classList.add('active', 'hide');
+  carouseItems[i].classList.add('active', 'hide');
+  carouselItemBoxesFill[i].classList.add('active');
 }
 
 function nextSlide() {
   slideIndex += 1;
-  if (slideIndex >= items.length) {
+  if (slideIndex >= carouseItems.length) {
     slideIndex = 0;
   }
   showSlide(slideIndex);
 }
 
-document.querySelector('.item-image').style.backgroundImage =
-  `url(${_imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_2__["default"]})`;
+function runSlider() {
+  carouseItems[slideIndex].classList.add('active');
+  carouselItemBoxesFill[slideIndex].classList.add('active');
+  setInterval(nextSlide, 4000);
+}
 
-console.log(_imgs_carousel_controll_png__WEBPACK_IMPORTED_MODULE_2__["default"]);
+document.addEventListener('DOMContentLoaded', runSlider);
+
+// load and assign images
+
+(0,_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.preloadImages)(_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images);
+
+carouseItems.forEach((e, i) => {
+  e.style.backgroundImage = `url(${_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images[i]})`;
+});
+
+carouselItemBoxes.forEach((e, i) => {
+  e.style.backgroundImage = `url(${_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images[i]})`;
+});
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=main5660470fd9b1b6728fb3.bundle.js.map
+//# sourceMappingURL=main684d7fc38cd28af12f9c.bundle.js.map

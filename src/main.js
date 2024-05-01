@@ -1,34 +1,47 @@
 import './scss/style.scss';
 import './scss/reset.scss';
-import backgroundImage from './imgs/carousel/controll.png';
+import { images, preloadImages } from './js/loadImages.js';
 
-const items = document.querySelectorAll(`[class*="carousel-item"]`);
-
+const carouseItems = document.querySelectorAll(`[class*="carousel-item"]`);
+const carouselItemBoxes = document.querySelectorAll(`[class*="item-image"]`);
+const carouselItemBoxesFill = document.querySelectorAll(`.fill-background`);
 let slideIndex = 0;
 
-document.addEventListener('DOMContentLoaded', runSlider);
-
-function runSlider() {
-  items[slideIndex].classList.add('active');
-  setInterval(nextSlide, 4000);
-}
+// slider
 
 function showSlide(i) {
-  items.forEach((item) => {
+  carouseItems.forEach((item) => {
     item.classList.remove('active', 'hide');
+    carouselItemBoxesFill[i].classList.remove('active');
   });
-  items[i].classList.add('active', 'hide');
+  carouseItems[i].classList.add('active', 'hide');
+  carouselItemBoxesFill[i].classList.add('active');
 }
 
 function nextSlide() {
   slideIndex += 1;
-  if (slideIndex >= items.length) {
+  if (slideIndex >= carouseItems.length) {
     slideIndex = 0;
   }
   showSlide(slideIndex);
 }
 
-document.querySelector('.item-image').style.backgroundImage =
-  `url(${backgroundImage})`;
+function runSlider() {
+  carouseItems[slideIndex].classList.add('active');
+  carouselItemBoxesFill[slideIndex].classList.add('active');
+  setInterval(nextSlide, 4000);
+}
 
-console.log(backgroundImage);
+document.addEventListener('DOMContentLoaded', runSlider);
+
+// load and assign images
+
+preloadImages(images);
+
+carouseItems.forEach((e, i) => {
+  e.style.backgroundImage = `url(${images[i]})`;
+});
+
+carouselItemBoxes.forEach((e, i) => {
+  e.style.backgroundImage = `url(${images[i]})`;
+});
