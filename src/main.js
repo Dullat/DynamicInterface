@@ -9,14 +9,19 @@ const carouselItemBoxImgsFill = document.querySelectorAll(`.fill-background`);
 const toggledMenuDropBtn = document.querySelector('.menu-toggle-btn');
 const toggledMenu = document.querySelector('.toggled-menu');
 let slideIndex = 0;
+let intervalId;
 
 // slider
 
-function showSlide(i) {
-  carouseItems.forEach((item) => {
+function removeSlide() {
+  carouseItems.forEach((item, i) => {
     item.classList.remove('active', 'hide');
     carouselItemBoxImgsFill[i].classList.remove('active');
   });
+}
+
+function showSlide(i) {
+  removeSlide();
   carouseItems[i].classList.add('active', 'hide');
   carouselItemBoxImgsFill[i].classList.add('active');
 }
@@ -32,15 +37,17 @@ function nextSlide() {
 function runSlider() {
   carouseItems[slideIndex].classList.add('active');
   carouselItemBoxImgsFill[slideIndex].classList.add('active');
-  setInterval(nextSlide, 4000);
+  intervalId = setInterval(nextSlide, 4000);
 }
 
 document.addEventListener('DOMContentLoaded', runSlider);
 
 carouselItemBoxes.forEach((e, i) => {
   e.addEventListener('click', () => {
-    slideIndex = i - 1;
-    nextSlide();
+    slideIndex = i;
+    clearInterval(intervalId);
+    removeSlide();
+    runSlider();
   });
 });
 
