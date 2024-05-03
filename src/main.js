@@ -35,7 +35,7 @@ function nextSlide() {
 }
 
 function runSlider() {
-  carouseItems[slideIndex].classList.add('active');
+  carouseItems[slideIndex].classList.add('active', 'hide');
   carouselItemBoxImgsFill[slideIndex].classList.add('active');
   intervalId = setInterval(nextSlide, 4000);
 }
@@ -56,7 +56,7 @@ carouselItemBoxes.forEach((e, i) => {
 preloadImages(images);
 
 carouseItems.forEach((e, i) => {
-  e.style.backgroundImage = `url(${images[i]})`;
+  e.style.backgroundImage = `radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(${images[i]})`;
 });
 
 carouselItemBoxImgs.forEach((e, i) => {

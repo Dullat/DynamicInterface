@@ -20,6 +20,17 @@ body {
     cursor: pointer;
 }
 
+.btn-secondary {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    padding-inline: 1.5rem;
+    color: black;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 header {
     background-color: hsl(240, 8%, 10%);
     padding-inline: 1rem;
@@ -292,14 +303,58 @@ main {
                 [class*="carousel-item"] {
                     width: 100%;
                     height: 100%;
+                    font-size: 16px;
                     background-size: cover;
-                    display: none;
+                    background-position: center 0%;
+                    backdrop-filter: brightness(0.8);
                     transform: translateX(20%);
                     transition: transform 0.5s ease;
+
+                    display: none;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: end;
+                    padding: 7%;
+
+                    >:first-child {
+                        opacity: .7;
+                        margin-bottom: 2rem;
+                    }
+
+                    >:nth-child(2) {
+                        font-weight: 600;
+                        margin-bottom: .7rem;
+                        opacity: .9;
+                    }
+
+                    >:nth-child(3) {
+                        font-size: 1rem;
+                        margin-bottom: 2rem;
+                    }
+
+                    .purchase-div {
+                        align-items: center;
+                        gap: 1rem;
+
+                        .add-to-wishlist {
+                            align-items: center;
+                            gap: .5rem;
+                            cursor: pointer;
+
+                            >span {
+                                font-size: 1rem;
+                            }
+
+                            >p {
+                                font-size: .8rem;
+                            }
+                        }
+                    }
+
                 }
 
                 [class*="carousel-item"].active {
-                    display: block;
+                    display: flex;
                     transform: translateX(0%);
                     animation: slidein 0.3s ease forwards;
                 }
