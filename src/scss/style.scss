@@ -490,14 +490,12 @@ main {
         overflow: scroll;
 
         .items-container {
-            min-width: 300%;
+            min-width: 400%;
             position: relative;
             display: flex;
-            gap: .7rem;
+            gap: 10px;
 
             .card {
-                min-width: 300px;
-                max-width: 500px;
                 background-color: green;
                 border-radius: .5rem;
                 overflow: hidden;
@@ -522,7 +520,7 @@ main {
     }
 
     .item-view-slide-container::-webkit-scrollbar {
-        display: none;
+        // display: none;
         /* Hide the scrollbar */
     }
 }

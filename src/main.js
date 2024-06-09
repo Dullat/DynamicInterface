@@ -76,3 +76,21 @@ window.addEventListener('click', (e) => {
     toggledMenuDropBtn.classList.remove('active');
   }
 });
+
+// card containers
+
+const slider = document.querySelector('.item-view-slide-container');
+const cards = document.querySelectorAll('.card');
+let numberOfCards;
+let gaps;
+
+if (window.innerWidth > 1200) {
+  numberOfCards = 5;
+  gaps = (numberOfCards - 1) * 10;
+}
+
+const cardWidth = (slider.offsetWidth - gaps) / numberOfCards;
+
+cards.forEach((e) => {
+  e.style.width = cardWidth + 'px';
+});
