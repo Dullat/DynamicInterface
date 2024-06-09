@@ -1269,8 +1269,17 @@ carouseItems.forEach((e, i) => {
   e.style.backgroundImage = `radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(${_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images[i]})`;
 });
 
-carouselItemBoxImgs.forEach((e, i) => {
-  e.style.backgroundImage = `url(${_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images[i]})`;
+document.addEventListener('DOMContentLoaded', () => {
+  carouselItemBoxImgs.forEach((e, i) => {
+    e.style.backgroundImage = `url(${_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images[i]})`;
+  });
+});
+
+window.addEventListener('load', () => {
+  // when images fully loaded
+  carouselItemBoxImgs.forEach((e, i) => {
+    e.style.backgroundImage = `url(${_js_loadImages_js__WEBPACK_IMPORTED_MODULE_2__.images[i]})`;
+  });
 });
 
 // drop
@@ -1340,4 +1349,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=mainc49e693fb03a85aef58d.bundle.js.map
+//# sourceMappingURL=main488fce50ffd37c16b840.bundle.js.map

@@ -59,8 +59,17 @@ carouseItems.forEach((e, i) => {
   e.style.backgroundImage = `radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(${images[i]})`;
 });
 
-carouselItemBoxImgs.forEach((e, i) => {
-  e.style.backgroundImage = `url(${images[i]})`;
+document.addEventListener('DOMContentLoaded', () => {
+  carouselItemBoxImgs.forEach((e, i) => {
+    e.style.backgroundImage = `url(${images[i]})`;
+  });
+});
+
+window.addEventListener('load', () => {
+  // when images fully loaded
+  carouselItemBoxImgs.forEach((e, i) => {
+    e.style.backgroundImage = `url(${images[i]})`;
+  });
 });
 
 // drop
