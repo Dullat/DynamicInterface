@@ -79,18 +79,49 @@ window.addEventListener('click', (e) => {
 
 // card containers
 
+const sectionRoots = document.querySelectorAll('.card-section-root');
 const slider = document.querySelector('.item-view-slide-container');
 const cards = document.querySelectorAll('.card');
 let numberOfCards;
-let gaps;
+let margin;
 
-if (window.innerWidth > 1200) {
-  numberOfCards = 5;
-  gaps = (numberOfCards - 1) * 10;
+function renderBars() {
+  if (window.innerWidth > 1200) {
+    numberOfCards = 5;
+  }
+
+  if (window.innerWidth < 1200) {
+    numberOfCards = 4;
+  }
+
+  if (window.innerWidth < 700) {
+    numberOfCards = 2;
+  }
+
+  margin = numberOfCards * 10;
+
+  let cardWidth = (slider.offsetWidth - margin) / numberOfCards;
+
+  cards.forEach((e) => {
+    e.style.width = `${cardWidth}px`;
+  });
 }
 
-const cardWidth = (slider.offsetWidth - gaps) / numberOfCards;
+document.addEventListener('DOMContentLoaded', () => {
+  renderBars();
 
-cards.forEach((e) => {
-  e.style.width = cardWidth + 'px';
+  sectionRoots.forEach((e) => {
+    e.addEventListener('click', (event) => {
+      const s = e.querySelector('.item-view-slide-container');
+      if (event.target.classList.contains('left-scroll-svg')) {
+        s.scrollLeft -= slider.offsetWidth;
+      }
+
+      if (event.target.classList.contains('right-scroll-svg')) {
+        s.scrollLeft += slider.offsetWidth;
+      }
+    });
+  });
+
+  window.addEventListener('resize', renderBars);
 });

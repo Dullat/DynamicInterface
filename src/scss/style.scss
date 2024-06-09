@@ -478,27 +478,47 @@ main {
 // sections
 
 .card-section-root {
-    .section-title {
-        font-size: 20px;
-        height: 2rem;
-        margin-bottom: 1rem;
+    .section-top {
+        display: flex;
+        justify-content: space-between;
+
+        .section-title {
+            font-size: 20px;
+            height: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+
+            >div {
+                height: 40px;
+                aspect-ratio: 1;
+                cursor: pointer;
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
     }
 
     .item-view-slide-container {
         width: 100%;
-        background-color: rgb(75, 77, 77);
         overflow: scroll;
+        transition: scroll 2s ease-in-out;
 
         .items-container {
-            min-width: 400%;
-            position: relative;
+            width: fit-content;
             display: flex;
-            gap: 10px;
+            transition: all 2s;
 
             .card {
                 background-color: green;
                 border-radius: .5rem;
                 overflow: hidden;
+                margin-inline: 5px;
 
                 .image-bg-div {
 
@@ -507,20 +527,11 @@ main {
                     background-color: rgb(73, 73, 73);
                 }
             }
-
-            // .slide {
-            //     width: 33.333%;
-            //     background-color: rgb(63, 53, 53);
-            //     display: flex;
-            //     gap: .7rem;
-
-
-            // }
         }
     }
 
     .item-view-slide-container::-webkit-scrollbar {
-        // display: none;
+        display: none;
         /* Hide the scrollbar */
     }
 }
