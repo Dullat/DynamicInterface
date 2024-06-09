@@ -64,11 +64,41 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/controll.png */ "./src/imgs/carousel/controll.png"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/genshin-impact.jpg */ "./src/imgs/carousel/genshin-impact.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/carousel/watch-dogs2.jpg */ "./src/imgs/carousel/watch-dogs2.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/dont-starve.jpg */ "./src/imgs/commonGames/dont-starve.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/dying-light2.jpg */ "./src/imgs/commonGames/dying-light2.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/gtasa.jpg */ "./src/imgs/commonGames/gtasa.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/life-is-strange-remastered.jpg */ "./src/imgs/commonGames/life-is-strange-remastered.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/sea-of-thieves.jpg */ "./src/imgs/commonGames/sea-of-thieves.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/rocket-league-intro.jpg */ "./src/imgs/commonGames/rocket-league-intro.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/six-siege.jpg */ "./src/imgs/commonGames/six-siege.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/tom-clancy.jpg */ "./src/imgs/commonGames/tom-clancy.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/naraka-intro.jpg */ "./src/imgs/commonGames/naraka-intro.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/sifu.jpg */ "./src/imgs/commonGames/sifu.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/ghost-of-tsushima.png */ "./src/imgs/commonGames/ghost-of-tsushima.png"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_15___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/farcry-primal.jpg */ "./src/imgs/commonGames/farcry-primal.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/gtaV.jpg */ "./src/imgs/commonGames/gtaV.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/hitman3.jpg */ "./src/imgs/commonGames/hitman3.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/smite.jpg */ "./src/imgs/commonGames/smite.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
+var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
+var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
+var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_9___);
+var ___CSS_LOADER_URL_REPLACEMENT_10___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_10___);
+var ___CSS_LOADER_URL_REPLACEMENT_11___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_11___);
+var ___CSS_LOADER_URL_REPLACEMENT_12___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_12___);
+var ___CSS_LOADER_URL_REPLACEMENT_13___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_13___);
+var ___CSS_LOADER_URL_REPLACEMENT_14___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_14___);
+var ___CSS_LOADER_URL_REPLACEMENT_15___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_15___);
+var ___CSS_LOADER_URL_REPLACEMENT_16___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_16___);
+var ___CSS_LOADER_URL_REPLACEMENT_17___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_17___);
+var ___CSS_LOADER_URL_REPLACEMENT_18___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_18___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `body {
   background-color: #121212;
@@ -80,7 +110,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `body {
   align-items: center; }
 
 .btn {
-  background-color: #61cdff;
+  background-color: #2776ff;
   padding: .5rem;
   padding-inline: .8rem;
   border-radius: .5rem;
@@ -192,7 +222,7 @@ main {
   padding-inline: 7%;
   display: flex;
   flex-direction: column;
-  gap: 2rem; }
+  gap: 3rem; }
   @media screen and (max-width: 1200px) {
     main {
       padding-inline: 1rem; } }
@@ -415,19 +445,75 @@ main {
     display: flex;
     transition: all 2s; }
     .card-section-root .item-view-slide-container .items-container .card {
-      background-color: green;
       border-radius: .5rem;
       overflow: hidden;
-      margin-inline: 5px; }
+      margin-inline: 10px; }
       .card-section-root .item-view-slide-container .items-container .card .image-bg-div {
         width: 100%;
-        aspect-ratio: 1 / 1;
-        background-color: #494949; }
+        aspect-ratio: 5 / 6;
+        background-color: #494949;
+        border-radius: .5rem;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center; }
+      .card-section-root .item-view-slide-container .items-container .card .content {
+        padding: 1rem 0rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem; }
+        .card-section-root .item-view-slide-container .items-container .card .content small {
+          text-transform: uppercase;
+          opacity: .7;
+          font-size: .7rem; }
+        .card-section-root .item-view-slide-container .items-container .card .content .pricing {
+          display: flex;
+          gap: 1rem;
+          align-items: center; }
+          .card-section-root .item-view-slide-container .items-container .card .content .pricing .original-price {
+            text-decoration: line-through;
+            opacity: .6; }
+      .card-section-root .item-view-slide-container .items-container .card .g1 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g2 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g3 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g4 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g5 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g6 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g7 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_10___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g8 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g9 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g10 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g11 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_10___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g12 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g13 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_14___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g14 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g15 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g16 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+      .card-section-root .item-view-slide-container .items-container .card .g17 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+      .card-section-root .item-view-slide-container .items-container .card .image-bg-div {
+        background-size: cover;
+        background-position: center; }
 
 .card-section-root .item-view-slide-container::-webkit-scrollbar {
   display: none;
   /* Hide the scrollbar */ }
-`, "",{"version":3,"sources":["webpack://./src/scss/style.scss"],"names":[],"mappings":"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","sourcesContent":["body {\r\n    background-color: hsl(0, 0%, 7%);\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: hsl(199, 100%, 69%);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-secondary {\r\n    background-color: hsl(0, 0%, 100%);\r\n    padding: 1rem;\r\n    padding-inline: 1.5rem;\r\n    color: black;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n\r\n        .material-symbols-outlined {\r\n            color: rgba(255, 255, 255, 0.623);\r\n            transform: rotate(180deg);\r\n        }\r\n\r\n        .material-symbols-outlined.active {\r\n            transform: translateY(10%);\r\n        }\r\n\r\n        .material-symbols-outlined:hover {\r\n            transition: all .4s;\r\n            transform: translateY(10%);\r\n            color: rgb(255, 255, 255);\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .language {\r\n                position: relative;\r\n\r\n                span {\r\n                    color: rgba(255, 255, 255, 0.5);\r\n                }\r\n\r\n                .friendly-div {\r\n                    position: absolute;\r\n                    bottom: -3rem;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    background-color: transparent;\r\n                    height: 3rem;\r\n                    width: 8rem;\r\n                    display: none;\r\n                    z-index: 2;\r\n                }\r\n\r\n                >ul {\r\n                    position: absolute;\r\n                    visibility: hidden;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    inset-block-start: 4rem;\r\n                    z-index: 2;\r\n\r\n                    background-color: hsl(240, 6%, 13%);\r\n                    padding: 1rem;\r\n                    width: 8rem;\r\n                    border-radius: 2vh;\r\n                    font-size: .9rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    li {\r\n                        color: rgba(255, 255, 255, 0.5);\r\n                        border-radius: .5rem;\r\n                        padding: .5rem 1rem;\r\n                        cursor: pointer;\r\n                    }\r\n\r\n                    li:hover {\r\n                        background-color: hsl(240, 3%, 26%);\r\n                        color: white;\r\n                    }\r\n                }\r\n\r\n                ul:hover {\r\n                    visibility: visible;\r\n                }\r\n            }\r\n\r\n            .language:hover>ul {\r\n                visibility: visible;\r\n            }\r\n\r\n            .language:hover>.friendly-div {\r\n                display: block;\r\n            }\r\n\r\n            .language:hover span {\r\n                color: white;\r\n            }\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n\r\n    position: relative;\r\n    padding-inline: 7%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 2rem;\r\n\r\n    @media screen and(max-width: 1200px) {\r\n        padding-inline: 1rem;\r\n    }\r\n\r\n    .toggled-menu {\r\n        position: absolute;\r\n        top: 1rem;\r\n        left: 1rem;\r\n        z-index: 1;\r\n\r\n        display: none;\r\n        grid-template-areas: \"play create\"\r\n            \"discover create\";\r\n        padding: 2.5rem;\r\n        gap: 3.5rem;\r\n\r\n        background-color: hsl(240, 6%, 13%);\r\n        border-radius: 1.5vh;\r\n\r\n        >div>h2 {\r\n            margin-bottom: 1rem;\r\n            font-size: 1.2rem;\r\n            font-weight: 600;\r\n        }\r\n\r\n        >div>ul {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n\r\n            color: rgba(255, 255, 255, 0.473);\r\n            font-size: .9rem;\r\n\r\n            li {\r\n                border-radius: .5rem;\r\n                padding: .5rem 1rem;\r\n                cursor: pointer;\r\n            }\r\n\r\n            li:hover {\r\n                background-color: hsl(240, 3%, 26%);\r\n                color: white;\r\n            }\r\n        }\r\n\r\n        .play {\r\n            grid-area: play;\r\n        }\r\n\r\n        .discover {\r\n            grid-area: discover;\r\n        }\r\n\r\n        .create {\r\n            grid-area: create;\r\n        }\r\n\r\n    }\r\n\r\n    .toggled-menu.active {\r\n        display: grid;\r\n    }\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        // width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        height: 35em;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            grid-template-columns: 1fr;\r\n        }\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    background-position: center 0%;\r\n                    backdrop-filter: brightness(0.8);\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n\r\n                    display: none;\r\n                    flex-direction: column;\r\n                    align-items: start;\r\n                    justify-content: end;\r\n                    padding: 7%;\r\n\r\n                    >:first-child {\r\n                        opacity: .7;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    >:nth-child(2) {\r\n                        font-weight: 600;\r\n                        margin-bottom: .7rem;\r\n                        opacity: .9;\r\n                    }\r\n\r\n                    >:nth-child(3) {\r\n                        font-size: 1rem;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    .purchase-div {\r\n                        align-items: center;\r\n                        gap: 1rem;\r\n\r\n                        .add-to-wishlist {\r\n                            align-items: center;\r\n                            gap: .5rem;\r\n                            cursor: pointer;\r\n\r\n                            >span {\r\n                                font-size: 1rem;\r\n                            }\r\n\r\n                            >p {\r\n                                font-size: .8rem;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: flex;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.3s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.2s ease forwards;\r\n                    animation-delay: 3.9s;\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-50%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-50%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            // font-size: 1rem;\r\n            gap: .3rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                display: none;\r\n            }\r\n\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n                cursor: pointer;\r\n                border-radius: 2vh;\r\n                position: relative;\r\n                overflow: hidden;\r\n\r\n                .fill-background {\r\n                    position: absolute;\r\n                    left: 0;\r\n                    z-index: 0;\r\n                    background: hsla(0, 0%, 48%, 0.452);\r\n                    height: 100%;\r\n                    width: 0%;\r\n                }\r\n\r\n                .fill-background.active {\r\n                    animation: fillAnimation ease-out 4s;\r\n                }\r\n\r\n                @keyframes fillAnimation {\r\n                    0% {\r\n                        width: 0;\r\n                    }\r\n\r\n                    100% {\r\n                        width: 100%;\r\n                    }\r\n                }\r\n\r\n                [class*='item-image'] {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n\r\n                .item-name {\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n            }\r\n\r\n            [class*=\"item-box\"]:hover {\r\n                background-color: hsl(0, 0%, 16%);\r\n            }\r\n        }\r\n    }\r\n\r\n    @media screen and (max-width: 1150px) {\r\n        .search-container {\r\n            width: 100%;\r\n            padding: 1rem;\r\n        }\r\n\r\n        .carousel-container {\r\n            width: 100%;\r\n            padding: 1rem\r\n        }\r\n    }\r\n}\r\n\r\n// sections\r\n\r\n.card-section-root {\r\n    .section-top {\r\n        display: flex;\r\n        justify-content: space-between;\r\n\r\n        .section-title {\r\n            font-size: 20px;\r\n            height: 2rem;\r\n            margin-bottom: 1rem;\r\n        }\r\n\r\n        .buttons {\r\n            display: flex;\r\n            gap: 1rem;\r\n\r\n            >div {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                cursor: pointer;\r\n\r\n                svg {\r\n                    fill: white;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container {\r\n        width: 100%;\r\n        overflow: scroll;\r\n        transition: scroll 2s ease-in-out;\r\n\r\n        .items-container {\r\n            width: fit-content;\r\n            display: flex;\r\n            transition: all 2s;\r\n\r\n            .card {\r\n                background-color: green;\r\n                border-radius: .5rem;\r\n                overflow: hidden;\r\n                margin-inline: 5px;\r\n\r\n                .image-bg-div {\r\n\r\n                    width: 100%;\r\n                    aspect-ratio: 1 / 1;\r\n                    background-color: rgb(73, 73, 73);\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container::-webkit-scrollbar {\r\n        display: none;\r\n        /* Hide the scrollbar */\r\n    }\r\n}"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/scss/style.scss","webpack://./src/scss/cards.scss"],"names":[],"mappings":"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","sourcesContent":["body {\r\n    background-color: hsl(0, 0%, 7%);\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: rgb(39, 118, 255);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-secondary {\r\n    background-color: hsl(0, 0%, 100%);\r\n    padding: 1rem;\r\n    padding-inline: 1.5rem;\r\n    color: black;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\nheader {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n\r\n        .material-symbols-outlined {\r\n            color: rgba(255, 255, 255, 0.623);\r\n            transform: rotate(180deg);\r\n        }\r\n\r\n        .material-symbols-outlined.active {\r\n            transform: translateY(10%);\r\n        }\r\n\r\n        .material-symbols-outlined:hover {\r\n            transition: all .4s;\r\n            transform: translateY(10%);\r\n            color: rgb(255, 255, 255);\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .language {\r\n                position: relative;\r\n\r\n                span {\r\n                    color: rgba(255, 255, 255, 0.5);\r\n                }\r\n\r\n                .friendly-div {\r\n                    position: absolute;\r\n                    bottom: -3rem;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    background-color: transparent;\r\n                    height: 3rem;\r\n                    width: 8rem;\r\n                    display: none;\r\n                    z-index: 2;\r\n                }\r\n\r\n                >ul {\r\n                    position: absolute;\r\n                    visibility: hidden;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    inset-block-start: 4rem;\r\n                    z-index: 2;\r\n\r\n                    background-color: hsl(240, 6%, 13%);\r\n                    padding: 1rem;\r\n                    width: 8rem;\r\n                    border-radius: 2vh;\r\n                    font-size: .9rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    li {\r\n                        color: rgba(255, 255, 255, 0.5);\r\n                        border-radius: .5rem;\r\n                        padding: .5rem 1rem;\r\n                        cursor: pointer;\r\n                    }\r\n\r\n                    li:hover {\r\n                        background-color: hsl(240, 3%, 26%);\r\n                        color: white;\r\n                    }\r\n                }\r\n\r\n                ul:hover {\r\n                    visibility: visible;\r\n                }\r\n            }\r\n\r\n            .language:hover>ul {\r\n                visibility: visible;\r\n            }\r\n\r\n            .language:hover>.friendly-div {\r\n                display: block;\r\n            }\r\n\r\n            .language:hover span {\r\n                color: white;\r\n            }\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\nmain {\r\n\r\n    position: relative;\r\n    padding-inline: 7%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 3rem;\r\n\r\n    @media screen and(max-width: 1200px) {\r\n        padding-inline: 1rem;\r\n    }\r\n\r\n    .toggled-menu {\r\n        position: absolute;\r\n        top: 1rem;\r\n        left: 1rem;\r\n        z-index: 1;\r\n\r\n        display: none;\r\n        grid-template-areas: \"play create\"\r\n            \"discover create\";\r\n        padding: 2.5rem;\r\n        gap: 3.5rem;\r\n\r\n        background-color: hsl(240, 6%, 13%);\r\n        border-radius: 1.5vh;\r\n\r\n        >div>h2 {\r\n            margin-bottom: 1rem;\r\n            font-size: 1.2rem;\r\n            font-weight: 600;\r\n        }\r\n\r\n        >div>ul {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n\r\n            color: rgba(255, 255, 255, 0.473);\r\n            font-size: .9rem;\r\n\r\n            li {\r\n                border-radius: .5rem;\r\n                padding: .5rem 1rem;\r\n                cursor: pointer;\r\n            }\r\n\r\n            li:hover {\r\n                background-color: hsl(240, 3%, 26%);\r\n                color: white;\r\n            }\r\n        }\r\n\r\n        .play {\r\n            grid-area: play;\r\n        }\r\n\r\n        .discover {\r\n            grid-area: discover;\r\n        }\r\n\r\n        .create {\r\n            grid-area: create;\r\n        }\r\n\r\n    }\r\n\r\n    .toggled-menu.active {\r\n        display: grid;\r\n    }\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        // width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        height: 35em;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            grid-template-columns: 1fr;\r\n        }\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    background-position: center 0%;\r\n                    backdrop-filter: brightness(0.8);\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n\r\n                    display: none;\r\n                    flex-direction: column;\r\n                    align-items: start;\r\n                    justify-content: end;\r\n                    padding: 7%;\r\n\r\n                    >:first-child {\r\n                        opacity: .7;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    >:nth-child(2) {\r\n                        font-weight: 600;\r\n                        margin-bottom: .7rem;\r\n                        opacity: .9;\r\n                    }\r\n\r\n                    >:nth-child(3) {\r\n                        font-size: 1rem;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    .purchase-div {\r\n                        align-items: center;\r\n                        gap: 1rem;\r\n\r\n                        .add-to-wishlist {\r\n                            align-items: center;\r\n                            gap: .5rem;\r\n                            cursor: pointer;\r\n\r\n                            >span {\r\n                                font-size: 1rem;\r\n                            }\r\n\r\n                            >p {\r\n                                font-size: .8rem;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: flex;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.3s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.2s ease forwards;\r\n                    animation-delay: 3.9s;\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-50%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-50%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            // font-size: 1rem;\r\n            gap: .3rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                display: none;\r\n            }\r\n\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n                cursor: pointer;\r\n                border-radius: 2vh;\r\n                position: relative;\r\n                overflow: hidden;\r\n\r\n                .fill-background {\r\n                    position: absolute;\r\n                    left: 0;\r\n                    z-index: 0;\r\n                    background: hsla(0, 0%, 48%, 0.452);\r\n                    height: 100%;\r\n                    width: 0%;\r\n                }\r\n\r\n                .fill-background.active {\r\n                    animation: fillAnimation ease-out 4s;\r\n                }\r\n\r\n                @keyframes fillAnimation {\r\n                    0% {\r\n                        width: 0;\r\n                    }\r\n\r\n                    100% {\r\n                        width: 100%;\r\n                    }\r\n                }\r\n\r\n                [class*='item-image'] {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n\r\n                .item-name {\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n            }\r\n\r\n            [class*=\"item-box\"]:hover {\r\n                background-color: hsl(0, 0%, 16%);\r\n            }\r\n        }\r\n    }\r\n\r\n    @media screen and (max-width: 1150px) {\r\n        .search-container {\r\n            width: 100%;\r\n            padding: 1rem;\r\n        }\r\n\r\n        .carousel-container {\r\n            width: 100%;\r\n            padding: 1rem\r\n        }\r\n    }\r\n}\r\n\r\n// sections\r\n\r\n.card-section-root {\r\n    .section-top {\r\n        display: flex;\r\n        justify-content: space-between;\r\n\r\n        .section-title {\r\n            font-size: 20px;\r\n            height: 2rem;\r\n            margin-bottom: 1rem;\r\n        }\r\n\r\n        .buttons {\r\n            display: flex;\r\n            gap: 1rem;\r\n\r\n            >div {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                cursor: pointer;\r\n\r\n                svg {\r\n                    fill: white;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container {\r\n        width: 100%;\r\n        overflow: scroll;\r\n        transition: scroll 2s ease-in-out;\r\n\r\n        .items-container {\r\n            width: fit-content;\r\n            display: flex;\r\n            transition: all 2s;\r\n\r\n            .card {\r\n                // background-color: green;\r\n                border-radius: .5rem;\r\n                overflow: hidden;\r\n                margin-inline: 10px;\r\n\r\n                .image-bg-div {\r\n                    width: 100%;\r\n                    aspect-ratio: 5 / 6;\r\n                    background-color: rgb(73, 73, 73);\r\n                    border-radius: .5rem;\r\n                    overflow: hidden;\r\n                    background-size: cover;\r\n                    background-position: center;\r\n                }\r\n\r\n                .content {\r\n                    padding: 1rem 0rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    small {\r\n                        text-transform: uppercase;\r\n                        opacity: .7;\r\n                        font-size: .7rem;\r\n                    }\r\n\r\n                    .pricing {\r\n                        display: flex;\r\n                        gap: 1rem;\r\n                        align-items: center;\r\n\r\n                        .original-price {\r\n                            text-decoration: line-through;\r\n                            opacity: .6;\r\n                        }\r\n                    }\r\n                }\r\n\r\n                @import './cards.scss'\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container::-webkit-scrollbar {\r\n        display: none;\r\n        /* Hide the scrollbar */\r\n    }\r\n}",".g1 {\r\n    background-image: url(../imgs/commonGames/dont-starve.jpg);\r\n}\r\n\r\n.g2 {\r\n    background-image: url(../imgs/commonGames/dying-light2.jpg);\r\n}\r\n\r\n.g3 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.g4 {\r\n    background-image: url(../imgs/commonGames/life-is-strange-remastered.jpg);\r\n}\r\n\r\n.g5 {\r\n    background-image: url(../imgs/commonGames/sea-of-thieves.jpg);\r\n}\r\n\r\n.g6 {\r\n    background-image: url(../imgs/commonGames/rocket-league-intro.jpg);\r\n}\r\n\r\n.g7 {\r\n    background-image: url(../imgs/commonGames/six-siege.jpg);\r\n}\r\n\r\n.g8 {\r\n    background-image: url(../imgs/commonGames/tom-clancy.jpg);\r\n}\r\n\r\n.g9 {\r\n    background-image: url(../imgs/commonGames/naraka-intro.jpg);\r\n}\r\n\r\n.g10 {\r\n    background-image: url(../imgs/commonGames/sifu.jpg);\r\n}\r\n\r\n.g11 {\r\n    background-image: url(../imgs/commonGames/six-siege.jpg);\r\n}\r\n\r\n.g12 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.g13 {\r\n    background-image: url(../imgs/commonGames/ghost-of-tsushima.png);\r\n}\r\n\r\n.g14 {\r\n    background-image: url(../imgs/commonGames/farcry-primal.jpg);\r\n}\r\n\r\n.g15 {\r\n    background-image: url(../imgs/commonGames/gtaV.jpg);\r\n}\r\n\r\n.g16 {\r\n    background-image: url(../imgs/commonGames/hitman3.jpg);\r\n}\r\n\r\n.g17 {\r\n    background-image: url(../imgs/commonGames/smite.jpg);\r\n}\r\n\r\n.image-bg-div {\r\n    background-size: cover;\r\n    background-position: center;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1051,6 +1137,156 @@ module.exports = __webpack_require__.p + "76343d5edb4478a07341.jpg";
 
 /***/ }),
 
+/***/ "./src/imgs/commonGames/dont-starve.jpg":
+/*!**********************************************!*\
+  !*** ./src/imgs/commonGames/dont-starve.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "3cc5fe750634fb5c9062.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/dying-light2.jpg":
+/*!***********************************************!*\
+  !*** ./src/imgs/commonGames/dying-light2.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "aee150023fdb773ea035.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/farcry-primal.jpg":
+/*!************************************************!*\
+  !*** ./src/imgs/commonGames/farcry-primal.jpg ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cc0cc1c704c5050c5854.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/ghost-of-tsushima.png":
+/*!****************************************************!*\
+  !*** ./src/imgs/commonGames/ghost-of-tsushima.png ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7e867d28d050bcddc5e9.png";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/gtaV.jpg":
+/*!***************************************!*\
+  !*** ./src/imgs/commonGames/gtaV.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "d7a88cd9dbc773b9fae8.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/gtasa.jpg":
+/*!****************************************!*\
+  !*** ./src/imgs/commonGames/gtasa.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "f494b9ae6e55230c10ec.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/hitman3.jpg":
+/*!******************************************!*\
+  !*** ./src/imgs/commonGames/hitman3.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7f2f31f2c61a2f3092f1.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/life-is-strange-remastered.jpg":
+/*!*************************************************************!*\
+  !*** ./src/imgs/commonGames/life-is-strange-remastered.jpg ***!
+  \*************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "9745d21f2e1ed9cc23bc.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/naraka-intro.jpg":
+/*!***********************************************!*\
+  !*** ./src/imgs/commonGames/naraka-intro.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "28ad83e142ad646cfe73.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/rocket-league-intro.jpg":
+/*!******************************************************!*\
+  !*** ./src/imgs/commonGames/rocket-league-intro.jpg ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "92b65d37af1e102fd05f.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/sea-of-thieves.jpg":
+/*!*************************************************!*\
+  !*** ./src/imgs/commonGames/sea-of-thieves.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "d2edc3cb520147601bc3.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/sifu.jpg":
+/*!***************************************!*\
+  !*** ./src/imgs/commonGames/sifu.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "baf1a4405ca8206af331.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/six-siege.jpg":
+/*!********************************************!*\
+  !*** ./src/imgs/commonGames/six-siege.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0a3e755aa5e65632867e.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/smite.jpg":
+/*!****************************************!*\
+  !*** ./src/imgs/commonGames/smite.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "58e02ba8b3e6a8079f77.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/tom-clancy.jpg":
+/*!*********************************************!*\
+  !*** ./src/imgs/commonGames/tom-clancy.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "45a1199521a562891258.jpg";
+
+/***/ }),
+
 /***/ "./src/imgs/jashandullat.jpg":
 /*!***********************************!*\
   !*** ./src/imgs/jashandullat.jpg ***!
@@ -1317,7 +1553,7 @@ function renderBars() {
     numberOfCards = 2;
   }
 
-  margin = numberOfCards * 10;
+  margin = numberOfCards * 20;
 
   let cardWidth = (slider.offsetWidth - margin) / numberOfCards;
 
@@ -1349,4 +1585,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main488fce50ffd37c16b840.bundle.js.map
+//# sourceMappingURL=main75fa680d54bd4c1831c0.bundle.js.map

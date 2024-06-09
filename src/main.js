@@ -107,7 +107,7 @@ function renderBars() {
     numberOfCards = 2;
   }
 
-  margin = numberOfCards * 10;
+  margin = numberOfCards * 20;
 
   let cardWidth = (slider.offsetWidth - margin) / numberOfCards;
 
