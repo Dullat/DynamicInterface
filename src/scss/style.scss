@@ -31,6 +31,16 @@ body {
     cursor: pointer;
 }
 
+.view-more-btn {
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border: 2px solid white;
+    border-radius: .5rem;
+    color: white;
+    font-family: poppins;
+    cursor: pointer;
+}
+
 header {
     background-color: hsl(240, 8%, 10%);
     padding-inline: 1rem;
@@ -413,7 +423,7 @@ main {
                 gap: 1rem;
                 padding: 1rem;
                 cursor: pointer;
-                border-radius: 2vh;
+                border-radius: 1rem;
                 position: relative;
                 overflow: hidden;
 
@@ -475,7 +485,7 @@ main {
     }
 }
 
-// sections
+// section scroll cards
 
 .card-section-root {
     .section-top {
@@ -562,5 +572,145 @@ main {
     .item-view-slide-container::-webkit-scrollbar {
         display: none;
         /* Hide the scrollbar */
+    }
+}
+
+
+// wide cards section
+
+.wide-cards-container {
+    width: 100%;
+    // background-color: antiquewhite;
+    display: flex;
+    gap: 2rem;
+
+    .wide-card {
+        // background-color: green;
+        width: 100%;
+        border-radius: .5rem;
+        overflow: hidden;
+        margin-inline: 10px;
+
+        @media screen and(max-width: 900px) {
+            min-width: 400px;
+        }
+
+        @media screen and(max-width: 600px) {
+            min-width: 250px;
+        }
+
+        .image-bg-div {
+            width: 100%;
+            aspect-ratio: 6 / 3;
+            background-color: rgb(73, 73, 73);
+            border-radius: .5rem;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            padding: 1rem 0rem;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+
+            small {
+                text-transform: uppercase;
+                opacity: .7;
+                font-size: .7rem;
+            }
+
+            .game-title {
+                font-size: 1.2rem;
+            }
+
+            .pricing {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+
+                .original-price {
+                    text-decoration: line-through;
+                    opacity: .6;
+                }
+            }
+        }
+
+        @import './cards.scss'
+    }
+}
+
+@media screen and(max-width: 900px) {
+    .wide-cards-container {
+        overflow: scroll;
+    }
+
+    .wide-cards-container::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+// free section
+
+.free-games-section {
+    background-color: rgb(66, 66, 66);
+    padding: 2rem;
+
+    .section-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .section-title {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        svg {
+            fill: white;
+        }
+
+        >div {
+            height: 40px;
+            aspect-ratio: 1;
+        }
+    }
+
+    >div {
+        .wide-cards-container {
+            .wide-card {
+                @media screen and(max-width: 900px) {
+                    min-width: unset;
+                }
+
+                @media screen and(max-width: 600px) {
+                    min-width: unset;
+                }
+
+                .content {
+                    padding-bottom: 0;
+
+                    .game-description {
+                        font-size: .9rem;
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+
+        @media screen and(max-width: 900px) {
+            .wide-cards-container {
+                overflow: hidden;
+            }
+        }
+
+        @media screen and(max-width: 720px) {
+            .wide-cards-container {
+                flex-direction: column;
+            }
+        }
     }
 }

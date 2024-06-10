@@ -109,7 +109,7 @@ function renderBars() {
 
   margin = numberOfCards * 20;
 
-  let cardWidth = (slider.offsetWidth - margin) / numberOfCards;
+  const cardWidth = (slider.offsetWidth - margin) / numberOfCards;
 
   cards.forEach((e) => {
     e.style.width = `${cardWidth}px`;

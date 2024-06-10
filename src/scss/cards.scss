@@ -1,3 +1,7 @@
+.image-bg-div {
+    background-image: url(../imgs/commonGames/nogames.png);
+}
+
 .g1 {
     background-image: url(../imgs/commonGames/dont-starve.jpg);
 }
@@ -66,7 +70,27 @@
     background-image: url(../imgs/commonGames/smite.jpg);
 }
 
+// wide cards
+
+.wc1 {
+    background-image: url(../imgs/commonGames/naraka-intro.jpg);
+}
+
+.wc2 {
+    background-image: url(../imgs/commonGames/rocket-league-intro.jpg);
+}
+
+.wc3 {
+    background-image: url(../imgs/commonGames/dying-light2.jpg);
+}
+
 .image-bg-div {
     background-size: cover;
     background-position: center;
+}
+
+//fix positions
+
+.wc2 {
+    background-position: center top;
 }
