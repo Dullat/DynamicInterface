@@ -2,9 +2,12 @@ const path = require('path');
 const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: {
+    main: './src/main.js',
+    gameView: './src/js/gameView.js', // Separate entry point for gameview.js
+  },
   output: {
-    filename: '[name][contenthash].bundle.js',
+    filename: '[name].[contenthash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
@@ -42,6 +45,12 @@ module.exports = {
     new HtmlPlugin({
       template: './src/index.html',
       filename: 'index.html',
+      chunks: ['main'], // Only include main.js in index.html
+    }),
+    new HtmlPlugin({
+      template: './src/html/gameView.html',
+      filename: 'gameView.html',
+      chunks: ['gameView'], // Only include gameview.js in gameview.html
     }),
   ],
   mode: 'development',

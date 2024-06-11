@@ -1,0 +1,132 @@
+header {
+    background-color: hsl(240, 8%, 10%);
+    padding-inline: 1rem;
+    height: 70px;
+
+    .logo-section {
+        padding-inline: .5rem;
+        gap: .5rem;
+        border-right: 1px solid rgba(255, 255, 255, 0.404);
+
+        .logo-box {
+            height: 30px;
+            width: 30px;
+            background: url('../imgs/jashandullat.jpg');
+            background-size: cover;
+        }
+
+        .material-symbols-outlined {
+            color: rgba(255, 255, 255, 0.623);
+            transform: rotate(180deg);
+        }
+
+        .material-symbols-outlined.active {
+            transform: translateY(10%);
+        }
+
+        .material-symbols-outlined:hover {
+            transition: all .4s;
+            transform: translateY(10%);
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    nav {
+        justify-content: space-between;
+        width: 100%;
+        padding-inline-start: .7rem;
+
+        .left-nav {
+            gap: clamp(.5rem, 1.5vw, 2rem);
+
+            .store {
+                text-transform: uppercase;
+                font-size: 1.4rem;
+                font-weight: 600;
+            }
+
+            .support,
+            .distribute {
+                opacity: .7;
+            }
+        }
+
+        .right-nav {
+            gap: clamp(.5rem, 1vw, 1rem);
+
+            .language {
+                position: relative;
+
+                span {
+                    color: rgba(255, 255, 255, 0.5);
+                }
+
+                .friendly-div {
+                    position: absolute;
+                    bottom: -3rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: transparent;
+                    height: 3rem;
+                    width: 8rem;
+                    display: none;
+                    z-index: 2;
+                }
+
+                >ul {
+                    position: absolute;
+                    visibility: hidden;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    inset-block-start: 4rem;
+                    z-index: 2;
+
+                    background-color: hsl(240, 6%, 13%);
+                    padding: 1rem;
+                    width: 8rem;
+                    border-radius: 2vh;
+                    font-size: .9rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5rem;
+
+                    li {
+                        color: rgba(255, 255, 255, 0.5);
+                        border-radius: .5rem;
+                        padding: .5rem 1rem;
+                        cursor: pointer;
+                    }
+
+                    li:hover {
+                        background-color: hsl(240, 3%, 26%);
+                        color: white;
+                    }
+                }
+
+                ul:hover {
+                    visibility: visible;
+                }
+            }
+
+            .language:hover>ul {
+                visibility: visible;
+            }
+
+            .language:hover>.friendly-div {
+                display: block;
+            }
+
+            .language:hover span {
+                color: white;
+            }
+
+            .user {
+                height: 40px;
+                aspect-ratio: 1;
+                background-color: hsl(240, 4%, 20%);
+                border-radius: 100vh;
+                justify-content: center;
+            }
+        }
+    }
+}
