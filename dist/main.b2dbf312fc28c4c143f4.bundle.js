@@ -23,8 +23,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/jashandullat.jpg */ "./src/imgs/jashandullat.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/icons/menu.png */ "./src/imgs/icons/menu.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `header {
   background-color: #17171c;
@@ -48,16 +50,22 @@ ___CSS_LOADER_EXPORT___.push([module.id, `header {
       transition: all .4s;
       transform: translateY(10%);
       color: white; }
+  header .store {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 1rem; }
   header nav {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     padding-inline-start: .7rem; }
+    @media screen and (max-width: 750px) {
+      header nav {
+        display: none; } }
     header nav .left-nav {
       gap: clamp(0.5rem, 1.5vw, 2rem); }
-      header nav .left-nav .store {
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        font-weight: 600; }
       header nav .left-nav .support,
       header nav .left-nav .distribute {
         opacity: .7; }
@@ -114,7 +122,21 @@ ___CSS_LOADER_EXPORT___.push([module.id, `header {
         background-color: #313135;
         border-radius: 100vh;
         justify-content: center; }
-`, "",{"version":3,"sources":["webpack://./src/scss/header.scss"],"names":[],"mappings":"AAAA;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;IAdlC;MAkBY,iCAAiC;MACjC,yBAAyB,EAAA;IAnBrC;MAuBY,0BAA0B,EAAA;IAvBtC;MA2BY,mBAAmB;MACnB,0BAA0B;MAC1B,YAAyB,EAAA;EA7BrC;IAkCQ,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IApCnC;MAuCY,+BAA8B,EAAA;MAvC1C;QA0CgB,yBAAyB;QACzB,iBAAiB;QACjB,gBAAgB,EAAA;MA5ChC;;QAiDgB,WAAW,EAAA;IAjD3B;MAsDY,6BAA4B,EAAA;MAtDxC;QAyDgB,kBAAkB,EAAA;QAzDlC;UA4DoB,+BAA+B,EAAA;QA5DnD;UAgEoB,kBAAkB;UAClB,aAAa;UACb,SAAS;UACT,2BAA2B;UAC3B,6BAA6B;UAC7B,YAAY;UACZ,WAAW;UACX,aAAa;UACb,UAAU,EAAA;QAxE9B;UA4EoB,kBAAkB;UAClB,kBAAkB;UAClB,SAAS;UACT,2BAA2B;UAC3B,uBAAuB;UACvB,UAAU;UAEV,yBAAmC;UACnC,aAAa;UACb,WAAW;UACX,kBAAkB;UAClB,gBAAgB;UAChB,aAAa;UACb,sBAAsB;UACtB,UAAU,EAAA;UA1F9B;YA6FwB,+BAA+B;YAC/B,oBAAoB;YACpB,mBAAmB;YACnB,eAAe,EAAA;UAhGvC;YAoGwB,yBAAmC;YACnC,YAAY,EAAA;QArGpC;UA0GoB,mBAAmB,EAAA;MA1GvC;QA+GgB,mBAAmB,EAAA;MA/GnC;QAmHgB,cAAc,EAAA;MAnH9B;QAuHgB,YAAY,EAAA;MAvH5B;QA2HgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA","sourcesContent":["header {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n\r\n        .material-symbols-outlined {\r\n            color: rgba(255, 255, 255, 0.623);\r\n            transform: rotate(180deg);\r\n        }\r\n\r\n        .material-symbols-outlined.active {\r\n            transform: translateY(10%);\r\n        }\r\n\r\n        .material-symbols-outlined:hover {\r\n            transition: all .4s;\r\n            transform: translateY(10%);\r\n            color: rgb(255, 255, 255);\r\n        }\r\n    }\r\n\r\n    nav {\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .store {\r\n                text-transform: uppercase;\r\n                font-size: 1.4rem;\r\n                font-weight: 600;\r\n            }\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .language {\r\n                position: relative;\r\n\r\n                span {\r\n                    color: rgba(255, 255, 255, 0.5);\r\n                }\r\n\r\n                .friendly-div {\r\n                    position: absolute;\r\n                    bottom: -3rem;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    background-color: transparent;\r\n                    height: 3rem;\r\n                    width: 8rem;\r\n                    display: none;\r\n                    z-index: 2;\r\n                }\r\n\r\n                >ul {\r\n                    position: absolute;\r\n                    visibility: hidden;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    inset-block-start: 4rem;\r\n                    z-index: 2;\r\n\r\n                    background-color: hsl(240, 6%, 13%);\r\n                    padding: 1rem;\r\n                    width: 8rem;\r\n                    border-radius: 2vh;\r\n                    font-size: .9rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    li {\r\n                        color: rgba(255, 255, 255, 0.5);\r\n                        border-radius: .5rem;\r\n                        padding: .5rem 1rem;\r\n                        cursor: pointer;\r\n                    }\r\n\r\n                    li:hover {\r\n                        background-color: hsl(240, 3%, 26%);\r\n                        color: white;\r\n                    }\r\n                }\r\n\r\n                ul:hover {\r\n                    visibility: visible;\r\n                }\r\n            }\r\n\r\n            .language:hover>ul {\r\n                visibility: visible;\r\n            }\r\n\r\n            .language:hover>.friendly-div {\r\n                display: block;\r\n            }\r\n\r\n            .language:hover span {\r\n                color: white;\r\n            }\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
+  header .toggle-btn {
+    height: 40px;
+    aspect-ratio: 1;
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+    background-size: cover;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: none;
+    cursor: pointer;
+    margin-left: auto; }
+    @media screen and (max-width: 750px) {
+      header .toggle-btn {
+        display: block; } }
+`, "",{"version":3,"sources":["webpack://./src/scss/header.scss"],"names":[],"mappings":"AAAA;EACI,yBAAmC;EACnC,oBAAoB;EACpB,YAAY,EAAA;EAHhB;IAMQ,qBAAqB;IACrB,UAAU;IACV,kDAAkD,EAAA;IAR1D;MAWY,YAAY;MACZ,WAAW;MACX,mDAA2C;MAC3C,sBAAsB,EAAA;IAdlC;MAkBY,iCAAiC;MACjC,yBAAyB,EAAA;IAnBrC;MAuBY,0BAA0B,EAAA;IAvBtC;MA2BY,mBAAmB;MACnB,0BAA0B;MAC1B,YAAyB,EAAA;EA7BrC;IAkCQ,yBAAyB;IACzB,iBAAiB;IACjB,gBAAgB;IAChB,iBAAiB,EAAA;EArCzB;IAyCQ,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,WAAW;IACX,2BAA2B,EAAA;IAE3B;MA/CR;QAgDY,aAAa,EAAA,EAyFpB;IAzIL;MAoDY,+BAA8B,EAAA;MApD1C;;QAwDgB,WAAW,EAAA;IAxD3B;MA6DY,6BAA4B,EAAA;MA7DxC;QAgEgB,kBAAkB,EAAA;QAhElC;UAmEoB,+BAA+B,EAAA;QAnEnD;UAuEoB,kBAAkB;UAClB,aAAa;UACb,SAAS;UACT,2BAA2B;UAC3B,6BAA6B;UAC7B,YAAY;UACZ,WAAW;UACX,aAAa;UACb,UAAU,EAAA;QA/E9B;UAmFoB,kBAAkB;UAClB,kBAAkB;UAClB,SAAS;UACT,2BAA2B;UAC3B,uBAAuB;UACvB,UAAU;UAEV,yBAAmC;UACnC,aAAa;UACb,WAAW;UACX,kBAAkB;UAClB,gBAAgB;UAChB,aAAa;UACb,sBAAsB;UACtB,UAAU,EAAA;UAjG9B;YAoGwB,+BAA+B;YAC/B,oBAAoB;YACpB,mBAAmB;YACnB,eAAe,EAAA;UAvGvC;YA2GwB,yBAAmC;YACnC,YAAY,EAAA;QA5GpC;UAiHoB,mBAAmB,EAAA;MAjHvC;QAsHgB,mBAAmB,EAAA;MAtHnC;QA0HgB,cAAc,EAAA;MA1H9B;QA8HgB,YAAY,EAAA;MA9H5B;QAkIgB,YAAY;QACZ,eAAe;QACf,yBAAmC;QACnC,oBAAoB;QACpB,uBAAuB,EAAA;EAtIvC;IA4IQ,YAAY;IACZ,eAAe;IACf,yDAA6C;IAC7C,sBAAsB;IACtB,6BAA6B;IAC7B,aAAa;IACb,YAAY;IACZ,aAAa;IACb,eAAe;IACf,iBAAiB,EAAA;IAEjB;MAvJR;QAwJY,cAAc,EAAA,EAErB","sourcesContent":["header {\r\n    background-color: hsl(240, 8%, 10%);\r\n    padding-inline: 1rem;\r\n    height: 70px;\r\n\r\n    .logo-section {\r\n        padding-inline: .5rem;\r\n        gap: .5rem;\r\n        border-right: 1px solid rgba(255, 255, 255, 0.404);\r\n\r\n        .logo-box {\r\n            height: 30px;\r\n            width: 30px;\r\n            background: url('../imgs/jashandullat.jpg');\r\n            background-size: cover;\r\n        }\r\n\r\n        .material-symbols-outlined {\r\n            color: rgba(255, 255, 255, 0.623);\r\n            transform: rotate(180deg);\r\n        }\r\n\r\n        .material-symbols-outlined.active {\r\n            transform: translateY(10%);\r\n        }\r\n\r\n        .material-symbols-outlined:hover {\r\n            transition: all .4s;\r\n            transform: translateY(10%);\r\n            color: rgb(255, 255, 255);\r\n        }\r\n    }\r\n\r\n    .store {\r\n        text-transform: uppercase;\r\n        font-size: 1.4rem;\r\n        font-weight: 600;\r\n        margin-left: 1rem;\r\n    }\r\n\r\n    nav {\r\n        display: flex;\r\n        align-items: center;\r\n        justify-content: space-between;\r\n        width: 100%;\r\n        padding-inline-start: .7rem;\r\n\r\n        @media screen and(max-width: 750px) {\r\n            display: none;\r\n        }\r\n\r\n        .left-nav {\r\n            gap: clamp(.5rem, 1.5vw, 2rem);\r\n\r\n            .support,\r\n            .distribute {\r\n                opacity: .7;\r\n            }\r\n        }\r\n\r\n        .right-nav {\r\n            gap: clamp(.5rem, 1vw, 1rem);\r\n\r\n            .language {\r\n                position: relative;\r\n\r\n                span {\r\n                    color: rgba(255, 255, 255, 0.5);\r\n                }\r\n\r\n                .friendly-div {\r\n                    position: absolute;\r\n                    bottom: -3rem;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    background-color: transparent;\r\n                    height: 3rem;\r\n                    width: 8rem;\r\n                    display: none;\r\n                    z-index: 2;\r\n                }\r\n\r\n                >ul {\r\n                    position: absolute;\r\n                    visibility: hidden;\r\n                    left: 50%;\r\n                    transform: translateX(-50%);\r\n                    inset-block-start: 4rem;\r\n                    z-index: 2;\r\n\r\n                    background-color: hsl(240, 6%, 13%);\r\n                    padding: 1rem;\r\n                    width: 8rem;\r\n                    border-radius: 2vh;\r\n                    font-size: .9rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    li {\r\n                        color: rgba(255, 255, 255, 0.5);\r\n                        border-radius: .5rem;\r\n                        padding: .5rem 1rem;\r\n                        cursor: pointer;\r\n                    }\r\n\r\n                    li:hover {\r\n                        background-color: hsl(240, 3%, 26%);\r\n                        color: white;\r\n                    }\r\n                }\r\n\r\n                ul:hover {\r\n                    visibility: visible;\r\n                }\r\n            }\r\n\r\n            .language:hover>ul {\r\n                visibility: visible;\r\n            }\r\n\r\n            .language:hover>.friendly-div {\r\n                display: block;\r\n            }\r\n\r\n            .language:hover span {\r\n                color: white;\r\n            }\r\n\r\n            .user {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                background-color: hsl(240, 4%, 20%);\r\n                border-radius: 100vh;\r\n                justify-content: center;\r\n            }\r\n        }\r\n    }\r\n\r\n    .toggle-btn {\r\n        height: 40px;\r\n        aspect-ratio: 1;\r\n        background-image: url(../imgs/icons/menu.png);\r\n        background-size: cover;\r\n        background-color: transparent;\r\n        outline: none;\r\n        border: none;\r\n        display: none;\r\n        cursor: pointer;\r\n        margin-left: auto;\r\n\r\n        @media screen and(max-width: 750px) {\r\n            display: block;\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2323,6 +2345,16 @@ module.exports = __webpack_require__.p + "151685c06cfcfe7a9c93.jpg";
 
 /***/ }),
 
+/***/ "./src/imgs/icons/menu.png":
+/*!*********************************!*\
+  !*** ./src/imgs/icons/menu.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "82ba6659a53bfaaf5b35.png";
+
+/***/ }),
+
 /***/ "./src/imgs/jashandullat.jpg":
 /*!***********************************!*\
   !*** ./src/imgs/jashandullat.jpg ***!
@@ -2586,4 +2618,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.27e17d897d9b8ac3e09a.bundle.js.map
+//# sourceMappingURL=main.b2dbf312fc28c4c143f4.bundle.js.map

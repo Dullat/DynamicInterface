@@ -31,19 +31,26 @@ header {
         }
     }
 
+    .store {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-left: 1rem;
+    }
+
     nav {
+        display: flex;
+        align-items: center;
         justify-content: space-between;
         width: 100%;
         padding-inline-start: .7rem;
 
+        @media screen and(max-width: 750px) {
+            display: none;
+        }
+
         .left-nav {
             gap: clamp(.5rem, 1.5vw, 2rem);
-
-            .store {
-                text-transform: uppercase;
-                font-size: 1.4rem;
-                font-weight: 600;
-            }
 
             .support,
             .distribute {
@@ -127,6 +134,23 @@ header {
                 border-radius: 100vh;
                 justify-content: center;
             }
+        }
+    }
+
+    .toggle-btn {
+        height: 40px;
+        aspect-ratio: 1;
+        background-image: url(../imgs/icons/menu.png);
+        background-size: cover;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        display: none;
+        cursor: pointer;
+        margin-left: auto;
+
+        @media screen and(max-width: 750px) {
+            display: block;
         }
     }
 }
