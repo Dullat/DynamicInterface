@@ -121,85 +121,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `header {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/reset.scss":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/reset.scss ***!
-  \**********************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, `* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-a {
-  text-decoration: none;
-  color: #f6f6ef; }
-
-ul,
-li {
-  list-style-type: none; }
-
-body {
-  background-color: #121212;
-  color: #f6f6ef;
-  font-family: poppins; }
-
-.flex {
-  display: flex;
-  align-items: center; }
-
-.btn {
-  background-color: #2776ff;
-  padding: .5rem;
-  padding-inline: .8rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer; }
-
-.btn-secondary {
-  background-color: white;
-  padding: 1rem;
-  padding-inline: 1.5rem;
-  color: black;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer; }
-
-.view-more-btn {
-  background-color: transparent;
-  padding: .5rem 1rem;
-  border: 2px solid white;
-  border-radius: .5rem;
-  color: white;
-  font-family: poppins;
-  cursor: pointer; }
-`, "",{"version":3,"sources":["webpack://./src/scss/reset.scss"],"names":[],"mappings":"AAAA;EACI,SAAS;EACT,UAAU;EACV,sBAAsB,EAAA;;AAG1B;EACI,qBAAqB;EACrB,cAAwB,EAAA;;AAG5B;;EAEI,qBAAqB,EAAA;;AAGzB;EACI,yBAAgC;EAChC,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAmC;EACnC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,uBAAkC;EAClC,aAAa;EACb,sBAAsB;EACtB,YAAY;EACZ,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,6BAA6B;EAC7B,mBAAmB;EACnB,uBAAuB;EACvB,oBAAoB;EACpB,YAAY;EACZ,oBAAoB;EACpB,eAAe,EAAA","sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: hsl(60, 26%, 95%);\r\n}\r\n\r\nul,\r\nli {\r\n    list-style-type: none;\r\n}\r\n\r\nbody {\r\n    background-color: hsl(0, 0%, 7%);\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: rgb(39, 118, 255);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-secondary {\r\n    background-color: hsl(0, 0%, 100%);\r\n    padding: 1rem;\r\n    padding-inline: 1.5rem;\r\n    color: black;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.view-more-btn {\r\n    background-color: transparent;\r\n    padding: .5rem 1rem;\r\n    border: 2px solid white;\r\n    border-radius: .5rem;\r\n    color: white;\r\n    font-family: poppins;\r\n    cursor: pointer;\r\n}"],"sourceRoot":""}]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss":
-/*!**********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss ***!
-  \**********************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -235,6 +160,14 @@ var ___CSS_LOADER_URL_IMPORT_15___ = new URL(/* asset import */ __webpack_requir
 var ___CSS_LOADER_URL_IMPORT_16___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/gtaV.jpg */ "./src/imgs/commonGames/gtaV.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_17___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/hitman3.jpg */ "./src/imgs/commonGames/hitman3.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_URL_IMPORT_18___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/smite.jpg */ "./src/imgs/commonGames/smite.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_19___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/valo.jpg */ "./src/imgs/commonGames/valo.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_20___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/epic-games.webp */ "./src/imgs/commonGames/epic-games.webp"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_21___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/fortnitecover.webp */ "./src/imgs/commonGames/fortnitecover.webp"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_22___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/fortnitelego.webp */ "./src/imgs/commonGames/fortnitelego.webp"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_23___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/fortnitebattlepass.jpg */ "./src/imgs/commonGames/fortnitebattlepass.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/hotwhees.jpg */ "./src/imgs/commonGames/hotwhees.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/tomb-rider.jpg */ "./src/imgs/commonGames/tomb-rider.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/commonGames/farcry6-control.jpg */ "./src/imgs/commonGames/farcry6-control.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
@@ -255,8 +188,71 @@ var ___CSS_LOADER_URL_REPLACEMENT_15___ = _node_modules_css_loader_dist_runtime_
 var ___CSS_LOADER_URL_REPLACEMENT_16___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_16___);
 var ___CSS_LOADER_URL_REPLACEMENT_17___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_17___);
 var ___CSS_LOADER_URL_REPLACEMENT_18___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_18___);
+var ___CSS_LOADER_URL_REPLACEMENT_19___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_19___);
+var ___CSS_LOADER_URL_REPLACEMENT_20___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_20___);
+var ___CSS_LOADER_URL_REPLACEMENT_21___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_21___);
+var ___CSS_LOADER_URL_REPLACEMENT_22___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_22___);
+var ___CSS_LOADER_URL_REPLACEMENT_23___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_23___);
+var ___CSS_LOADER_URL_REPLACEMENT_24___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_24___);
+var ___CSS_LOADER_URL_REPLACEMENT_25___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_25___);
+var ___CSS_LOADER_URL_REPLACEMENT_26___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_26___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `main {
+___CSS_LOADER_EXPORT___.push([module.id, `.add-to-wishlist {
+  display: none;
+  height: 20px;
+  aspect-ratio: 1;
+  box-shadow: 0px 0px 2px 4px rgba(2, 2, 2, 0.274);
+  border-radius: 100vh;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 4px;
+  margin-right: 4px;
+  transition: all 1s;
+  background-color: black; }
+  .add-to-wishlist :hover {
+    transform: scale(110%); }
+  .add-to-wishlist svg {
+    fill: white; }
+
+.warn-box {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333333;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden; }
+  .warn-box p {
+    position: relative;
+    z-index: 3; }
+
+.warn-box::after {
+  content: "";
+  z-index: 2;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #444444;
+  animation: cooldown 4s linear; }
+
+@keyframes cooldown {
+  0% {
+    width: 100%; }
+  100% {
+    width: 0%; } }
+
+.image-bg-div {
+  width: 100%;
+  background-color: #494949;
+  border-radius: .5rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center; }
+
+main {
   position: relative;
   padding-inline: 7%;
   display: flex;
@@ -553,11 +549,59 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
         background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
       .card-section-root .item-view-slide-container .items-container .card .wc3 {
         background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+      .card-section-root .item-view-slide-container .items-container .card .fg1 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+      .card-section-root .item-view-slide-container .items-container .card .fg2 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+      .card-section-root .item-view-slide-container .items-container .card .fg3 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_20___}); }
+      .card-section-root .item-view-slide-container .items-container .card .ft1 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_21___}); }
+      .card-section-root .item-view-slide-container .items-container .card .ft2 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_22___}); }
+      .card-section-root .item-view-slide-container .items-container .card .ft3 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_23___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-1 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-2 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_24___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-3 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-4 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-5 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-6 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-7 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-8 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_25___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-9 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-10 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-11 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-12 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-13 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-14 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+      .card-section-root .item-view-slide-container .items-container .card .list-image-15 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+      .card-section-root .item-view-slide-container .items-container .card .double-card-1 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+      .card-section-root .item-view-slide-container .items-container .card .double-card-2 {
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_26___}); }
       .card-section-root .item-view-slide-container .items-container .card .image-bg-div {
         background-size: cover;
         background-position: center; }
       .card-section-root .item-view-slide-container .items-container .card .wc2 {
         background-position: center top; }
+      .card-section-root .item-view-slide-container .items-container .card .fg1 {
+        background-position: center 10%; }
 
 .card-section-root .item-view-slide-container::-webkit-scrollbar {
   display: none;
@@ -646,11 +690,59 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
       background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
     .wide-cards-container .wide-card .wc3 {
       background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+    .wide-cards-container .wide-card .fg1 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+    .wide-cards-container .wide-card .fg2 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+    .wide-cards-container .wide-card .fg3 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_20___}); }
+    .wide-cards-container .wide-card .ft1 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_21___}); }
+    .wide-cards-container .wide-card .ft2 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_22___}); }
+    .wide-cards-container .wide-card .ft3 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_23___}); }
+    .wide-cards-container .wide-card .list-image-1 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+    .wide-cards-container .wide-card .list-image-2 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_24___}); }
+    .wide-cards-container .wide-card .list-image-3 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___}); }
+    .wide-cards-container .wide-card .list-image-4 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+    .wide-cards-container .wide-card .list-image-5 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+    .wide-cards-container .wide-card .list-image-6 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+    .wide-cards-container .wide-card .list-image-7 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+    .wide-cards-container .wide-card .list-image-8 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_25___}); }
+    .wide-cards-container .wide-card .list-image-9 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+    .wide-cards-container .wide-card .list-image-10 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+    .wide-cards-container .wide-card .list-image-11 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+    .wide-cards-container .wide-card .list-image-12 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+    .wide-cards-container .wide-card .list-image-13 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+    .wide-cards-container .wide-card .list-image-14 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+    .wide-cards-container .wide-card .list-image-15 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+    .wide-cards-container .wide-card .double-card-1 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+    .wide-cards-container .wide-card .double-card-2 {
+      background-image: url(${___CSS_LOADER_URL_REPLACEMENT_26___}); }
     .wide-cards-container .wide-card .image-bg-div {
       background-size: cover;
       background-position: center; }
     .wide-cards-container .wide-card .wc2 {
       background-position: center top; }
+    .wide-cards-container .wide-card .fg1 {
+      background-position: center 10%; }
 
 @media screen and (max-width: 900px) {
   .wide-cards-container {
@@ -692,7 +784,328 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
   @media screen and (max-width: 720px) {
     .free-games-section > div .wide-cards-container {
       flex-direction: column; } }
-`, "",{"version":3,"sources":["webpack://./src/scss/style.scss","webpack://./src/scss/cards.scss"],"names":[],"mappings":"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","sourcesContent":["main {\r\n\r\n    position: relative;\r\n    padding-inline: 7%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 3rem;\r\n\r\n    @media screen and(max-width: 1200px) {\r\n        padding-inline: 1rem;\r\n    }\r\n\r\n    .toggled-menu {\r\n        position: absolute;\r\n        top: 1rem;\r\n        left: 1rem;\r\n        z-index: 1;\r\n\r\n        display: none;\r\n        grid-template-areas: \"play create\"\r\n            \"discover create\";\r\n        padding: 2.5rem;\r\n        gap: 3.5rem;\r\n\r\n        background-color: hsl(240, 6%, 13%);\r\n        border-radius: 1.5vh;\r\n\r\n        >div>h2 {\r\n            margin-bottom: 1rem;\r\n            font-size: 1.2rem;\r\n            font-weight: 600;\r\n        }\r\n\r\n        >div>ul {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n\r\n            color: rgba(255, 255, 255, 0.473);\r\n            font-size: .9rem;\r\n\r\n            li {\r\n                border-radius: .5rem;\r\n                padding: .5rem 1rem;\r\n                cursor: pointer;\r\n            }\r\n\r\n            li:hover {\r\n                background-color: hsl(240, 3%, 26%);\r\n                color: white;\r\n            }\r\n        }\r\n\r\n        .play {\r\n            grid-area: play;\r\n        }\r\n\r\n        .discover {\r\n            grid-area: discover;\r\n        }\r\n\r\n        .create {\r\n            grid-area: create;\r\n        }\r\n\r\n    }\r\n\r\n    .toggled-menu.active {\r\n        display: grid;\r\n    }\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        // width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        height: 35em;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            grid-template-columns: 1fr;\r\n        }\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    background-position: center 0%;\r\n                    backdrop-filter: brightness(0.8);\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n\r\n                    display: none;\r\n                    flex-direction: column;\r\n                    align-items: start;\r\n                    justify-content: end;\r\n                    padding: 7%;\r\n\r\n                    >:first-child {\r\n                        opacity: .7;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    >:nth-child(2) {\r\n                        font-weight: 600;\r\n                        margin-bottom: .7rem;\r\n                        opacity: .9;\r\n                    }\r\n\r\n                    >:nth-child(3) {\r\n                        font-size: 1rem;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    .purchase-div {\r\n                        align-items: center;\r\n                        gap: 1rem;\r\n\r\n                        .add-to-wishlist {\r\n                            align-items: center;\r\n                            gap: .5rem;\r\n                            cursor: pointer;\r\n\r\n                            >span {\r\n                                font-size: 1rem;\r\n                            }\r\n\r\n                            >p {\r\n                                font-size: .8rem;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: flex;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.3s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.2s ease forwards;\r\n                    animation-delay: 3.9s;\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-50%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-50%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            // font-size: 1rem;\r\n            gap: .3rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                display: none;\r\n            }\r\n\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n                cursor: pointer;\r\n                border-radius: 1rem;\r\n                position: relative;\r\n                overflow: hidden;\r\n\r\n                .fill-background {\r\n                    position: absolute;\r\n                    left: 0;\r\n                    z-index: 0;\r\n                    background: hsla(0, 0%, 48%, 0.452);\r\n                    height: 100%;\r\n                    width: 0%;\r\n                }\r\n\r\n                .fill-background.active {\r\n                    animation: fillAnimation ease-out 4s;\r\n                }\r\n\r\n                @keyframes fillAnimation {\r\n                    0% {\r\n                        width: 0;\r\n                    }\r\n\r\n                    100% {\r\n                        width: 100%;\r\n                    }\r\n                }\r\n\r\n                [class*='item-image'] {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n\r\n                .item-name {\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n            }\r\n\r\n            [class*=\"item-box\"]:hover {\r\n                background-color: hsl(0, 0%, 16%);\r\n            }\r\n        }\r\n    }\r\n\r\n    @media screen and (max-width: 1150px) {\r\n        .search-container {\r\n            width: 100%;\r\n            padding: 1rem;\r\n        }\r\n\r\n        .carousel-container {\r\n            width: 100%;\r\n            padding: 1rem\r\n        }\r\n    }\r\n}\r\n\r\n// section scroll cards\r\n\r\n.card-section-root {\r\n    .section-top {\r\n        display: flex;\r\n        justify-content: space-between;\r\n\r\n        .section-title {\r\n            font-size: 20px;\r\n            height: 2rem;\r\n            margin-bottom: 1rem;\r\n        }\r\n\r\n        .buttons {\r\n            display: flex;\r\n            gap: 1rem;\r\n\r\n            >div {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                cursor: pointer;\r\n\r\n                svg {\r\n                    fill: white;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container {\r\n        width: 100%;\r\n        overflow: scroll;\r\n        transition: scroll 2s ease-in-out;\r\n\r\n        .items-container {\r\n            width: fit-content;\r\n            display: flex;\r\n            transition: all 2s;\r\n\r\n            .card {\r\n                // background-color: green;\r\n                border-radius: .5rem;\r\n                overflow: hidden;\r\n                margin-inline: 10px;\r\n\r\n                .image-bg-div {\r\n                    width: 100%;\r\n                    aspect-ratio: 5 / 6;\r\n                    background-color: rgb(73, 73, 73);\r\n                    border-radius: .5rem;\r\n                    overflow: hidden;\r\n                    background-size: cover;\r\n                    background-position: center;\r\n                }\r\n\r\n                .content {\r\n                    padding: 1rem 0rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    small {\r\n                        text-transform: uppercase;\r\n                        opacity: .7;\r\n                        font-size: .7rem;\r\n                    }\r\n\r\n                    .pricing {\r\n                        display: flex;\r\n                        gap: 1rem;\r\n                        align-items: center;\r\n\r\n                        .original-price {\r\n                            text-decoration: line-through;\r\n                            opacity: .6;\r\n                        }\r\n                    }\r\n                }\r\n\r\n                @import './cards.scss'\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container::-webkit-scrollbar {\r\n        display: none;\r\n        /* Hide the scrollbar */\r\n    }\r\n}\r\n\r\n\r\n// wide cards section\r\n\r\n.wide-cards-container {\r\n    width: 100%;\r\n    // background-color: antiquewhite;\r\n    display: flex;\r\n    gap: 2rem;\r\n\r\n    .wide-card {\r\n        // background-color: green;\r\n        width: 100%;\r\n        border-radius: .5rem;\r\n        overflow: hidden;\r\n        margin-inline: 10px;\r\n\r\n        @media screen and(max-width: 900px) {\r\n            min-width: 400px;\r\n        }\r\n\r\n        @media screen and(max-width: 600px) {\r\n            min-width: 250px;\r\n        }\r\n\r\n        .image-bg-div {\r\n            width: 100%;\r\n            aspect-ratio: 6 / 3;\r\n            background-color: rgb(73, 73, 73);\r\n            border-radius: .5rem;\r\n            overflow: hidden;\r\n            background-size: cover;\r\n            background-position: center;\r\n        }\r\n\r\n        .content {\r\n            padding: 1rem 0rem;\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n\r\n            small {\r\n                text-transform: uppercase;\r\n                opacity: .7;\r\n                font-size: .7rem;\r\n            }\r\n\r\n            .game-title {\r\n                font-size: 1.2rem;\r\n            }\r\n\r\n            .pricing {\r\n                display: flex;\r\n                gap: 1rem;\r\n                align-items: center;\r\n\r\n                .original-price {\r\n                    text-decoration: line-through;\r\n                    opacity: .6;\r\n                }\r\n            }\r\n        }\r\n\r\n        @import './cards.scss'\r\n    }\r\n}\r\n\r\n@media screen and(max-width: 900px) {\r\n    .wide-cards-container {\r\n        overflow: scroll;\r\n    }\r\n\r\n    .wide-cards-container::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n}\r\n\r\n// free section\r\n\r\n.free-games-section {\r\n    background-color: rgb(66, 66, 66);\r\n    padding: 2rem;\r\n\r\n    .section-top {\r\n        display: flex;\r\n        justify-content: space-between;\r\n        align-items: center;\r\n        margin-bottom: 1rem;\r\n    }\r\n\r\n    .section-title {\r\n        display: flex;\r\n        align-items: center;\r\n        gap: 1rem;\r\n\r\n        svg {\r\n            fill: white;\r\n        }\r\n\r\n        >div {\r\n            height: 40px;\r\n            aspect-ratio: 1;\r\n        }\r\n    }\r\n\r\n    >div {\r\n        .wide-cards-container {\r\n            .wide-card {\r\n                @media screen and(max-width: 900px) {\r\n                    min-width: unset;\r\n                }\r\n\r\n                @media screen and(max-width: 600px) {\r\n                    min-width: unset;\r\n                }\r\n\r\n                .content {\r\n                    padding-bottom: 0;\r\n\r\n                    .game-description {\r\n                        font-size: .9rem;\r\n                        opacity: .8;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        @media screen and(max-width: 900px) {\r\n            .wide-cards-container {\r\n                overflow: hidden;\r\n            }\r\n        }\r\n\r\n        @media screen and(max-width: 720px) {\r\n            .wide-cards-container {\r\n                flex-direction: column;\r\n            }\r\n        }\r\n    }\r\n}",".image-bg-div {\r\n    background-image: url(../imgs/commonGames/nogames.png);\r\n}\r\n\r\n.g1 {\r\n    background-image: url(../imgs/commonGames/dont-starve.jpg);\r\n}\r\n\r\n.g2 {\r\n    background-image: url(../imgs/commonGames/dying-light2.jpg);\r\n}\r\n\r\n.g3 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.g4 {\r\n    background-image: url(../imgs/commonGames/life-is-strange-remastered.jpg);\r\n}\r\n\r\n.g5 {\r\n    background-image: url(../imgs/commonGames/sea-of-thieves.jpg);\r\n}\r\n\r\n.g6 {\r\n    background-image: url(../imgs/commonGames/rocket-league-intro.jpg);\r\n}\r\n\r\n.g7 {\r\n    background-image: url(../imgs/commonGames/six-siege.jpg);\r\n}\r\n\r\n.g8 {\r\n    background-image: url(../imgs/commonGames/tom-clancy.jpg);\r\n}\r\n\r\n.g9 {\r\n    background-image: url(../imgs/commonGames/naraka-intro.jpg);\r\n}\r\n\r\n.g10 {\r\n    background-image: url(../imgs/commonGames/sifu.jpg);\r\n}\r\n\r\n.g11 {\r\n    background-image: url(../imgs/commonGames/six-siege.jpg);\r\n}\r\n\r\n.g12 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.g13 {\r\n    background-image: url(../imgs/commonGames/ghost-of-tsushima.png);\r\n}\r\n\r\n.g14 {\r\n    background-image: url(../imgs/commonGames/farcry-primal.jpg);\r\n}\r\n\r\n.g15 {\r\n    background-image: url(../imgs/commonGames/gtaV.jpg);\r\n}\r\n\r\n.g16 {\r\n    background-image: url(../imgs/commonGames/hitman3.jpg);\r\n}\r\n\r\n.g17 {\r\n    background-image: url(../imgs/commonGames/smite.jpg);\r\n}\r\n\r\n// wide cards\r\n\r\n.wc1 {\r\n    background-image: url(../imgs/commonGames/naraka-intro.jpg);\r\n}\r\n\r\n.wc2 {\r\n    background-image: url(../imgs/commonGames/rocket-league-intro.jpg);\r\n}\r\n\r\n.wc3 {\r\n    background-image: url(../imgs/commonGames/dying-light2.jpg);\r\n}\r\n\r\n.image-bg-div {\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n//fix positions\r\n\r\n.wc2 {\r\n    background-position: center top;\r\n}"],"sourceRoot":""}]);
+  .free-games-section .image-bg-div {
+    display: flex; }
+    .free-games-section .image-bg-div > div {
+      min-height: 15%;
+      width: 100%;
+      background-color: rgba(2, 61, 255, 0.836);
+      margin-top: auto;
+      font-size: 1.2rem;
+      display: grid;
+      place-content: center; }
+    .free-games-section .image-bg-div .black-strip {
+      background-color: rgba(0, 0, 0, 0.658); }
+
+.lists-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: clamp(0.7rem, 2vw, 1.5rem); }
+  .lists-section .list-container {
+    padding-inline: 1rem;
+    border-inline: 1px solid rgba(255, 255, 255, 0); }
+    .lists-section .list-container .list-top {
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem; }
+    .lists-section .list-container button {
+      margin-left: auto;
+      font-size: .9rem;
+      padding: .4rem;
+      padding-inline: .7rem; }
+    .lists-section .list-container .list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem; }
+      .lists-section .list-container .list .item {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: clamp(0.7rem, 2vw, 1rem); }
+        .lists-section .list-container .list .item .image-bg-div {
+          aspect-ratio: 2/3; }
+        .lists-section .list-container .list .item .image-bg-div {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___}); }
+        .lists-section .list-container .list .item .g1 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___}); }
+        .lists-section .list-container .list .item .g2 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+        .lists-section .list-container .list .item .g3 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+        .lists-section .list-container .list .item .g4 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+        .lists-section .list-container .list .item .g5 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+        .lists-section .list-container .list .item .g6 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
+        .lists-section .list-container .list .item .g7 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_10___}); }
+        .lists-section .list-container .list .item .g8 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+        .lists-section .list-container .list .item .g9 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+        .lists-section .list-container .list .item .g10 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+        .lists-section .list-container .list .item .g11 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_10___}); }
+        .lists-section .list-container .list .item .g12 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+        .lists-section .list-container .list .item .g13 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_14___}); }
+        .lists-section .list-container .list .item .g14 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+        .lists-section .list-container .list .item .g15 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+        .lists-section .list-container .list .item .g16 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+        .lists-section .list-container .list .item .g17 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+        .lists-section .list-container .list .item .wc1 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+        .lists-section .list-container .list .item .wc2 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
+        .lists-section .list-container .list .item .wc3 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+        .lists-section .list-container .list .item .fg1 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+        .lists-section .list-container .list .item .fg2 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+        .lists-section .list-container .list .item .fg3 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_20___}); }
+        .lists-section .list-container .list .item .ft1 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_21___}); }
+        .lists-section .list-container .list .item .ft2 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_22___}); }
+        .lists-section .list-container .list .item .ft3 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_23___}); }
+        .lists-section .list-container .list .item .list-image-1 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+        .lists-section .list-container .list .item .list-image-2 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_24___}); }
+        .lists-section .list-container .list .item .list-image-3 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___}); }
+        .lists-section .list-container .list .item .list-image-4 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+        .lists-section .list-container .list .item .list-image-5 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+        .lists-section .list-container .list .item .list-image-6 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+        .lists-section .list-container .list .item .list-image-7 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+        .lists-section .list-container .list .item .list-image-8 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_25___}); }
+        .lists-section .list-container .list .item .list-image-9 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+        .lists-section .list-container .list .item .list-image-10 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+        .lists-section .list-container .list .item .list-image-11 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+        .lists-section .list-container .list .item .list-image-12 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+        .lists-section .list-container .list .item .list-image-13 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+        .lists-section .list-container .list .item .list-image-14 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+        .lists-section .list-container .list .item .list-image-15 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+        .lists-section .list-container .list .item .double-card-1 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+        .lists-section .list-container .list .item .double-card-2 {
+          background-image: url(${___CSS_LOADER_URL_REPLACEMENT_26___}); }
+        .lists-section .list-container .list .item .image-bg-div {
+          background-size: cover;
+          background-position: center; }
+        .lists-section .list-container .list .item .wc2 {
+          background-position: center top; }
+        .lists-section .list-container .list .item .fg1 {
+          background-position: center 10%; }
+  .lists-section .list-container:nth-child(2) {
+    border-inline: 1px solid white; }
+
+.double-card-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1rem, 2vw, 3rem); }
+  @media screen and (max-width: 720px) {
+    .double-card-section {
+      grid-template-columns: 1fr; } }
+  .double-card-section .game-title {
+    margin-top: 1rem;
+    margin-bottom: .5rem; }
+  .double-card-section .game-description {
+    font-size: .9rem;
+    opacity: .7; }
+  .double-card-section .image-bg-div {
+    aspect-ratio: 4/2; }
+  .double-card-section .image-bg-div {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_3___}); }
+  .double-card-section .g1 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_4___}); }
+  .double-card-section .g2 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+  .double-card-section .g3 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+  .double-card-section .g4 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+  .double-card-section .g5 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+  .double-card-section .g6 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
+  .double-card-section .g7 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_10___}); }
+  .double-card-section .g8 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+  .double-card-section .g9 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+  .double-card-section .g10 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+  .double-card-section .g11 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_10___}); }
+  .double-card-section .g12 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+  .double-card-section .g13 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_14___}); }
+  .double-card-section .g14 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+  .double-card-section .g15 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+  .double-card-section .g16 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+  .double-card-section .g17 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+  .double-card-section .wc1 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+  .double-card-section .wc2 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_9___}); }
+  .double-card-section .wc3 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_5___}); }
+  .double-card-section .fg1 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+  .double-card-section .fg2 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+  .double-card-section .fg3 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_20___}); }
+  .double-card-section .ft1 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_21___}); }
+  .double-card-section .ft2 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_22___}); }
+  .double-card-section .ft3 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_23___}); }
+  .double-card-section .list-image-1 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_19___}); }
+  .double-card-section .list-image-2 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_24___}); }
+  .double-card-section .list-image-3 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___}); }
+  .double-card-section .list-image-4 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_12___}); }
+  .double-card-section .list-image-5 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_16___}); }
+  .double-card-section .list-image-6 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_6___}); }
+  .double-card-section .list-image-7 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+  .double-card-section .list-image-8 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_25___}); }
+  .double-card-section .list-image-9 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_13___}); }
+  .double-card-section .list-image-10 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_17___}); }
+  .double-card-section .list-image-11 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_7___}); }
+  .double-card-section .list-image-12 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_11___}); }
+  .double-card-section .list-image-13 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_15___}); }
+  .double-card-section .list-image-14 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_18___}); }
+  .double-card-section .list-image-15 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_8___}); }
+  .double-card-section .double-card-1 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+  .double-card-section .double-card-2 {
+    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_26___}); }
+  .double-card-section .image-bg-div {
+    background-size: cover;
+    background-position: center; }
+  .double-card-section .wc2 {
+    background-position: center top; }
+  .double-card-section .fg1 {
+    background-position: center 10%; }
+`, "",{"version":3,"sources":["webpack://./src/scss/main.scss","webpack://./src/scss/cards.scss"],"names":[],"mappings":"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","sourcesContent":[".add-to-wishlist {\r\n    display: none;\r\n    height: 20px;\r\n    aspect-ratio: 1;\r\n    box-shadow: 0px 0px 2px 4px rgba(2, 2, 2, 0.274);\r\n    border-radius: 100vh;\r\n    cursor: pointer;\r\n    margin-left: auto;\r\n    margin-top: 4px;\r\n    margin-right: 4px;\r\n    transition: all 1s;\r\n    background-color: black;\r\n\r\n    :hover {\r\n        transform: scale(110%);\r\n    }\r\n\r\n    svg {\r\n        fill: rgb(255, 255, 255);\r\n    }\r\n}\r\n\r\n.warn-box {\r\n    position: fixed;\r\n    top: 1rem;\r\n    left: 50%;\r\n    transform: translateX(-50%);\r\n    background-color: rgb(51, 51, 51);\r\n    padding: 2rem;\r\n    border-radius: 1rem;\r\n    overflow: hidden;\r\n\r\n    p {\r\n        position: relative;\r\n        z-index: 3;\r\n    }\r\n}\r\n\r\n.warn-box::after {\r\n    content: \"\";\r\n    z-index: 2;\r\n    top: 0;\r\n    left: 0;\r\n    position: absolute;\r\n    height: 100%;\r\n    width: 100%;\r\n    background-color: rgb(68, 68, 68);\r\n    animation: cooldown 4s linear;\r\n}\r\n\r\n@keyframes cooldown {\r\n    0% {\r\n        width: 100%;\r\n    }\r\n\r\n    100% {\r\n        width: 0%;\r\n    }\r\n}\r\n\r\n.image-bg-div {\r\n    width: 100%;\r\n    background-color: rgb(73, 73, 73);\r\n    border-radius: .5rem;\r\n    overflow: hidden;\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\nmain {\r\n\r\n    position: relative;\r\n    padding-inline: 7%;\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 3rem;\r\n\r\n    @media screen and(max-width: 1200px) {\r\n        padding-inline: 1rem;\r\n    }\r\n\r\n    .toggled-menu {\r\n        position: absolute;\r\n        top: 1rem;\r\n        left: 1rem;\r\n        z-index: 1;\r\n\r\n        display: none;\r\n        grid-template-areas: \"play create\"\r\n            \"discover create\";\r\n        padding: 2.5rem;\r\n        gap: 3.5rem;\r\n\r\n        background-color: hsl(240, 6%, 13%);\r\n        border-radius: 1.5vh;\r\n\r\n        >div>h2 {\r\n            margin-bottom: 1rem;\r\n            font-size: 1.2rem;\r\n            font-weight: 600;\r\n        }\r\n\r\n        >div>ul {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n\r\n            color: rgba(255, 255, 255, 0.473);\r\n            font-size: .9rem;\r\n\r\n            li {\r\n                border-radius: .5rem;\r\n                padding: .5rem 1rem;\r\n                cursor: pointer;\r\n            }\r\n\r\n            li:hover {\r\n                background-color: hsl(240, 3%, 26%);\r\n                color: white;\r\n            }\r\n        }\r\n\r\n        .play {\r\n            grid-area: play;\r\n        }\r\n\r\n        .discover {\r\n            grid-area: discover;\r\n        }\r\n\r\n        .create {\r\n            grid-area: create;\r\n        }\r\n\r\n    }\r\n\r\n    .toggled-menu.active {\r\n        display: grid;\r\n    }\r\n\r\n    .search-container {\r\n        max-width: 1430px;\r\n        width: 80%;\r\n        margin-inline: auto;\r\n        height: 100px;\r\n        align-items: center;\r\n        gap: 1.5rem;\r\n\r\n        .search-bar {\r\n            background-color: hsl(0, 0%, 13%);\r\n            border-radius: 100vw;\r\n            height: 40px;\r\n            max-width: 230px;\r\n            padding: .5rem;\r\n            gap: .5rem;\r\n\r\n            span {\r\n                font-size: 20px;\r\n            }\r\n\r\n            input {\r\n                background-color: transparent;\r\n                outline: none;\r\n                border: none;\r\n                color: white;\r\n                font-family: poppins;\r\n            }\r\n        }\r\n\r\n        .discover-menu {\r\n            gap: 1.5rem;\r\n        }\r\n\r\n        .cart {\r\n            margin-left: auto;\r\n\r\n            >span {\r\n                font-size: 25px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container {\r\n        max-width: 1430px;\r\n        // width: 80%;\r\n        margin-inline: auto;\r\n        display: grid;\r\n        grid-template-columns: 8fr 2fr;\r\n        gap: 1rem;\r\n        height: 35em;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            grid-template-columns: 1fr;\r\n        }\r\n\r\n        .carousel {\r\n            position: relative;\r\n            overflow: hidden;\r\n            border-radius: 1.5rem;\r\n\r\n            .carousel-inner {\r\n                display: flex;\r\n                height: 100%;\r\n\r\n                .carousel-item-1 {\r\n                    background: url(../imgs/carousel/controll.png);\r\n                }\r\n\r\n                .carousel-item-2 {\r\n                    background: url(../imgs/carousel/genshin-impact.jpg);\r\n                }\r\n\r\n                .carousel-item-3 {\r\n                    background: url(../imgs/carousel/watch-dogs2.jpg);\r\n                }\r\n\r\n                [class*=\"carousel-item\"] {\r\n                    width: 100%;\r\n                    height: 100%;\r\n                    background-size: cover;\r\n                    background-position: center 0%;\r\n                    backdrop-filter: brightness(0.8);\r\n                    transform: translateX(20%);\r\n                    transition: transform 0.5s ease;\r\n\r\n                    display: none;\r\n                    flex-direction: column;\r\n                    align-items: start;\r\n                    justify-content: end;\r\n                    padding: 7%;\r\n\r\n                    >:first-child {\r\n                        opacity: .7;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    >:nth-child(2) {\r\n                        font-weight: 600;\r\n                        margin-bottom: .7rem;\r\n                        opacity: .9;\r\n                    }\r\n\r\n                    >:nth-child(3) {\r\n                        font-size: 1rem;\r\n                        margin-bottom: 2rem;\r\n                    }\r\n\r\n                    .purchase-div {\r\n                        align-items: center;\r\n                        gap: 1rem;\r\n\r\n                        .add-to-wishlist {\r\n                            align-items: center;\r\n                            gap: .5rem;\r\n                            cursor: pointer;\r\n\r\n                            >span {\r\n                                font-size: 1rem;\r\n                            }\r\n\r\n                            >p {\r\n                                font-size: .8rem;\r\n                            }\r\n                        }\r\n                    }\r\n                }\r\n\r\n                [class*=\"carousel-item\"].active {\r\n                    display: flex;\r\n                    transform: translateX(0%);\r\n                    animation: slidein 0.3s ease forwards;\r\n                }\r\n\r\n                [class*=\"carousel-item\"].hide {\r\n                    animation: slideout 0.2s ease forwards;\r\n                    animation-delay: 3.9s;\r\n                }\r\n\r\n                @keyframes slidein {\r\n                    from {\r\n                        transform: translateX(-50%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(0%);\r\n                    }\r\n                }\r\n\r\n                @keyframes slideout {\r\n                    from {\r\n                        transform: translateX(0%);\r\n                    }\r\n\r\n                    to {\r\n                        transform: translateX(-50%);\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        .items-container {\r\n            display: grid;\r\n            // font-size: 1rem;\r\n            gap: .3rem;\r\n            grid-template-rows: repeat(5, 1fr);\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                display: none;\r\n            }\r\n\r\n\r\n            [class*=\"item-box\"] {\r\n                display: grid;\r\n                grid-template-columns: 2fr 5fr;\r\n                align-items: center;\r\n                gap: 1rem;\r\n                padding: 1rem;\r\n                cursor: pointer;\r\n                border-radius: 1rem;\r\n                position: relative;\r\n                overflow: hidden;\r\n\r\n                .fill-background {\r\n                    position: absolute;\r\n                    left: 0;\r\n                    z-index: 0;\r\n                    background: hsla(0, 0%, 48%, 0.452);\r\n                    height: 100%;\r\n                    width: 0%;\r\n                }\r\n\r\n                .fill-background.active {\r\n                    animation: fillAnimation ease-out 4s;\r\n                }\r\n\r\n                @keyframes fillAnimation {\r\n                    0% {\r\n                        width: 0;\r\n                    }\r\n\r\n                    100% {\r\n                        width: 100%;\r\n                    }\r\n                }\r\n\r\n                [class*='item-image'] {\r\n                    background-color: hsl(0, 0%, 15%);\r\n                    height: 100%;\r\n                    width: auto;\r\n                    border-radius: 1vh;\r\n                    background-size: cover;\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n\r\n                .item-name {\r\n                    position: relative;\r\n                    z-index: 1;\r\n                }\r\n            }\r\n\r\n            [class*=\"item-box\"]:hover {\r\n                background-color: hsl(0, 0%, 16%);\r\n            }\r\n        }\r\n    }\r\n\r\n    @media screen and (max-width: 1150px) {\r\n        .search-container {\r\n            width: 100%;\r\n            padding: 1rem;\r\n        }\r\n\r\n        .carousel-container {\r\n            width: 100%;\r\n            padding: 1rem\r\n        }\r\n    }\r\n}\r\n\r\n// section scroll cards\r\n\r\n.card-section-root {\r\n    .section-top {\r\n        display: flex;\r\n        justify-content: space-between;\r\n\r\n        .section-title {\r\n            font-size: 20px;\r\n            height: 2rem;\r\n            margin-bottom: 1rem;\r\n        }\r\n\r\n        .buttons {\r\n            display: flex;\r\n            gap: 1rem;\r\n\r\n            >div {\r\n                height: 40px;\r\n                aspect-ratio: 1;\r\n                cursor: pointer;\r\n\r\n                svg {\r\n                    fill: white;\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container {\r\n        width: 100%;\r\n        overflow: scroll;\r\n        transition: scroll 2s ease-in-out;\r\n\r\n        .items-container {\r\n            width: fit-content;\r\n            display: flex;\r\n            transition: all 2s;\r\n\r\n            .card {\r\n                // background-color: green;\r\n                border-radius: .5rem;\r\n                overflow: hidden;\r\n                margin-inline: 10px;\r\n\r\n                .image-bg-div {\r\n                    width: 100%;\r\n                    aspect-ratio: 5 / 6;\r\n                    background-color: rgb(73, 73, 73);\r\n                    border-radius: .5rem;\r\n                    overflow: hidden;\r\n                    background-size: cover;\r\n                    background-position: center;\r\n                }\r\n\r\n                .content {\r\n                    padding: 1rem 0rem;\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n\r\n                    small {\r\n                        text-transform: uppercase;\r\n                        opacity: .7;\r\n                        font-size: .7rem;\r\n                    }\r\n\r\n                    .pricing {\r\n                        display: flex;\r\n                        gap: 1rem;\r\n                        align-items: center;\r\n\r\n                        .original-price {\r\n                            text-decoration: line-through;\r\n                            opacity: .6;\r\n                        }\r\n                    }\r\n                }\r\n\r\n                @import './cards.scss'\r\n            }\r\n        }\r\n    }\r\n\r\n    .item-view-slide-container::-webkit-scrollbar {\r\n        display: none;\r\n        /* Hide the scrollbar */\r\n    }\r\n}\r\n\r\n\r\n// wide cards section\r\n\r\n.wide-cards-container {\r\n    width: 100%;\r\n    // background-color: antiquewhite;\r\n    display: flex;\r\n    gap: 2rem;\r\n\r\n    .wide-card {\r\n        // background-color: green;\r\n        width: 100%;\r\n        border-radius: .5rem;\r\n        overflow: hidden;\r\n        margin-inline: 10px;\r\n\r\n        @media screen and(max-width: 900px) {\r\n            min-width: 400px;\r\n        }\r\n\r\n        @media screen and(max-width: 600px) {\r\n            min-width: 250px;\r\n        }\r\n\r\n        .image-bg-div {\r\n            width: 100%;\r\n            aspect-ratio: 6 / 3;\r\n            background-color: rgb(73, 73, 73);\r\n            border-radius: .5rem;\r\n            overflow: hidden;\r\n            background-size: cover;\r\n            background-position: center;\r\n        }\r\n\r\n        .content {\r\n            padding: 1rem 0rem;\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n\r\n            small {\r\n                text-transform: uppercase;\r\n                opacity: .7;\r\n                font-size: .7rem;\r\n            }\r\n\r\n            .game-title {\r\n                font-size: 1.2rem;\r\n            }\r\n\r\n            .pricing {\r\n                display: flex;\r\n                gap: 1rem;\r\n                align-items: center;\r\n\r\n                .original-price {\r\n                    text-decoration: line-through;\r\n                    opacity: .6;\r\n                }\r\n            }\r\n        }\r\n\r\n        @import './cards.scss'\r\n    }\r\n}\r\n\r\n@media screen and(max-width: 900px) {\r\n    .wide-cards-container {\r\n        overflow: scroll;\r\n    }\r\n\r\n    .wide-cards-container::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n}\r\n\r\n// free section\r\n\r\n.free-games-section {\r\n    background-color: rgb(66, 66, 66);\r\n    padding: 2rem;\r\n\r\n    .section-top {\r\n        display: flex;\r\n        justify-content: space-between;\r\n        align-items: center;\r\n        margin-bottom: 1rem;\r\n    }\r\n\r\n    .section-title {\r\n        display: flex;\r\n        align-items: center;\r\n        gap: 1rem;\r\n\r\n        svg {\r\n            fill: white;\r\n        }\r\n\r\n        >div {\r\n            height: 40px;\r\n            aspect-ratio: 1;\r\n        }\r\n    }\r\n\r\n    >div {\r\n        .wide-cards-container {\r\n            .wide-card {\r\n                @media screen and(max-width: 900px) {\r\n                    min-width: unset;\r\n                }\r\n\r\n                @media screen and(max-width: 600px) {\r\n                    min-width: unset;\r\n                }\r\n\r\n                .content {\r\n                    padding-bottom: 0;\r\n\r\n                    .game-description {\r\n                        font-size: .9rem;\r\n                        opacity: .8;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        @media screen and(max-width: 900px) {\r\n            .wide-cards-container {\r\n                overflow: hidden;\r\n            }\r\n        }\r\n\r\n        @media screen and(max-width: 720px) {\r\n            .wide-cards-container {\r\n                flex-direction: column;\r\n            }\r\n        }\r\n    }\r\n\r\n    .image-bg-div {\r\n        display: flex;\r\n\r\n        >div {\r\n            min-height: 15%;\r\n            width: 100%;\r\n            background-color: rgba(2, 61, 255, 0.836);\r\n            margin-top: auto;\r\n            font-size: 1.2rem;\r\n            display: grid;\r\n            place-content: center;\r\n        }\r\n\r\n        .black-strip {\r\n            background-color: rgba(0, 0, 0, 0.658);\r\n        }\r\n    }\r\n}\r\n\r\n// lists section\r\n\r\n.lists-section {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr 1fr;\r\n    gap: clamp(.7rem, 2vw, 1.5rem);\r\n\r\n    .list-container {\r\n        padding-inline: 1rem;\r\n\r\n        border-inline: 1px solid rgba(255, 255, 255, 0);\r\n\r\n        .list-top {\r\n            margin-bottom: 1.5rem;\r\n            font-size: 1.2rem;\r\n        }\r\n\r\n        button {\r\n            margin-left: auto;\r\n            font-size: .9rem;\r\n            padding: .4rem;\r\n            padding-inline: .7rem;\r\n        }\r\n\r\n        .list {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: 1rem;\r\n\r\n            .item {\r\n                display: grid;\r\n                grid-template-columns: 1fr 3fr;\r\n                gap: clamp(.7rem, 2vw, 1rem);\r\n\r\n                .image-bg-div {\r\n                    aspect-ratio: 2/3;\r\n                }\r\n\r\n                @import './cards.scss'\r\n\r\n            }\r\n        }\r\n    }\r\n\r\n    .list-container:nth-child(2) {\r\n        border-inline: 1px solid white;\r\n    }\r\n}\r\n\r\n//  double card section \r\n\r\n.double-card-section {\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    gap: clamp(1rem, 2vw, 3rem);\r\n\r\n    @media screen and(max-width: 720px) {\r\n        grid-template-columns: 1fr;\r\n    }\r\n\r\n    .game-title {\r\n        margin-top: 1rem;\r\n        margin-bottom: .5rem;\r\n    }\r\n\r\n    .game-description {\r\n        font-size: .9rem;\r\n        opacity: .7;\r\n    }\r\n\r\n    .image-bg-div {\r\n        aspect-ratio: 4/2;\r\n    }\r\n\r\n    @import './cards.scss'\r\n}",".image-bg-div {\r\n    background-image: url(../imgs/commonGames/nogames.png);\r\n}\r\n\r\n.g1 {\r\n    background-image: url(../imgs/commonGames/dont-starve.jpg);\r\n}\r\n\r\n.g2 {\r\n    background-image: url(../imgs/commonGames/dying-light2.jpg);\r\n}\r\n\r\n.g3 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.g4 {\r\n    background-image: url(../imgs/commonGames/life-is-strange-remastered.jpg);\r\n}\r\n\r\n.g5 {\r\n    background-image: url(../imgs/commonGames/sea-of-thieves.jpg);\r\n}\r\n\r\n.g6 {\r\n    background-image: url(../imgs/commonGames/rocket-league-intro.jpg);\r\n}\r\n\r\n.g7 {\r\n    background-image: url(../imgs/commonGames/six-siege.jpg);\r\n}\r\n\r\n.g8 {\r\n    background-image: url(../imgs/commonGames/tom-clancy.jpg);\r\n}\r\n\r\n.g9 {\r\n    background-image: url(../imgs/commonGames/naraka-intro.jpg);\r\n}\r\n\r\n.g10 {\r\n    background-image: url(../imgs/commonGames/sifu.jpg);\r\n}\r\n\r\n.g11 {\r\n    background-image: url(../imgs/commonGames/six-siege.jpg);\r\n}\r\n\r\n.g12 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.g13 {\r\n    background-image: url(../imgs/commonGames/ghost-of-tsushima.png);\r\n}\r\n\r\n.g14 {\r\n    background-image: url(../imgs/commonGames/farcry-primal.jpg);\r\n}\r\n\r\n.g15 {\r\n    background-image: url(../imgs/commonGames/gtaV.jpg);\r\n}\r\n\r\n.g16 {\r\n    background-image: url(../imgs/commonGames/hitman3.jpg);\r\n}\r\n\r\n.g17 {\r\n    background-image: url(../imgs/commonGames/smite.jpg);\r\n}\r\n\r\n// wide cards\r\n\r\n.wc1 {\r\n    background-image: url(../imgs/commonGames/naraka-intro.jpg);\r\n}\r\n\r\n.wc2 {\r\n    background-image: url(../imgs/commonGames/rocket-league-intro.jpg);\r\n}\r\n\r\n.wc3 {\r\n    background-image: url(../imgs/commonGames/dying-light2.jpg);\r\n}\r\n\r\n.fg1 {\r\n    background-image: url(../imgs/commonGames/valo.jpg);\r\n}\r\n\r\n.fg2 {\r\n    background-image: url(../imgs/carousel/watch-dogs2.jpg);\r\n}\r\n\r\n.fg3 {\r\n    background-image: url(../imgs/commonGames/epic-games.webp);\r\n}\r\n\r\n.ft1 {\r\n    background-image: url(../imgs/commonGames/fortnitecover.webp);\r\n}\r\n\r\n.ft2 {\r\n    background-image: url(../imgs/commonGames/fortnitelego.webp);\r\n}\r\n\r\n.ft3 {\r\n    background-image: url(../imgs/commonGames/fortnitebattlepass.jpg);\r\n}\r\n\r\n// lists\r\n// @for $i from 1 through 15 {\r\n//     .list-image-#{$i} {\r\n//         background-image: url(../imgs/commonGames/image-#{$i}.jpg); // Adjust the path and filename as needed\r\n//     }\r\n// }\r\n\r\n.list-image-1 {\r\n    background-image: url(../imgs/commonGames/valo.jpg);\r\n}\r\n\r\n.list-image-2 {\r\n    background-image: url(../imgs/commonGames/hotwhees.jpg);\r\n}\r\n\r\n.list-image-3 {\r\n    background-image: url(../imgs/carousel/controll.png);\r\n}\r\n\r\n.list-image-4 {\r\n    background-image: url(../imgs/commonGames/naraka-intro.jpg);\r\n}\r\n\r\n.list-image-5 {\r\n    background-image: url(../imgs/commonGames/gtaV.jpg);\r\n}\r\n\r\n.list-image-6 {\r\n    background-image: url(../imgs/commonGames/gtasa.jpg);\r\n}\r\n\r\n.list-image-7 {\r\n    background-image: url(../imgs/commonGames/farcry-primal.jpg);\r\n}\r\n\r\n.list-image-8 {\r\n    background-image: url(../imgs/commonGames/tomb-rider.jpg);\r\n}\r\n\r\n.list-image-9 {\r\n    background-image: url(../imgs/commonGames/sifu.jpg);\r\n}\r\n\r\n.list-image-10 {\r\n    background-image: url(../imgs/commonGames/hitman3.jpg);\r\n}\r\n\r\n.list-image-11 {\r\n    background-image: url(../imgs/commonGames/life-is-strange-remastered.jpg);\r\n}\r\n\r\n.list-image-12 {\r\n    background-image: url(../imgs/commonGames/tom-clancy.jpg);\r\n}\r\n\r\n.list-image-13 {\r\n    background-image: url(../imgs/commonGames/farcry-primal.jpg);\r\n}\r\n\r\n.list-image-14 {\r\n    background-image: url(../imgs/commonGames/smite.jpg);\r\n}\r\n\r\n.list-image-15 {\r\n    background-image: url(../imgs/commonGames/sea-of-thieves.jpg);\r\n}\r\n\r\n// double cards\r\n\r\n.double-card-1 {\r\n    background-image: url(../imgs/carousel/watch-dogs2.jpg);\r\n}\r\n\r\n.double-card-2 {\r\n    background-image: url(../imgs/commonGames/farcry6-control.jpg);\r\n}\r\n\r\n\r\n\r\n.image-bg-div {\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n//fix positions\r\n\r\n.wc2 {\r\n    background-position: center top;\r\n}\r\n\r\n.fg1 {\r\n    background-position: center 10%;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/reset.scss":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/reset.scss ***!
+  \**********************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #f6f6ef; }
+
+ul,
+li {
+  list-style-type: none; }
+
+body {
+  background-color: #121212;
+  color: #f6f6ef;
+  font-family: poppins; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+.btn {
+  background-color: #2776ff;
+  padding: .5rem;
+  padding-inline: .8rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+.btn-secondary {
+  background-color: white;
+  padding: 1rem;
+  padding-inline: 1.5rem;
+  color: black;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+.view-more-btn {
+  background-color: transparent;
+  padding: .5rem 1rem;
+  border: 2px solid white;
+  border-radius: .5rem;
+  color: white;
+  font-family: poppins;
+  cursor: pointer; }
+`, "",{"version":3,"sources":["webpack://./src/scss/reset.scss"],"names":[],"mappings":"AAAA;EACI,SAAS;EACT,UAAU;EACV,sBAAsB,EAAA;;AAG1B;EACI,qBAAqB;EACrB,cAAwB,EAAA;;AAG5B;;EAEI,qBAAqB,EAAA;;AAGzB;EACI,yBAAgC;EAChC,cAAwB;EACxB,oBAAoB,EAAA;;AAIxB;EACI,aAAa;EACb,mBAAmB,EAAA;;AAGvB;EACI,yBAAmC;EACnC,cAAc;EACd,qBAAqB;EACrB,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,uBAAkC;EAClC,aAAa;EACb,sBAAsB;EACtB,YAAY;EACZ,oBAAoB;EACpB,YAAY;EACZ,aAAa;EACb,eAAe,EAAA;;AAGnB;EACI,6BAA6B;EAC7B,mBAAmB;EACnB,uBAAuB;EACvB,oBAAoB;EACpB,YAAY;EACZ,oBAAoB;EACpB,eAAe,EAAA","sourcesContent":["* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\na {\r\n    text-decoration: none;\r\n    color: hsl(60, 26%, 95%);\r\n}\r\n\r\nul,\r\nli {\r\n    list-style-type: none;\r\n}\r\n\r\nbody {\r\n    background-color: hsl(0, 0%, 7%);\r\n    color: hsl(60, 26%, 95%);\r\n    font-family: poppins;\r\n}\r\n\r\n//utility\r\n.flex {\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.btn {\r\n    background-color: rgb(39, 118, 255);\r\n    padding: .5rem;\r\n    padding-inline: .8rem;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-secondary {\r\n    background-color: hsl(0, 0%, 100%);\r\n    padding: 1rem;\r\n    padding-inline: 1.5rem;\r\n    color: black;\r\n    border-radius: .5rem;\r\n    border: none;\r\n    outline: none;\r\n    cursor: pointer;\r\n}\r\n\r\n.view-more-btn {\r\n    background-color: transparent;\r\n    padding: .5rem 1rem;\r\n    border: 2px solid white;\r\n    border-radius: .5rem;\r\n    color: white;\r\n    font-family: poppins;\r\n    cursor: pointer;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -905,6 +1318,58 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/scss/main.scss":
+/*!****************************!*\
+  !*** ./src/scss/main.scss ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./main.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
 /***/ "./src/scss/reset.scss":
 /*!*****************************!*\
   !*** ./src/scss/reset.scss ***!
@@ -953,58 +1418,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_reset_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_reset_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_reset_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
-
-
-/***/ }),
-
-/***/ "./src/scss/style.scss":
-/*!*****************************!*\
-  !*** ./src/scss/style.scss ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./style.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/style.scss");
-
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-var options = {};
-
-options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
-options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
-options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
-options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
-options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
-
-
-
-
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_style_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -1504,6 +1917,16 @@ module.exports = __webpack_require__.p + "aee150023fdb773ea035.jpg";
 
 /***/ }),
 
+/***/ "./src/imgs/commonGames/epic-games.webp":
+/*!**********************************************!*\
+  !*** ./src/imgs/commonGames/epic-games.webp ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "acae1657b79ee0e1f959.webp";
+
+/***/ }),
+
 /***/ "./src/imgs/commonGames/farcry-primal.jpg":
 /*!************************************************!*\
   !*** ./src/imgs/commonGames/farcry-primal.jpg ***!
@@ -1511,6 +1934,46 @@ module.exports = __webpack_require__.p + "aee150023fdb773ea035.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "cc0cc1c704c5050c5854.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/farcry6-control.jpg":
+/*!**************************************************!*\
+  !*** ./src/imgs/commonGames/farcry6-control.jpg ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "934cdf82898180a75327.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/fortnitebattlepass.jpg":
+/*!*****************************************************!*\
+  !*** ./src/imgs/commonGames/fortnitebattlepass.jpg ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "6754abb2e1d3197c7c57.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/fortnitecover.webp":
+/*!*************************************************!*\
+  !*** ./src/imgs/commonGames/fortnitecover.webp ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5c4530a16c4c08591444.webp";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/fortnitelego.webp":
+/*!************************************************!*\
+  !*** ./src/imgs/commonGames/fortnitelego.webp ***!
+  \************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8d9d621d38a952e9bf3f.webp";
 
 /***/ }),
 
@@ -1551,6 +2014,16 @@ module.exports = __webpack_require__.p + "f494b9ae6e55230c10ec.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "7f2f31f2c61a2f3092f1.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/hotwhees.jpg":
+/*!*******************************************!*\
+  !*** ./src/imgs/commonGames/hotwhees.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7de5660d3e782169af7b.jpg";
 
 /***/ }),
 
@@ -1641,6 +2114,26 @@ module.exports = __webpack_require__.p + "58e02ba8b3e6a8079f77.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "45a1199521a562891258.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/tomb-rider.jpg":
+/*!*********************************************!*\
+  !*** ./src/imgs/commonGames/tomb-rider.jpg ***!
+  \*********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "859858a88df31abc999a.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/commonGames/valo.jpg":
+/*!***************************************!*\
+  !*** ./src/imgs/commonGames/valo.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "151685c06cfcfe7a9c93.jpg";
 
 /***/ }),
 
@@ -1798,19 +2291,19 @@ var __webpack_exports__ = {};
   !*** ./src/main.js ***!
   \*********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/style.scss */ "./src/scss/style.scss");
+/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ "./src/scss/main.scss");
 /* harmony import */ var _scss_reset_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/reset.scss */ "./src/scss/reset.scss");
 /* harmony import */ var _scss_header_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/header.scss */ "./src/scss/header.scss");
-/* harmony import */ var _js_slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/slider */ "./src/js/slider.js");
-/* harmony import */ var _js_header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/header */ "./src/js/header.js");
+/* harmony import */ var _js_slider_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./js/slider.js */ "./src/js/slider.js");
+/* harmony import */ var _js_header_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./js/header.js */ "./src/js/header.js");
 
 
 
 
 
 
-(0,_js_slider__WEBPACK_IMPORTED_MODULE_3__.sliderSection)();
-(0,_js_header__WEBPACK_IMPORTED_MODULE_4__.headerScript)();
+(0,_js_slider_js__WEBPACK_IMPORTED_MODULE_3__.sliderSection)();
+(0,_js_header_js__WEBPACK_IMPORTED_MODULE_4__.headerScript)();
 
 // card containers
 
@@ -1857,10 +2350,48 @@ function scrollBtn() {
   });
 }
 
+function cardControls() {
+  cards.forEach((e) => {
+    e.addEventListener('mouseover', () => {
+      e.querySelector('.add-to-wishlist').style.display = `block`;
+    });
+    e.addEventListener('mouseout', () => {
+      e.querySelector('.add-to-wishlist').style.display = `none`;
+    });
+    e.addEventListener('click', (event) => {
+      const game = e.getAttribute('gameName');
+      if (event.target.tagName === 'svg') {
+        const p = document.createElement('p');
+        const warnBox = document.createElement('div');
+        const svgIcon = e.querySelector('.add-to-wishlist');
+
+        p.innerHTML = 'Added to your WishList';
+        warnBox.classList.add('warn-box');
+        warnBox.appendChild(p);
+        document.body.appendChild(warnBox);
+
+        svgIcon.innerHTML = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <title>check</title>
+    <path d="M18.9,8.1L9,18L4.05,13.05L4.76,12.34L9,16.59L18.19,7.39L18.9,8.1Z" />
+  </svg>
+`;
+        setTimeout(() => {
+          warnBox.remove();
+        }, 4000);
+      } else {
+        window.location.href = `./gameView.html?game=${encodeURIComponent(game)}`;
+      }
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderBars();
 
   scrollBtn();
+
+  cardControls();
 
   window.addEventListener('resize', renderBars);
 });
@@ -1869,4 +2400,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.7e1d573620f0f5f1a701.bundle.js.map
+//# sourceMappingURL=main.216c74324ac14c5dcee1.bundle.js.map

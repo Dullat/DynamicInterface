@@ -1,8 +1,8 @@
-import './scss/style.scss';
+import './scss/main.scss';
 import './scss/reset.scss';
 import './scss/header.scss';
-import { sliderSection } from './js/slider';
-import { headerScript } from './js/header';
+import { sliderSection } from './js/slider.js';
+import { headerScript } from './js/header.js';
 
 sliderSection();
 headerScript();
@@ -52,10 +52,48 @@ function scrollBtn() {
   });
 }
 
+function cardControls() {
+  cards.forEach((e) => {
+    e.addEventListener('mouseover', () => {
+      e.querySelector('.add-to-wishlist').style.display = `block`;
+    });
+    e.addEventListener('mouseout', () => {
+      e.querySelector('.add-to-wishlist').style.display = `none`;
+    });
+    e.addEventListener('click', (event) => {
+      const game = e.getAttribute('gameName');
+      if (event.target.tagName === 'svg') {
+        const p = document.createElement('p');
+        const warnBox = document.createElement('div');
+        const svgIcon = e.querySelector('.add-to-wishlist');
+
+        p.innerHTML = 'Added to your WishList';
+        warnBox.classList.add('warn-box');
+        warnBox.appendChild(p);
+        document.body.appendChild(warnBox);
+
+        svgIcon.innerHTML = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <title>check</title>
+    <path d="M18.9,8.1L9,18L4.05,13.05L4.76,12.34L9,16.59L18.19,7.39L18.9,8.1Z" />
+  </svg>
+`;
+        setTimeout(() => {
+          warnBox.remove();
+        }, 4000);
+      } else {
+        window.location.href = `./gameView.html?game=${encodeURIComponent(game)}`;
+      }
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderBars();
 
   scrollBtn();
+
+  cardControls();
 
   window.addEventListener('resize', renderBars);
 });

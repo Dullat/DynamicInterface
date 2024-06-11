@@ -84,6 +84,109 @@
     background-image: url(../imgs/commonGames/dying-light2.jpg);
 }
 
+.fg1 {
+    background-image: url(../imgs/commonGames/valo.jpg);
+}
+
+.fg2 {
+    background-image: url(../imgs/carousel/watch-dogs2.jpg);
+}
+
+.fg3 {
+    background-image: url(../imgs/commonGames/epic-games.webp);
+}
+
+.ft1 {
+    background-image: url(../imgs/commonGames/fortnitecover.webp);
+}
+
+.ft2 {
+    background-image: url(../imgs/commonGames/fortnitelego.webp);
+}
+
+.ft3 {
+    background-image: url(../imgs/commonGames/fortnitebattlepass.jpg);
+}
+
+// lists
+// @for $i from 1 through 15 {
+//     .list-image-#{$i} {
+//         background-image: url(../imgs/commonGames/image-#{$i}.jpg); // Adjust the path and filename as needed
+//     }
+// }
+
+.list-image-1 {
+    background-image: url(../imgs/commonGames/valo.jpg);
+}
+
+.list-image-2 {
+    background-image: url(../imgs/commonGames/hotwhees.jpg);
+}
+
+.list-image-3 {
+    background-image: url(../imgs/carousel/controll.png);
+}
+
+.list-image-4 {
+    background-image: url(../imgs/commonGames/naraka-intro.jpg);
+}
+
+.list-image-5 {
+    background-image: url(../imgs/commonGames/gtaV.jpg);
+}
+
+.list-image-6 {
+    background-image: url(../imgs/commonGames/gtasa.jpg);
+}
+
+.list-image-7 {
+    background-image: url(../imgs/commonGames/farcry-primal.jpg);
+}
+
+.list-image-8 {
+    background-image: url(../imgs/commonGames/tomb-rider.jpg);
+}
+
+.list-image-9 {
+    background-image: url(../imgs/commonGames/sifu.jpg);
+}
+
+.list-image-10 {
+    background-image: url(../imgs/commonGames/hitman3.jpg);
+}
+
+.list-image-11 {
+    background-image: url(../imgs/commonGames/life-is-strange-remastered.jpg);
+}
+
+.list-image-12 {
+    background-image: url(../imgs/commonGames/tom-clancy.jpg);
+}
+
+.list-image-13 {
+    background-image: url(../imgs/commonGames/farcry-primal.jpg);
+}
+
+.list-image-14 {
+    background-image: url(../imgs/commonGames/smite.jpg);
+}
+
+.list-image-15 {
+    background-image: url(../imgs/commonGames/sea-of-thieves.jpg);
+}
+
+// double cards
+
+.double-card-1 {
+    background-image: url(../imgs/carousel/watch-dogs2.jpg);
+}
+
+.double-card-2 {
+    background-image: url(../imgs/commonGames/farcry6-control.jpg);
+}
+
+
+
 .image-bg-div {
     background-size: cover;
     background-position: center;
@@ -93,4 +196,8 @@
 
 .wc2 {
     background-position: center top;
+}
+
+.fg1 {
+    background-position: center 10%;
 }
