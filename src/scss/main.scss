@@ -79,6 +79,10 @@ main {
         padding-inline: 1rem;
     }
 
+    @media screen and(max-width: 720px) {
+        gap: 1rem;
+    }
+
     .toggled-menu {
         position: absolute;
         top: 1rem;
@@ -142,9 +146,14 @@ main {
         max-width: 1430px;
         width: 80%;
         margin-inline: auto;
-        height: 100px;
+        height: 60px;
         align-items: center;
         gap: 1.5rem;
+        margin-top: 3rem;
+
+        @media screen and(max-width: 720px) {
+            margin-top: 1rem;
+        }
 
         .search-bar {
             background-color: hsl(0, 0%, 13%);
@@ -169,6 +178,10 @@ main {
 
         .discover-menu {
             gap: 1.5rem;
+
+            @media screen and(max-width: 720px) {
+                display: none;
+            }
         }
 
         .cart {
@@ -182,7 +195,6 @@ main {
 
     .carousel-container {
         max-width: 1430px;
-        // width: 80%;
         margin-inline: auto;
         display: grid;
         grid-template-columns: 8fr 2fr;
@@ -368,12 +380,12 @@ main {
     @media screen and (max-width: 1150px) {
         .search-container {
             width: 100%;
-            padding: 1rem;
+            // padding: 1rem;
         }
 
         .carousel-container {
             width: 100%;
-            padding: 1rem
+            // padding: 1rem
         }
     }
 }
@@ -384,11 +396,13 @@ main {
     .section-top {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
 
         .section-title {
-            font-size: 20px;
-            height: 2rem;
-            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
         }
 
         .buttons {
@@ -396,7 +410,7 @@ main {
             gap: 1rem;
 
             >div {
-                height: 40px;
+                height: 2.5rem;
                 aspect-ratio: 1;
                 cursor: pointer;
 
@@ -447,8 +461,15 @@ main {
 
                     .pricing {
                         display: flex;
-                        gap: 1rem;
+                        gap: clamp(0.1rem, 1vw, 1rem);
                         align-items: center;
+
+                        @media screen and(max-width: 450px) {
+                            button {
+                                padding-inline: .5rem;
+                                font-size: .8rem;
+                            }
+                        }
 
                         .original-price {
                             text-decoration: line-through;
@@ -742,6 +763,7 @@ main {
 footer {
     padding: clamp(1rem, 3vw, 2rem);
     background-color: rgb(51, 51, 51);
+    margin-top: 1rem;
 
     .top {
         display: flex;
@@ -790,6 +812,12 @@ footer {
     hr {
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and(max-width: 850px) {
+    html {
+        font-size: 14px;
     }
 }
 
