@@ -736,3 +736,65 @@ main {
 
     @import './cards.scss'
 }
+
+// footer
+
+footer {
+    padding: clamp(1rem, 3vw, 2rem);
+    background-color: rgb(51, 51, 51);
+
+    .top {
+        display: flex;
+        gap: clamp(1rem, 3vw, 2rem);
+        margin-bottom: 2rem;
+
+        img {
+            height: 30px;
+            aspect-ratio: 1;
+            cursor: pointer;
+        }
+    }
+
+    .footer-body {
+        .title {
+            opacity: .7;
+            margin-bottom: 1rem;
+        }
+
+        .lists {
+            display: flex;
+            gap: clamp(1rem, 3vw, 2rem);
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: .7rem;
+
+                li {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        opacity: .7;
+        font-size: .85rem;
+    }
+
+    .flex {
+        gap: clamp(1rem, 3vw, 2rem);
+        margin-top: 1rem;
+    }
+
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and(max-width: 450px) {
+    html {
+        font-size: 13px;
+    }
+}
