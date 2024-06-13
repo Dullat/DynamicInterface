@@ -1,1 +1,2 @@
-alert('welcome');
+import '../scss/reset.scss';
+import '../scss/gameView.scss';
