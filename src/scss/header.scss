@@ -15,19 +15,19 @@ header {
             background-size: cover;
         }
 
-        .material-symbols-outlined {
+        .menu-toggle-btn {
             color: rgba(255, 255, 255, 0.623);
             transform: rotate(180deg);
-        }
-
-        .material-symbols-outlined.active {
-            transform: translateY(10%);
-        }
-
-        .material-symbols-outlined:hover {
             transition: all .4s;
-            transform: translateY(10%);
+        }
+
+        .menu-toggle-btn:hover {
+            transform: rotate(0deg);
             color: rgb(255, 255, 255);
+        }
+
+        .menu-toggle-btn.active {
+            transform: translateY(10%) rotate(0deg);
         }
     }
 

@@ -5,10 +5,6 @@ const nav = document.querySelector('nav');
 
 // drop
 
-function preventScroll(event) {
-  window.scrollTo(0, 0);
-}
-
 function headerScript() {
   toggledMenuDropBtn.addEventListener('click', () => {
     toggledMenu.classList.toggle('active');
@@ -26,11 +22,11 @@ function headerScript() {
     if (nav.classList.contains('active')) {
       nav.classList.remove('active');
       sideBarBtn.classList.remove('active');
-      window.addEventListener('scroll', preventScroll);
+      document.body.style.overflow = `unset`;
     } else if (!nav.classList.contains('active')) {
       nav.classList.add('active');
       sideBarBtn.classList.add('active');
-      window.removeEventListener('scroll', preventScroll);
+      document.body.style.overflow = `hidden`;
     }
   });
 }
