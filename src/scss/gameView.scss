@@ -10,4 +10,21 @@ main {
     }
 }
 
-.hero {}
+.hero {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    .carosel-container {
+        display: flex;
+        flex-direction: column;
+
+        .carousel {
+            .image-bg-div {
+                width: 100%;
+                aspect-ratio: 2/3;
+                background-color: rgb(48, 48, 48);
+                border-radius: 1rem;
+            }
+        }
+    }
+}

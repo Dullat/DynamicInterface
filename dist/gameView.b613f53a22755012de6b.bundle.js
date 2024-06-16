@@ -28,7 +28,19 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
 
 .main-top .game-title {
   font-size: 1.5rem; }
-`, "",{"version":3,"sources":["webpack://./src/scss/gameView.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,iBAAiB;EACjB,YAAY,EAAA;;AAGhB;EAEQ,iBAAiB,EAAA","sourcesContent":["main {\r\n    padding: 2rem;\r\n    max-width: 1400px;\r\n    margin: auto;\r\n}\r\n\r\n.main-top {\r\n    .game-title {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.hero {}"],"sourceRoot":""}]);
+
+.hero {
+  display: grid;
+  grid-template-columns: 4fr 1fr; }
+  .hero .carosel-container {
+    display: flex;
+    flex-direction: column; }
+    .hero .carosel-container .carousel .image-bg-div {
+      width: 100%;
+      aspect-ratio: 2/3;
+      background-color: #303030;
+      border-radius: 1rem; }
+`, "",{"version":3,"sources":["webpack://./src/scss/gameView.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,iBAAiB;EACjB,YAAY,EAAA;;AAGhB;EAEQ,iBAAiB,EAAA;;AAIzB;EACI,aAAa;EACb,8BAA8B,EAAA;EAFlC;IAKQ,aAAa;IACb,sBAAsB,EAAA;IAN9B;MAUgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB,EAAA","sourcesContent":["main {\r\n    padding: 2rem;\r\n    max-width: 1400px;\r\n    margin: auto;\r\n}\r\n\r\n.main-top {\r\n    .game-title {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.hero {\r\n    display: grid;\r\n    grid-template-columns: 4fr 1fr;\r\n\r\n    .carosel-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n\r\n        .carousel {\r\n            .image-bg-div {\r\n                width: 100%;\r\n                aspect-ratio: 2/3;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -689,4 +701,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=gameView.27c962b7906d1bb704dd.bundle.js.map
+//# sourceMappingURL=gameView.b613f53a22755012de6b.bundle.js.map
