@@ -2730,12 +2730,23 @@ function cardControls() {
   });
 }
 
+function carouselBtns() {
+  document.querySelectorAll('.btn-secondary').forEach((e) => {
+    e.addEventListener('click', () => {
+      const game = e.getAttribute('gameName');
+      window.location.href = `./gameView.html?game=${encodeURIComponent(game)}`;
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderBars();
 
   scrollBtn();
 
   cardControls();
+
+  carouselBtns();
 
   window.addEventListener('resize', renderBars);
 });
@@ -2747,4 +2758,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.00cca08174725f4acee8.bundle.js.map
+//# sourceMappingURL=main.674599a25050fee879b8.bundle.js.map

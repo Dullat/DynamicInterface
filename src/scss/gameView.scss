@@ -21,6 +21,7 @@ main {
     grid-template-columns: 5fr 2fr;
     gap: 1rem;
     position: relative;
+    margin-top: 1rem;
 
     @media screen and(max-width: 1000px) {
         grid-template-columns: 1fr;
@@ -379,6 +380,7 @@ main {
 
 .image-1 {
     background-image: url('../imgs/commonGames/browse.jpg');
+    background-position: center 0%;
 }
 
 .loggo-watermark {

@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/gameView.scss":
@@ -8,6 +7,7 @@
   \*************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -47,7 +47,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
   display: grid;
   grid-template-columns: 5fr 2fr;
   gap: 1rem;
-  position: relative; }
+  position: relative;
+  margin-top: 1rem; }
   @media screen and (max-width: 1000px) {
     .hero {
       grid-template-columns: 1fr; } }
@@ -288,13 +289,14 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
   background-position: center; }
 
 .image-1 {
-  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___}); }
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+  background-position: center 0%; }
 
 .loggo-watermark {
   background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
   background-size: cover;
   background-position: center; }
-`, "",{"version":3,"sources":["webpack://./src/scss/gameView.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,iBAAiB;EACjB,YAAY,EAAA;EAEZ;IALJ;MAMQ,cAAc,EAAA,EAErB;;AAED;EAEQ,eAAe;EACf,gBAAgB;EAChB,gBAAgB,EAAA;;AAIxB;EACI,aAAa;EACb,8BAA8B;EAC9B,SAAS;EACT,kBAAkB,EAAA;EAElB;IANJ;MAOQ,0BAA0B,EAAA,EA0LjC;EAjMD;IAWQ,aAAa;IACb,sBAAsB;IACtB,gBAAgB,EAAA;IAEhB;MAfR;QAgBY,QAAQ,EAAA,EAqGf;IArHL;MAqBgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB,EAAA;IAxBnC;MA6BY,iCAAiC;MACjC,kBAAkB;MAClB,aAAa;MACb,mBAAmB;MACnB,WAAW,EAAA;MAjCvB;QAoCgB,aAAa;QACb,SAAS;QACT,eAAe;QACf,iBAAiB;QACjB,mBAAmB;QACnB,2BAA2B;QAC3B,kBAAkB;QAClB,cAAc;QACd,gBAAgB;QAChB,YAAY,EAAA;QA7C5B;UAiDoB,eAAe;UACf,iBAAiB;UACjB,yBAAiC;UACjC,qBAAqB;UACrB,eAAe,EAAA;MArDnC;;QA2DgB,kBAAkB;QAClB,WAAW;QACX,OAAO;QACP,WAAW;QACX,YAAY,EAAA;QA/D5B;;UAkEoB,YAAY;UACZ,eAAe,EAAA;MAnEnC;QAwEgB,WAAW;QACX,QAAQ;QACR,kBAAkB,EAAA;MA1ElC;QA8EgB,aAAa,EAAA;IA9E7B;MAoFgB,iBAAiB,EAAA;IAGrB;MAvFZ;QAwFgB,QAAQ,EAAA,EA4Bf;IApHT;MA4FgB,aAAa;MACb,SAAS;MACT,6BAA6B;MAC7B,YAAY,EAAA;MA/F5B;QAkGoB,aAAa;QACb,sBAAsB;QACtB,UAAU;QACV,4BAA4B;QAC5B,kBAAkB;QAClB,YAAY,EAAA;QAvGhC;UA0GwB,WAAW;UACX,gBAAgB,EAAA;IA3GxC;MAiHgB,WAAW;MACX,gBAAgB,EAAA;EAlHhC;IAwHQ,aAAa,EAAA;EAxHrB;IA8HY,aAAa;IACb,sBAAsB;IACtB,UAAU;IACV,gBAAgB;IAChB,QAAQ,EAAA;IAlIpB;MAqIgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB;MACnB,aAAa;MACb,qBAAqB,EAAA;IA1IrC;MA8IgB,yBAAiC;MACjC,oBAAoB;MACpB,qBAAqB;MACrB,WAAW;MACX,kBAAkB,EAAA;IAlJlC;MAsJgB,aAAa;MACb,6BAA6B;MAC7B,mBAAmB,EAAA;MAxJnC;QA2JoB,6BAA6B;QAC7B,WAAW,EAAA;MA5J/B;QAgKoB,cAAc,EAAA;IAhKlC;MAqKgB,6BAA6B;MAC7B,mBAAmB;MACnB,uBAAuB;MACvB,oBAAoB;MACpB,YAAY;MACZ,oBAAoB;MACpB,eAAe,EAAA;IA3K/B;MA+KgB,uBAAuB;MACvB,YAAY,EAAA;IAhL5B;MAoLgB,oBAAoB,EAAA;IApLpC;MAwLgB,aAAa;MACb,8BAA8B,EAAA;IAzL9C;MA6LgB,WAAW,EAAA;;AAM3B;EACI,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,gBAAgB,EAAA;EAJpB;IAOQ,iBAAiB,EAAA;EAPzB;IAWQ,aAAa;IACb,sBAAsB;IACtB,SAAS,EAAA;IAbjB;MAgBY,yBAAiC;MACjC,aAAa;MACb,mBAAmB;MACnB,uBAAuB;MACvB,SAAS;MACT,aAAa,EAAA;MArBzB;QAwBgB,YAAY,EAAA;EAxB5B;IA+BY,aAAa;IACb,eAAe;IACf,sBAAsB;IACtB,oBAAoB;IACpB,aAAa;IACb,qBAAqB;IACrB,iBAAiB,EAAA;IArC7B;MAwCgB,eAAe,EAAA;EAxC/B;IA6CY,aAAa;IACb,aAAa;IACb,kCAAkC;IAClC,SAAS,EAAA;IAET;MAlDZ;QAmDgB,8BAA8B,EAAA,EAuDrC;IApDG;MAtDZ;QAuDgB,0BAA0B,EAAA,EAmDjC;IA1GT;MA2DgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB;MACnB,aAAa;MACb,aAAa;MACb,mBAAmB;MACnB,sBAAsB;MACtB,uBAAuB,EAAA;MAEvB;QArEhB;UAsEoB,mBAAmB;UACnB,mBAAmB,EAAA,EAkC1B;MAzGb;QA2EoB,WAAW;QACX,eAAe;QACf,yDAAgE;QAChE,sBAAsB,EAAA;QAEtB;UAhFpB;YAiFwB,YAAY,EAAA,EAEnB;MAnFjB;QAsFoB,YAAY;QACZ,kBAAkB,EAAA;QAElB;UAzFpB;YA0FwB,iBAAiB;YACjB,iBAAiB,EAAA,EAaxB;QAxGjB;UA+FwB,gBAAgB;UAChB,iBAAiB,EAAA;QAhGzC;UAoGwB,WAAW;UACX,gBAAgB;UAChB,gBAAgB,EAAA;EAtGxC;IA+GY,mBAAmB,EAAA;EA/G/B;IAmHY,yBAAiC;IACjC,aAAa;IACb,8BAA8B;IAC9B,aAAa;IACb,iBAAiB;IACjB,YAAY;IACZ,oBAAoB,EAAA;IAEpB;MA3HZ;QA4HgB,aAAa,EAAA,EAsBpB;IAlJT;MAgIgB,aAAa;MACb,sBAAsB;MACtB,WAAW,EAAA;MAlI3B;QAsIwB,WAAW;QACX,gBAAgB,EAAA;MAvIxC;QA4IoB,gBAAgB;QAChB,iBAAiB;QACjB,WAAW;QACX,oBAAoB,EAAA;;AAQxC;EACI;IACI,eAAe,EAAA,EAClB;;AAnHL;EA0HI,yDAA4D;EAC5D,sBAAsB;EACtB,2BAA2B,EAAA;;AAG/B;EACI,yDAAuD,EAAA;;AAG3D;EACI,yDAA4D;EAC5D,sBAAsB;EACtB,2BAA2B,EAAA","sourcesContent":["main {\r\n    padding: 2rem;\r\n    max-width: 1400px;\r\n    margin: auto;\r\n\r\n    @media screen and(max-width: 600px) {\r\n        padding: .5rem;\r\n    }\r\n}\r\n\r\n.main-top {\r\n    .game-title {\r\n        font-size: 2rem;\r\n        margin-top: 1rem;\r\n        font-weight: 600;\r\n    }\r\n}\r\n\r\n.hero {\r\n    display: grid;\r\n    grid-template-columns: 5fr 2fr;\r\n    gap: 1rem;\r\n    position: relative;\r\n\r\n    @media screen and(max-width: 1000px) {\r\n        grid-template-columns: 1fr;\r\n    }\r\n\r\n    .carousel-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n        overflow: scroll;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            order: 2;\r\n        }\r\n\r\n        .carousel {\r\n            .image-bg-div {\r\n                width: 100%;\r\n                aspect-ratio: 3/2;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n            }\r\n        }\r\n\r\n        .carousel-changer {\r\n            transition: scroll 2s ease-in-out;\r\n            position: relative;\r\n            display: flex;\r\n            align-items: center;\r\n            width: 100%;\r\n\r\n            .container {\r\n                display: flex;\r\n                gap: 1rem;\r\n                padding: 0.5rem;\r\n                flex-wrap: nowrap;\r\n                align-items: center;\r\n                justify-content: flex-start;\r\n                width: fit-content;\r\n                max-width: 80%;\r\n                overflow: scroll;\r\n                margin: auto;\r\n                // background-color: red;\r\n\r\n                .changer {\r\n                    min-width: 5rem;\r\n                    aspect-ratio: 3/2;\r\n                    background-color: rgb(48, 48, 48);\r\n                    border-radius: 0.5rem;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n\r\n            .left-scroll,\r\n            .right-scroll {\r\n                position: absolute;\r\n                fill: white;\r\n                left: 0;\r\n                z-index: 99;\r\n                height: 30px;\r\n\r\n                svg {\r\n                    height: 30px;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n\r\n            .right-scroll {\r\n                left: unset;\r\n                right: 0;\r\n                width: fit-content;\r\n            }\r\n\r\n            .container::-webkit-scrollbar {\r\n                display: none;\r\n            }\r\n        }\r\n\r\n        .carousel-content {\r\n            .top-text {\r\n                font-size: 1.2rem;\r\n            }\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                order: 1;\r\n            }\r\n\r\n            .category-features {\r\n                display: flex;\r\n                gap: 1rem;\r\n                justify-content: space-around;\r\n                margin: 1rem;\r\n\r\n                >div {\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n                    border-left: 1px solid white;\r\n                    padding-left: 1rem;\r\n                    margin: 1rem;\r\n\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                    }\r\n                }\r\n            }\r\n\r\n            .detailed-description {\r\n                opacity: .8;\r\n                font-size: .9rem;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    .sticky-div {\r\n        .content-container {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n            position: sticky;\r\n            top: 0px;\r\n\r\n            .loggo-watermark {\r\n                width: 100%;\r\n                aspect-ratio: 3/2;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n                display: grid;\r\n                place-content: center;\r\n            }\r\n\r\n            small {\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: .2rem;\r\n                padding-inline: .2rem;\r\n                opacity: .8;\r\n                width: fit-content;\r\n            }\r\n\r\n            .price {\r\n                display: flex;\r\n                gap: clamp(0.1rem, 1vw, 1rem);\r\n                align-items: center;\r\n\r\n                .original-price {\r\n                    text-decoration: line-through;\r\n                    opacity: .6;\r\n                }\r\n\r\n                .btn {\r\n                    padding: .4rem;\r\n                }\r\n            }\r\n\r\n            .btn {\r\n                background-color: transparent;\r\n                padding: .5rem 1rem;\r\n                border: 2px solid white;\r\n                border-radius: .5rem;\r\n                color: white;\r\n                font-family: poppins;\r\n                cursor: pointer;\r\n            }\r\n\r\n            .buy {\r\n                background-color: white;\r\n                color: black;\r\n            }\r\n\r\n            .add {\r\n                margin-bottom: .7rem;\r\n            }\r\n\r\n            .detail {\r\n                display: flex;\r\n                justify-content: space-between;\r\n            }\r\n\r\n            hr {\r\n                opacity: .7;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.main-footer {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 2rem;\r\n    margin-top: 2rem;\r\n\r\n    .title {\r\n        font-size: 1.3rem;\r\n    }\r\n\r\n    .follow-us {\r\n        display: flex;\r\n        flex-direction: column;\r\n        gap: 1rem;\r\n\r\n        .social {\r\n            background-color: rgb(53, 53, 53);\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: center;\r\n            gap: 1rem;\r\n            padding: 2rem;\r\n\r\n            img {\r\n                height: 50px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .rating {\r\n        .points {\r\n            height: 150px;\r\n            aspect-ratio: 1;\r\n            background-color: gray;\r\n            border-radius: 100vh;\r\n            display: grid;\r\n            place-content: center;\r\n            margin: 2rem auto;\r\n\r\n            span {\r\n                font-size: 3rem;\r\n            }\r\n        }\r\n\r\n        .feature-cards {\r\n            padding: 1rem;\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr 1fr;\r\n            gap: 1rem;\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                grid-template-columns: 1fr 1fr;\r\n            }\r\n\r\n            @media screen and(max-width: 720px) {\r\n                grid-template-columns: 1fr;\r\n            }\r\n\r\n            .card {\r\n                width: 100%;\r\n                aspect-ratio: 5/3;\r\n                background-color: rgb(54, 54, 54);\r\n                border-radius: 1rem;\r\n                padding: 1rem;\r\n                display: flex;\r\n                align-items: center;\r\n                flex-direction: column;\r\n                justify-content: center;\r\n\r\n                @media screen and(max-width: 720px) {\r\n                    flex-direction: row;\r\n                    aspect-ratio: unset;\r\n                }\r\n\r\n                .image-bg-div {\r\n                    height: 50%;\r\n                    aspect-ratio: 1;\r\n                    background-image: url('../imgs/icons/youtube-gaming-custom.png');\r\n                    background-size: cover;\r\n\r\n                    @media screen and(max-width: 720px) {\r\n                        height: 50px;\r\n                    }\r\n                }\r\n\r\n                .content {\r\n                    margin: auto;\r\n                    text-align: center;\r\n\r\n                    @media screen and(max-width: 720px) {\r\n                        margin-left: 2rem;\r\n                        text-align: start;\r\n                    }\r\n\r\n                    >p {\r\n                        font-weight: 600;\r\n                        font-size: 1.4rem;\r\n                    }\r\n\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                        font-weight: 400;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .requirements {\r\n        .title {\r\n            margin-bottom: 2rem;\r\n        }\r\n\r\n        .content {\r\n            background-color: rgb(46, 46, 46);\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr;\r\n            padding: 3rem;\r\n            max-width: 1200px;\r\n            margin: auto;\r\n            border-radius: .5rem;\r\n\r\n            @media screen and(max-width: 600px) {\r\n                padding: 1rem;\r\n            }\r\n\r\n            ul {\r\n                display: flex;\r\n                flex-direction: column;\r\n                gap: 1.5rem;\r\n\r\n                li {\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                    }\r\n                }\r\n\r\n                .content-title {\r\n                    font-weight: 600;\r\n                    font-size: 1.2rem;\r\n                    opacity: .5;\r\n                    margin-bottom: .5rem;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n@media screen and(max-width: 600px) {\r\n    html {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n\r\n// images\r\n\r\n[class*='image'] {\r\n    background-image: url('../imgs/commonGames/epic-games.webp');\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n.image-1 {\r\n    background-image: url('../imgs/commonGames/browse.jpg');\r\n}\r\n\r\n.loggo-watermark {\r\n    background-image: url('../imgs/commonGames/epic-games.webp');\r\n    background-size: cover;\r\n    background-position: center;\r\n}"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/scss/gameView.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,iBAAiB;EACjB,YAAY,EAAA;EAEZ;IALJ;MAMQ,cAAc,EAAA,EAErB;;AAED;EAEQ,eAAe;EACf,gBAAgB;EAChB,gBAAgB,EAAA;;AAIxB;EACI,aAAa;EACb,8BAA8B;EAC9B,SAAS;EACT,kBAAkB;EAClB,gBAAgB,EAAA;EAEhB;IAPJ;MAQQ,0BAA0B,EAAA,EA0LjC;EAlMD;IAYQ,aAAa;IACb,sBAAsB;IACtB,gBAAgB,EAAA;IAEhB;MAhBR;QAiBY,QAAQ,EAAA,EAqGf;IAtHL;MAsBgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB,EAAA;IAzBnC;MA8BY,iCAAiC;MACjC,kBAAkB;MAClB,aAAa;MACb,mBAAmB;MACnB,WAAW,EAAA;MAlCvB;QAqCgB,aAAa;QACb,SAAS;QACT,eAAe;QACf,iBAAiB;QACjB,mBAAmB;QACnB,2BAA2B;QAC3B,kBAAkB;QAClB,cAAc;QACd,gBAAgB;QAChB,YAAY,EAAA;QA9C5B;UAkDoB,eAAe;UACf,iBAAiB;UACjB,yBAAiC;UACjC,qBAAqB;UACrB,eAAe,EAAA;MAtDnC;;QA4DgB,kBAAkB;QAClB,WAAW;QACX,OAAO;QACP,WAAW;QACX,YAAY,EAAA;QAhE5B;;UAmEoB,YAAY;UACZ,eAAe,EAAA;MApEnC;QAyEgB,WAAW;QACX,QAAQ;QACR,kBAAkB,EAAA;MA3ElC;QA+EgB,aAAa,EAAA;IA/E7B;MAqFgB,iBAAiB,EAAA;IAGrB;MAxFZ;QAyFgB,QAAQ,EAAA,EA4Bf;IArHT;MA6FgB,aAAa;MACb,SAAS;MACT,6BAA6B;MAC7B,YAAY,EAAA;MAhG5B;QAmGoB,aAAa;QACb,sBAAsB;QACtB,UAAU;QACV,4BAA4B;QAC5B,kBAAkB;QAClB,YAAY,EAAA;QAxGhC;UA2GwB,WAAW;UACX,gBAAgB,EAAA;IA5GxC;MAkHgB,WAAW;MACX,gBAAgB,EAAA;EAnHhC;IAyHQ,aAAa,EAAA;EAzHrB;IA+HY,aAAa;IACb,sBAAsB;IACtB,UAAU;IACV,gBAAgB;IAChB,QAAQ,EAAA;IAnIpB;MAsIgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB;MACnB,aAAa;MACb,qBAAqB,EAAA;IA3IrC;MA+IgB,yBAAiC;MACjC,oBAAoB;MACpB,qBAAqB;MACrB,WAAW;MACX,kBAAkB,EAAA;IAnJlC;MAuJgB,aAAa;MACb,6BAA6B;MAC7B,mBAAmB,EAAA;MAzJnC;QA4JoB,6BAA6B;QAC7B,WAAW,EAAA;MA7J/B;QAiKoB,cAAc,EAAA;IAjKlC;MAsKgB,6BAA6B;MAC7B,mBAAmB;MACnB,uBAAuB;MACvB,oBAAoB;MACpB,YAAY;MACZ,oBAAoB;MACpB,eAAe,EAAA;IA5K/B;MAgLgB,uBAAuB;MACvB,YAAY,EAAA;IAjL5B;MAqLgB,oBAAoB,EAAA;IArLpC;MAyLgB,aAAa;MACb,8BAA8B,EAAA;IA1L9C;MA8LgB,WAAW,EAAA;;AAM3B;EACI,aAAa;EACb,sBAAsB;EACtB,SAAS;EACT,gBAAgB,EAAA;EAJpB;IAOQ,iBAAiB,EAAA;EAPzB;IAWQ,aAAa;IACb,sBAAsB;IACtB,SAAS,EAAA;IAbjB;MAgBY,yBAAiC;MACjC,aAAa;MACb,mBAAmB;MACnB,uBAAuB;MACvB,SAAS;MACT,aAAa,EAAA;MArBzB;QAwBgB,YAAY,EAAA;EAxB5B;IA+BY,aAAa;IACb,eAAe;IACf,sBAAsB;IACtB,oBAAoB;IACpB,aAAa;IACb,qBAAqB;IACrB,iBAAiB,EAAA;IArC7B;MAwCgB,eAAe,EAAA;EAxC/B;IA6CY,aAAa;IACb,aAAa;IACb,kCAAkC;IAClC,SAAS,EAAA;IAET;MAlDZ;QAmDgB,8BAA8B,EAAA,EAuDrC;IApDG;MAtDZ;QAuDgB,0BAA0B,EAAA,EAmDjC;IA1GT;MA2DgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB;MACnB,aAAa;MACb,aAAa;MACb,mBAAmB;MACnB,sBAAsB;MACtB,uBAAuB,EAAA;MAEvB;QArEhB;UAsEoB,mBAAmB;UACnB,mBAAmB,EAAA,EAkC1B;MAzGb;QA2EoB,WAAW;QACX,eAAe;QACf,yDAAgE;QAChE,sBAAsB,EAAA;QAEtB;UAhFpB;YAiFwB,YAAY,EAAA,EAEnB;MAnFjB;QAsFoB,YAAY;QACZ,kBAAkB,EAAA;QAElB;UAzFpB;YA0FwB,iBAAiB;YACjB,iBAAiB,EAAA,EAaxB;QAxGjB;UA+FwB,gBAAgB;UAChB,iBAAiB,EAAA;QAhGzC;UAoGwB,WAAW;UACX,gBAAgB;UAChB,gBAAgB,EAAA;EAtGxC;IA+GY,mBAAmB,EAAA;EA/G/B;IAmHY,yBAAiC;IACjC,aAAa;IACb,8BAA8B;IAC9B,aAAa;IACb,iBAAiB;IACjB,YAAY;IACZ,oBAAoB,EAAA;IAEpB;MA3HZ;QA4HgB,aAAa,EAAA,EAsBpB;IAlJT;MAgIgB,aAAa;MACb,sBAAsB;MACtB,WAAW,EAAA;MAlI3B;QAsIwB,WAAW;QACX,gBAAgB,EAAA;MAvIxC;QA4IoB,gBAAgB;QAChB,iBAAiB;QACjB,WAAW;QACX,oBAAoB,EAAA;;AAQxC;EACI;IACI,eAAe,EAAA,EAClB;;AAnHL;EA0HI,yDAA4D;EAC5D,sBAAsB;EACtB,2BAA2B,EAAA;;AAG/B;EACI,yDAAuD;EACvD,8BAA8B,EAAA;;AAGlC;EACI,yDAA4D;EAC5D,sBAAsB;EACtB,2BAA2B,EAAA","sourcesContent":["main {\r\n    padding: 2rem;\r\n    max-width: 1400px;\r\n    margin: auto;\r\n\r\n    @media screen and(max-width: 600px) {\r\n        padding: .5rem;\r\n    }\r\n}\r\n\r\n.main-top {\r\n    .game-title {\r\n        font-size: 2rem;\r\n        margin-top: 1rem;\r\n        font-weight: 600;\r\n    }\r\n}\r\n\r\n.hero {\r\n    display: grid;\r\n    grid-template-columns: 5fr 2fr;\r\n    gap: 1rem;\r\n    position: relative;\r\n    margin-top: 1rem;\r\n\r\n    @media screen and(max-width: 1000px) {\r\n        grid-template-columns: 1fr;\r\n    }\r\n\r\n    .carousel-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n        overflow: scroll;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            order: 2;\r\n        }\r\n\r\n        .carousel {\r\n            .image-bg-div {\r\n                width: 100%;\r\n                aspect-ratio: 3/2;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n            }\r\n        }\r\n\r\n        .carousel-changer {\r\n            transition: scroll 2s ease-in-out;\r\n            position: relative;\r\n            display: flex;\r\n            align-items: center;\r\n            width: 100%;\r\n\r\n            .container {\r\n                display: flex;\r\n                gap: 1rem;\r\n                padding: 0.5rem;\r\n                flex-wrap: nowrap;\r\n                align-items: center;\r\n                justify-content: flex-start;\r\n                width: fit-content;\r\n                max-width: 80%;\r\n                overflow: scroll;\r\n                margin: auto;\r\n                // background-color: red;\r\n\r\n                .changer {\r\n                    min-width: 5rem;\r\n                    aspect-ratio: 3/2;\r\n                    background-color: rgb(48, 48, 48);\r\n                    border-radius: 0.5rem;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n\r\n            .left-scroll,\r\n            .right-scroll {\r\n                position: absolute;\r\n                fill: white;\r\n                left: 0;\r\n                z-index: 99;\r\n                height: 30px;\r\n\r\n                svg {\r\n                    height: 30px;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n\r\n            .right-scroll {\r\n                left: unset;\r\n                right: 0;\r\n                width: fit-content;\r\n            }\r\n\r\n            .container::-webkit-scrollbar {\r\n                display: none;\r\n            }\r\n        }\r\n\r\n        .carousel-content {\r\n            .top-text {\r\n                font-size: 1.2rem;\r\n            }\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                order: 1;\r\n            }\r\n\r\n            .category-features {\r\n                display: flex;\r\n                gap: 1rem;\r\n                justify-content: space-around;\r\n                margin: 1rem;\r\n\r\n                >div {\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n                    border-left: 1px solid white;\r\n                    padding-left: 1rem;\r\n                    margin: 1rem;\r\n\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                    }\r\n                }\r\n            }\r\n\r\n            .detailed-description {\r\n                opacity: .8;\r\n                font-size: .9rem;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    .sticky-div {\r\n        .content-container {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n            position: sticky;\r\n            top: 0px;\r\n\r\n            .loggo-watermark {\r\n                width: 100%;\r\n                aspect-ratio: 3/2;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n                display: grid;\r\n                place-content: center;\r\n            }\r\n\r\n            small {\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: .2rem;\r\n                padding-inline: .2rem;\r\n                opacity: .8;\r\n                width: fit-content;\r\n            }\r\n\r\n            .price {\r\n                display: flex;\r\n                gap: clamp(0.1rem, 1vw, 1rem);\r\n                align-items: center;\r\n\r\n                .original-price {\r\n                    text-decoration: line-through;\r\n                    opacity: .6;\r\n                }\r\n\r\n                .btn {\r\n                    padding: .4rem;\r\n                }\r\n            }\r\n\r\n            .btn {\r\n                background-color: transparent;\r\n                padding: .5rem 1rem;\r\n                border: 2px solid white;\r\n                border-radius: .5rem;\r\n                color: white;\r\n                font-family: poppins;\r\n                cursor: pointer;\r\n            }\r\n\r\n            .buy {\r\n                background-color: white;\r\n                color: black;\r\n            }\r\n\r\n            .add {\r\n                margin-bottom: .7rem;\r\n            }\r\n\r\n            .detail {\r\n                display: flex;\r\n                justify-content: space-between;\r\n            }\r\n\r\n            hr {\r\n                opacity: .7;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.main-footer {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 2rem;\r\n    margin-top: 2rem;\r\n\r\n    .title {\r\n        font-size: 1.3rem;\r\n    }\r\n\r\n    .follow-us {\r\n        display: flex;\r\n        flex-direction: column;\r\n        gap: 1rem;\r\n\r\n        .social {\r\n            background-color: rgb(53, 53, 53);\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: center;\r\n            gap: 1rem;\r\n            padding: 2rem;\r\n\r\n            img {\r\n                height: 50px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .rating {\r\n        .points {\r\n            height: 150px;\r\n            aspect-ratio: 1;\r\n            background-color: gray;\r\n            border-radius: 100vh;\r\n            display: grid;\r\n            place-content: center;\r\n            margin: 2rem auto;\r\n\r\n            span {\r\n                font-size: 3rem;\r\n            }\r\n        }\r\n\r\n        .feature-cards {\r\n            padding: 1rem;\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr 1fr;\r\n            gap: 1rem;\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                grid-template-columns: 1fr 1fr;\r\n            }\r\n\r\n            @media screen and(max-width: 720px) {\r\n                grid-template-columns: 1fr;\r\n            }\r\n\r\n            .card {\r\n                width: 100%;\r\n                aspect-ratio: 5/3;\r\n                background-color: rgb(54, 54, 54);\r\n                border-radius: 1rem;\r\n                padding: 1rem;\r\n                display: flex;\r\n                align-items: center;\r\n                flex-direction: column;\r\n                justify-content: center;\r\n\r\n                @media screen and(max-width: 720px) {\r\n                    flex-direction: row;\r\n                    aspect-ratio: unset;\r\n                }\r\n\r\n                .image-bg-div {\r\n                    height: 50%;\r\n                    aspect-ratio: 1;\r\n                    background-image: url('../imgs/icons/youtube-gaming-custom.png');\r\n                    background-size: cover;\r\n\r\n                    @media screen and(max-width: 720px) {\r\n                        height: 50px;\r\n                    }\r\n                }\r\n\r\n                .content {\r\n                    margin: auto;\r\n                    text-align: center;\r\n\r\n                    @media screen and(max-width: 720px) {\r\n                        margin-left: 2rem;\r\n                        text-align: start;\r\n                    }\r\n\r\n                    >p {\r\n                        font-weight: 600;\r\n                        font-size: 1.4rem;\r\n                    }\r\n\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                        font-weight: 400;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .requirements {\r\n        .title {\r\n            margin-bottom: 2rem;\r\n        }\r\n\r\n        .content {\r\n            background-color: rgb(46, 46, 46);\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr;\r\n            padding: 3rem;\r\n            max-width: 1200px;\r\n            margin: auto;\r\n            border-radius: .5rem;\r\n\r\n            @media screen and(max-width: 600px) {\r\n                padding: 1rem;\r\n            }\r\n\r\n            ul {\r\n                display: flex;\r\n                flex-direction: column;\r\n                gap: 1.5rem;\r\n\r\n                li {\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                    }\r\n                }\r\n\r\n                .content-title {\r\n                    font-weight: 600;\r\n                    font-size: 1.2rem;\r\n                    opacity: .5;\r\n                    margin-bottom: .5rem;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n@media screen and(max-width: 600px) {\r\n    html {\r\n        font-size: 14px;\r\n    }\r\n}\r\n\r\n\r\n// images\r\n\r\n[class*='image'] {\r\n    background-image: url('../imgs/commonGames/epic-games.webp');\r\n    background-size: cover;\r\n    background-position: center;\r\n}\r\n\r\n.image-1 {\r\n    background-image: url('../imgs/commonGames/browse.jpg');\r\n    background-position: center 0%;\r\n}\r\n\r\n.loggo-watermark {\r\n    background-image: url('../imgs/commonGames/epic-games.webp');\r\n    background-size: cover;\r\n    background-position: center;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -307,6 +309,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `main {
   \**********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -382,6 +385,7 @@ body {
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -476,6 +480,7 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (url, options) {
@@ -511,6 +516,7 @@ module.exports = function (url, options) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -536,6 +542,7 @@ module.exports = function (item) {
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -588,6 +595,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -640,6 +648,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -733,6 +742,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -776,6 +786,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -795,6 +806,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -814,6 +826,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -884,6 +897,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -901,12 +915,101 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/imgs/view lazy recursive ^\\.\\/.*\\.jpg$":
+/*!************************************************************!*\
+  !*** ./src/imgs/view/ lazy ^\.\/.*\.jpg$ namespace object ***!
+  \************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./control.jpg": [
+		"./src/imgs/view/control.jpg",
+		"src_imgs_view_control_jpg"
+	],
+	"./dontstarve.jpg": [
+		"./src/imgs/view/dontstarve.jpg",
+		"src_imgs_view_dontstarve_jpg"
+	],
+	"./dyinglight2.jpg": [
+		"./src/imgs/view/dyinglight2.jpg",
+		"src_imgs_view_dyinglight2_jpg"
+	],
+	"./farcry6.jpg": [
+		"./src/imgs/view/farcry6.jpg",
+		"src_imgs_view_farcry6_jpg"
+	],
+	"./farcryprimal.jpg": [
+		"./src/imgs/view/farcryprimal.jpg",
+		"src_imgs_view_farcryprimal_jpg"
+	],
+	"./fortnite.jpg": [
+		"./src/imgs/view/fortnite.jpg",
+		"src_imgs_view_fortnite_jpg"
+	],
+	"./genshinimpact.jpg": [
+		"./src/imgs/view/genshinimpact.jpg",
+		"src_imgs_view_genshinimpact_jpg"
+	],
+	"./ghostoftsushima.jpg": [
+		"./src/imgs/view/ghostoftsushima.jpg",
+		"src_imgs_view_ghostoftsushima_jpg"
+	],
+	"./gtasa.jpg": [
+		"./src/imgs/view/gtasa.jpg",
+		"src_imgs_view_gtasa_jpg"
+	],
+	"./lifeisstrange.jpg": [
+		"./src/imgs/view/lifeisstrange.jpg",
+		"src_imgs_view_lifeisstrange_jpg"
+	],
+	"./naraka.jpg": [
+		"./src/imgs/view/naraka.jpg",
+		"src_imgs_view_naraka_jpg"
+	],
+	"./seaofthieves.jpg": [
+		"./src/imgs/view/seaofthieves.jpg",
+		"src_imgs_view_seaofthieves_jpg"
+	],
+	"./sixsiege.jpg": [
+		"./src/imgs/view/sixsiege.jpg",
+		"src_imgs_view_sixsiege_jpg"
+	],
+	"./valo.jpg": [
+		"./src/imgs/view/valo.jpg",
+		"src_imgs_view_valo_jpg"
+	],
+	"./watchdogs2.jpg": [
+		"./src/imgs/view/watchdogs2.jpg",
+		"src_imgs_view_watchdogs2_jpg"
+	]
+};
+function webpackAsyncContext(req) {
+	if(!__webpack_require__.o(map, req)) {
+		return Promise.resolve().then(() => {
+			var e = new Error("Cannot find module '" + req + "'");
+			e.code = 'MODULE_NOT_FOUND';
+			throw e;
+		});
+	}
+
+	var ids = map[req], id = ids[0];
+	return __webpack_require__.e(ids[1]).then(() => {
+		return __webpack_require__.t(id, 1 | 16);
+	});
+}
+webpackAsyncContext.keys = () => (Object.keys(map));
+webpackAsyncContext.id = "./src/imgs/view lazy recursive ^\\.\\/.*\\.jpg$";
+module.exports = webpackAsyncContext;
+
+/***/ }),
+
 /***/ "./src/imgs/commonGames/browse.jpg":
 /*!*****************************************!*\
   !*** ./src/imgs/commonGames/browse.jpg ***!
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "7472a1f4ed0fc88e6e55.jpg";
 
 /***/ }),
@@ -917,6 +1020,7 @@ module.exports = __webpack_require__.p + "7472a1f4ed0fc88e6e55.jpg";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "acae1657b79ee0e1f959.webp";
 
 /***/ }),
@@ -927,6 +1031,7 @@ module.exports = __webpack_require__.p + "acae1657b79ee0e1f959.webp";
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 
 /***/ })
@@ -973,6 +1078,36 @@ module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/create fake namespace object */
+/******/ 	(() => {
+/******/ 		var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
+/******/ 		var leafPrototypes;
+/******/ 		// create a fake namespace object
+/******/ 		// mode & 1: value is a module id, require it
+/******/ 		// mode & 2: merge all properties of value into the ns
+/******/ 		// mode & 4: return value when already ns object
+/******/ 		// mode & 16: return value when it's Promise-like
+/******/ 		// mode & 8|1: behave like require
+/******/ 		__webpack_require__.t = function(value, mode) {
+/******/ 			if(mode & 1) value = this(value);
+/******/ 			if(mode & 8) return value;
+/******/ 			if(typeof value === 'object' && value) {
+/******/ 				if((mode & 4) && value.__esModule) return value;
+/******/ 				if((mode & 16) && typeof value.then === 'function') return value;
+/******/ 			}
+/******/ 			var ns = Object.create(null);
+/******/ 			__webpack_require__.r(ns);
+/******/ 			var def = {};
+/******/ 			leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
+/******/ 			for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
+/******/ 				Object.getOwnPropertyNames(current).forEach((key) => (def[key] = () => (value[key])));
+/******/ 			}
+/******/ 			def['default'] = () => (value);
+/******/ 			__webpack_require__.d(ns, def);
+/******/ 			return ns;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -982,6 +1117,28 @@ module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	(() => {
+/******/ 		__webpack_require__.f = {};
+/******/ 		// This file contains only the entry chunk.
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		__webpack_require__.e = (chunkId) => {
+/******/ 			return Promise.all(Object.keys(__webpack_require__.f).reduce((promises, key) => {
+/******/ 				__webpack_require__.f[key](chunkId, promises);
+/******/ 				return promises;
+/******/ 			}, []));
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/get javascript chunk filename */
+/******/ 	(() => {
+/******/ 		// This function allow to reference async chunks
+/******/ 		__webpack_require__.u = (chunkId) => {
+/******/ 			// return url for filenames based on template
+/******/ 			return "" + chunkId + "." + {"src_imgs_view_control_jpg":"407db73bb72a5e812ea8","src_imgs_view_dontstarve_jpg":"8613712ad2fec26ae07a","src_imgs_view_dyinglight2_jpg":"ec4742e105df5c0230bd","src_imgs_view_farcry6_jpg":"74c32d2f9a27ca74ffdd","src_imgs_view_farcryprimal_jpg":"a9fe2b528edf93b74f43","src_imgs_view_fortnite_jpg":"5744d5b4ae68157bee83","src_imgs_view_genshinimpact_jpg":"fc6664dbc41341fc6e00","src_imgs_view_ghostoftsushima_jpg":"a6db4cc3bc1a9f1950b5","src_imgs_view_gtasa_jpg":"f93a97417fbcf3e1545d","src_imgs_view_lifeisstrange_jpg":"cb41ec5aa8be5222d394","src_imgs_view_naraka_jpg":"73c4ff22f733825ee871","src_imgs_view_seaofthieves_jpg":"5e015ba49f0a26d679a4","src_imgs_view_sixsiege_jpg":"0aee2b52d24e45f951e8","src_imgs_view_valo_jpg":"063325a20698ff094341","src_imgs_view_watchdogs2_jpg":"c97df10bc13ac8f0168a"}[chunkId] + ".bundle.js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -1000,6 +1157,52 @@ module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/load script */
+/******/ 	(() => {
+/******/ 		var inProgress = {};
+/******/ 		var dataWebpackPrefix = "epic-games:";
+/******/ 		// loadScript function to load a script via script tag
+/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
+/******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
+/******/ 			var script, needAttach;
+/******/ 			if(key !== undefined) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				for(var i = 0; i < scripts.length; i++) {
+/******/ 					var s = scripts[i];
+/******/ 					if(s.getAttribute("src") == url || s.getAttribute("data-webpack") == dataWebpackPrefix + key) { script = s; break; }
+/******/ 				}
+/******/ 			}
+/******/ 			if(!script) {
+/******/ 				needAttach = true;
+/******/ 				script = document.createElement('script');
+/******/ 		
+/******/ 				script.charset = 'utf-8';
+/******/ 				script.timeout = 120;
+/******/ 				if (__webpack_require__.nc) {
+/******/ 					script.setAttribute("nonce", __webpack_require__.nc);
+/******/ 				}
+/******/ 				script.setAttribute("data-webpack", dataWebpackPrefix + key);
+/******/ 		
+/******/ 				script.src = url;
+/******/ 			}
+/******/ 			inProgress[url] = [done];
+/******/ 			var onScriptComplete = (prev, event) => {
+/******/ 				// avoid mem leaks in IE.
+/******/ 				script.onerror = script.onload = null;
+/******/ 				clearTimeout(timeout);
+/******/ 				var doneFns = inProgress[url];
+/******/ 				delete inProgress[url];
+/******/ 				script.parentNode && script.parentNode.removeChild(script);
+/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
+/******/ 				if(prev) return prev(event);
+/******/ 			}
+/******/ 			var timeout = setTimeout(onScriptComplete.bind(null, undefined, { type: 'timeout', target: script }), 120000);
+/******/ 			script.onerror = onScriptComplete.bind(null, script.onerror);
+/******/ 			script.onload = onScriptComplete.bind(null, script.onload);
+/******/ 			needAttach && document.head.appendChild(script);
+/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
@@ -1047,7 +1250,44 @@ module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 /******/ 			"gameView": 0
 /******/ 		};
 /******/ 		
-/******/ 		// no chunk on demand loading
+/******/ 		__webpack_require__.f.j = (chunkId, promises) => {
+/******/ 				// JSONP chunk loading for javascript
+/******/ 				var installedChunkData = __webpack_require__.o(installedChunks, chunkId) ? installedChunks[chunkId] : undefined;
+/******/ 				if(installedChunkData !== 0) { // 0 means "already installed".
+/******/ 		
+/******/ 					// a Promise means "currently loading".
+/******/ 					if(installedChunkData) {
+/******/ 						promises.push(installedChunkData[2]);
+/******/ 					} else {
+/******/ 						if(true) { // all chunks have JS
+/******/ 							// setup Promise in chunk cache
+/******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
+/******/ 							promises.push(installedChunkData[2] = promise);
+/******/ 		
+/******/ 							// start chunk loading
+/******/ 							var url = __webpack_require__.p + __webpack_require__.u(chunkId);
+/******/ 							// create error before stack unwound to get useful stacktrace later
+/******/ 							var error = new Error();
+/******/ 							var loadingEnded = (event) => {
+/******/ 								if(__webpack_require__.o(installedChunks, chunkId)) {
+/******/ 									installedChunkData = installedChunks[chunkId];
+/******/ 									if(installedChunkData !== 0) installedChunks[chunkId] = undefined;
+/******/ 									if(installedChunkData) {
+/******/ 										var errorType = event && (event.type === 'load' ? 'missing' : event.type);
+/******/ 										var realSrc = event && event.target && event.target.src;
+/******/ 										error.message = 'Loading chunk ' + chunkId + ' failed.\n(' + errorType + ': ' + realSrc + ')';
+/******/ 										error.name = 'ChunkLoadError';
+/******/ 										error.type = errorType;
+/******/ 										error.request = realSrc;
+/******/ 										installedChunkData[1](error);
+/******/ 									}
+/******/ 								}
+/******/ 							};
+/******/ 							__webpack_require__.l(url, loadingEnded, "chunk-" + chunkId, chunkId);
+/******/ 						}
+/******/ 					}
+/******/ 				}
+/******/ 		};
 /******/ 		
 /******/ 		// no prefetching
 /******/ 		
@@ -1059,7 +1299,34 @@ module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 /******/ 		
 /******/ 		// no on chunks loaded
 /******/ 		
-/******/ 		// no jsonp function
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 		
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunkepic_games"] = self["webpackChunkepic_games"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -1069,8 +1336,9 @@ module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!****************************!*\
   !*** ./src/js/gameView.js ***!
   \****************************/
@@ -1100,13 +1368,45 @@ function changer() {
   });
 }
 
+function getGame() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  return urlParams.get('game');
+}
+
+function convert(game) {
+  return game.replace(/[-\s]/g, '').toLowerCase();
+}
+
+function setGame() {
+  const game = getGame();
+
+  if (game === 'null') {
+    document.querySelectorAll('.game-title').forEach((e) => {
+      e.textContent = `NuLL. sry no game`;
+    });
+  } else {
+    document.querySelectorAll('.game-title').forEach((e) => {
+      e.textContent = game;
+    });
+    __webpack_require__("./src/imgs/view lazy recursive ^\\.\\/.*\\.jpg$")(`./${convert(game)}.jpg`).then((image) => {
+      document.querySelectorAll('.image-1').forEach((e) => {
+        e.style.backgroundImage = `url(${image.default})`;
+      });
+      document.querySelector('.loggo-watermark').style.backgroundImage =
+        `url(${image.default})`;
+    });
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   carousel();
   changer();
+  setGame();
 });
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=gameView.983d5a70280a19e31655.bundle.js.map
+//# sourceMappingURL=gameView.999534b120e437119c55.bundle.js.map

@@ -86,12 +86,23 @@ function cardControls() {
   });
 }
 
+function carouselBtns() {
+  document.querySelectorAll('.btn-secondary').forEach((e) => {
+    e.addEventListener('click', () => {
+      const game = e.getAttribute('gameName');
+      window.location.href = `./gameView.html?game=${encodeURIComponent(game)}`;
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   renderBars();
 
   scrollBtn();
 
   cardControls();
+
+  carouselBtns();
 
   window.addEventListener('resize', renderBars);
 });
