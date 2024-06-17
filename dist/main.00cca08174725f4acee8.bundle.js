@@ -2134,6 +2134,10 @@ function runSlider() {
 function sliderSection() {
   document.addEventListener('DOMContentLoaded', () => {
     (0,_loadImages_js__WEBPACK_IMPORTED_MODULE_0__.preloadImages)(_loadImages_js__WEBPACK_IMPORTED_MODULE_0__.images);
+
+    carouseItems.forEach((e, i) => {
+      e.style.backgroundImage = `radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(${_loadImages_js__WEBPACK_IMPORTED_MODULE_0__.images[i]})`;
+    });
   });
 
   window.addEventListener('load', () => {
@@ -2147,10 +2151,6 @@ function sliderSection() {
         removeSlide();
         runSlider();
       });
-    });
-
-    carouseItems.forEach((e, i) => {
-      e.style.backgroundImage = `radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%), url(${_loadImages_js__WEBPACK_IMPORTED_MODULE_0__.images[i]})`;
     });
 
     carouselItemBoxImgs.forEach((e, i) => {
@@ -2747,4 +2747,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=main.65e385676067207e95a0.bundle.js.map
+//# sourceMappingURL=main.00cca08174725f4acee8.bundle.js.map
