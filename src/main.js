@@ -4,9 +4,6 @@ import './scss/header.scss';
 import { sliderSection } from './js/slider.js';
 import { headerScript } from './js/header.js';
 
-sliderSection();
-headerScript();
-
 // card containers
 
 const sectionRoots = document.querySelectorAll('.card-section-root');
@@ -63,6 +60,7 @@ function cardControls() {
     e.addEventListener('click', (event) => {
       const game = e.getAttribute('gameName');
       if (event.target.tagName === 'svg') {
+        console.log('clicked');
         const p = document.createElement('p');
         const warnBox = document.createElement('div');
         const svgIcon = e.querySelector('.add-to-wishlist');
@@ -97,3 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('resize', renderBars);
 });
+
+sliderSection();
+headerScript();

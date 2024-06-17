@@ -16,31 +16,270 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/icons/youtube-gaming-custom.png */ "./src/imgs/icons/youtube-gaming-custom.png"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `main {
   padding: 2rem;
   max-width: 1400px;
   margin: auto; }
+  @media screen and (max-width: 600px) {
+    main {
+      padding: .5rem; } }
 
 .main-top .game-title {
-  font-size: 1.5rem; }
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-weight: 600; }
 
 .hero {
   display: grid;
-  grid-template-columns: 4fr 1fr; }
-  .hero .carosel-container {
+  grid-template-columns: 5fr 2fr;
+  gap: 1rem;
+  position: relative; }
+  @media screen and (max-width: 1000px) {
+    .hero {
+      grid-template-columns: 1fr; } }
+  .hero .carousel-container {
     display: flex;
-    flex-direction: column; }
-    .hero .carosel-container .carousel .image-bg-div {
+    flex-direction: column;
+    overflow: scroll; }
+    @media screen and (max-width: 1000px) {
+      .hero .carousel-container {
+        order: 2; } }
+    .hero .carousel-container .carousel .image-bg-div {
       width: 100%;
-      aspect-ratio: 2/3;
+      aspect-ratio: 3/2;
       background-color: #303030;
-      border-radius: 1rem; }
-`, "",{"version":3,"sources":["webpack://./src/scss/gameView.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,iBAAiB;EACjB,YAAY,EAAA;;AAGhB;EAEQ,iBAAiB,EAAA;;AAIzB;EACI,aAAa;EACb,8BAA8B,EAAA;EAFlC;IAKQ,aAAa;IACb,sBAAsB,EAAA;IAN9B;MAUgB,WAAW;MACX,iBAAiB;MACjB,yBAAiC;MACjC,mBAAmB,EAAA","sourcesContent":["main {\r\n    padding: 2rem;\r\n    max-width: 1400px;\r\n    margin: auto;\r\n}\r\n\r\n.main-top {\r\n    .game-title {\r\n        font-size: 1.5rem;\r\n    }\r\n}\r\n\r\n.hero {\r\n    display: grid;\r\n    grid-template-columns: 4fr 1fr;\r\n\r\n    .carosel-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n\r\n        .carousel {\r\n            .image-bg-div {\r\n                width: 100%;\r\n                aspect-ratio: 2/3;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n            }\r\n        }\r\n    }\r\n}"],"sourceRoot":""}]);
+      border-radius: 1rem;
+      display: none; }
+    .hero .carousel-container .carousel .image-1 {
+      display: block; }
+    .hero .carousel-container .carousel-changer {
+      transition: scroll 2s ease-in-out;
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%; }
+      .hero .carousel-container .carousel-changer .container {
+        display: flex;
+        gap: 1rem;
+        padding: 0.5rem;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        width: fit-content;
+        max-width: 80%;
+        overflow: scroll;
+        margin: auto; }
+        .hero .carousel-container .carousel-changer .container .changer {
+          min-width: 5rem;
+          aspect-ratio: 3/2;
+          background-color: #303030;
+          border-radius: 0.5rem; }
+      .hero .carousel-container .carousel-changer .left-scroll,
+      .hero .carousel-container .carousel-changer .right-scroll {
+        position: absolute;
+        fill: white;
+        left: 0;
+        z-index: 99;
+        height: 30px; }
+        .hero .carousel-container .carousel-changer .left-scroll svg,
+        .hero .carousel-container .carousel-changer .right-scroll svg {
+          height: 30px;
+          cursor: pointer; }
+      .hero .carousel-container .carousel-changer .right-scroll {
+        left: unset;
+        right: 0;
+        width: fit-content; }
+      .hero .carousel-container .carousel-changer .container::-webkit-scrollbar {
+        display: none; }
+    .hero .carousel-container .carousel-content .top-text {
+      font-size: 1.2rem; }
+    @media screen and (max-width: 1000px) {
+      .hero .carousel-container .carousel-content {
+        order: 1; } }
+    .hero .carousel-container .carousel-content .category-features {
+      display: flex;
+      gap: 1rem;
+      justify-content: space-around;
+      margin: 1rem; }
+      .hero .carousel-container .carousel-content .category-features > div {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        border-left: 1px solid white;
+        padding-left: 1rem;
+        margin: 1rem; }
+        .hero .carousel-container .carousel-content .category-features > div .title {
+          opacity: .7;
+          font-size: .9rem; }
+    .hero .carousel-container .carousel-content .detailed-description {
+      opacity: .8;
+      font-size: .9rem; }
+  .hero .carousel-container::-webkit-scrollbar {
+    display: none; }
+  .hero .sticky-div .content-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    position: sticky;
+    top: 0px; }
+    .hero .sticky-div .content-container .image-bg-div {
+      width: 100%;
+      aspect-ratio: 3/2;
+      background-color: #303030;
+      border-radius: 1rem;
+      display: grid;
+      place-content: center; }
+    .hero .sticky-div .content-container small {
+      background-color: #303030;
+      border-radius: .2rem;
+      padding-inline: .2rem;
+      opacity: .8;
+      width: fit-content; }
+    .hero .sticky-div .content-container .price {
+      display: flex;
+      gap: clamp(0.1rem, 1vw, 1rem);
+      align-items: center; }
+      .hero .sticky-div .content-container .price .original-price {
+        text-decoration: line-through;
+        opacity: .6; }
+      .hero .sticky-div .content-container .price .btn {
+        padding: .4rem; }
+    .hero .sticky-div .content-container .btn {
+      background-color: transparent;
+      padding: .5rem 1rem;
+      border: 2px solid white;
+      border-radius: .5rem;
+      color: white;
+      font-family: poppins;
+      cursor: pointer; }
+    .hero .sticky-div .content-container .buy {
+      background-color: white;
+      color: black; }
+    .hero .sticky-div .content-container .add {
+      margin-bottom: .7rem; }
+    .hero .sticky-div .content-container .detail {
+      display: flex;
+      justify-content: space-between; }
+    .hero .sticky-div .content-container hr {
+      opacity: .7; }
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem; }
+  .main-footer .title {
+    font-size: 1.3rem; }
+  .main-footer .follow-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; }
+    .main-footer .follow-us .social {
+      background-color: #353535;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem; }
+      .main-footer .follow-us .social img {
+        height: 50px; }
+  .main-footer .rating .points {
+    height: 150px;
+    aspect-ratio: 1;
+    background-color: gray;
+    border-radius: 100vh;
+    display: grid;
+    place-content: center;
+    margin: 2rem auto; }
+    .main-footer .rating .points span {
+      font-size: 3rem; }
+  .main-footer .rating .feature-cards {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem; }
+    @media screen and (max-width: 1000px) {
+      .main-footer .rating .feature-cards {
+        grid-template-columns: 1fr 1fr; } }
+    @media screen and (max-width: 720px) {
+      .main-footer .rating .feature-cards {
+        grid-template-columns: 1fr; } }
+    .main-footer .rating .feature-cards .card {
+      width: 100%;
+      aspect-ratio: 5/3;
+      background-color: #363636;
+      border-radius: 1rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center; }
+      @media screen and (max-width: 720px) {
+        .main-footer .rating .feature-cards .card {
+          flex-direction: row;
+          aspect-ratio: unset; } }
+      .main-footer .rating .feature-cards .card .image-bg-div {
+        height: 50%;
+        aspect-ratio: 1;
+        background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+        background-size: cover; }
+        @media screen and (max-width: 720px) {
+          .main-footer .rating .feature-cards .card .image-bg-div {
+            height: 50px; } }
+      .main-footer .rating .feature-cards .card .content {
+        margin: auto;
+        text-align: center; }
+        @media screen and (max-width: 720px) {
+          .main-footer .rating .feature-cards .card .content {
+            margin-left: 2rem;
+            text-align: start; } }
+        .main-footer .rating .feature-cards .card .content > p {
+          font-weight: 600;
+          font-size: 1.4rem; }
+        .main-footer .rating .feature-cards .card .content .title {
+          opacity: .7;
+          font-size: .9rem;
+          font-weight: 400; }
+  .main-footer .requirements .title {
+    margin-bottom: 2rem; }
+  .main-footer .requirements .content {
+    background-color: #2e2e2e;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: .5rem; }
+    @media screen and (max-width: 600px) {
+      .main-footer .requirements .content {
+        padding: 1rem; } }
+    .main-footer .requirements .content ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem; }
+      .main-footer .requirements .content ul li .title {
+        opacity: .7;
+        font-size: .9rem; }
+      .main-footer .requirements .content ul .content-title {
+        font-weight: 600;
+        font-size: 1.2rem;
+        opacity: .5;
+        margin-bottom: .5rem; }
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px; } }
+`, "",{"version":3,"sources":["webpack://./src/scss/gameView.scss"],"names":[],"mappings":"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","sourcesContent":["main {\r\n    padding: 2rem;\r\n    max-width: 1400px;\r\n    margin: auto;\r\n\r\n    @media screen and(max-width: 600px) {\r\n        padding: .5rem;\r\n    }\r\n}\r\n\r\n.main-top {\r\n    .game-title {\r\n        font-size: 2rem;\r\n        margin-top: 1rem;\r\n        font-weight: 600;\r\n    }\r\n}\r\n\r\n.hero {\r\n    display: grid;\r\n    grid-template-columns: 5fr 2fr;\r\n    gap: 1rem;\r\n    position: relative;\r\n\r\n    @media screen and(max-width: 1000px) {\r\n        grid-template-columns: 1fr;\r\n    }\r\n\r\n    .carousel-container {\r\n        display: flex;\r\n        flex-direction: column;\r\n        overflow: scroll;\r\n\r\n        @media screen and(max-width: 1000px) {\r\n            order: 2;\r\n        }\r\n\r\n        .carousel {\r\n            .image-bg-div {\r\n                width: 100%;\r\n                aspect-ratio: 3/2;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n                display: none;\r\n            }\r\n\r\n            .image-1 {\r\n                display: block;\r\n            }\r\n        }\r\n\r\n        .carousel-changer {\r\n            transition: scroll 2s ease-in-out;\r\n            position: relative;\r\n            display: flex;\r\n            align-items: center;\r\n            width: 100%;\r\n\r\n            .container {\r\n                display: flex;\r\n                gap: 1rem;\r\n                padding: 0.5rem;\r\n                flex-wrap: nowrap;\r\n                align-items: center;\r\n                justify-content: flex-start;\r\n                width: fit-content;\r\n                max-width: 80%;\r\n                overflow: scroll;\r\n                margin: auto;\r\n                // background-color: red;\r\n\r\n                .changer {\r\n                    min-width: 5rem;\r\n                    aspect-ratio: 3/2;\r\n                    background-color: rgb(48, 48, 48);\r\n                    border-radius: 0.5rem;\r\n                }\r\n            }\r\n\r\n            .left-scroll,\r\n            .right-scroll {\r\n                position: absolute;\r\n                fill: white;\r\n                left: 0;\r\n                z-index: 99;\r\n                height: 30px;\r\n\r\n                svg {\r\n                    height: 30px;\r\n                    cursor: pointer;\r\n                }\r\n            }\r\n\r\n            .right-scroll {\r\n                left: unset;\r\n                right: 0;\r\n                width: fit-content;\r\n            }\r\n\r\n            .container::-webkit-scrollbar {\r\n                display: none;\r\n            }\r\n        }\r\n\r\n        .carousel-content {\r\n            .top-text {\r\n                font-size: 1.2rem;\r\n            }\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                order: 1;\r\n            }\r\n\r\n            .category-features {\r\n                display: flex;\r\n                gap: 1rem;\r\n                justify-content: space-around;\r\n                margin: 1rem;\r\n\r\n                >div {\r\n                    display: flex;\r\n                    flex-direction: column;\r\n                    gap: .5rem;\r\n                    border-left: 1px solid white;\r\n                    padding-left: 1rem;\r\n                    margin: 1rem;\r\n\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                    }\r\n                }\r\n            }\r\n\r\n            .detailed-description {\r\n                opacity: .8;\r\n                font-size: .9rem;\r\n            }\r\n        }\r\n    }\r\n\r\n    .carousel-container::-webkit-scrollbar {\r\n        display: none;\r\n    }\r\n\r\n\r\n    .sticky-div {\r\n        .content-container {\r\n            display: flex;\r\n            flex-direction: column;\r\n            gap: .5rem;\r\n            position: sticky;\r\n            top: 0px;\r\n\r\n            .image-bg-div {\r\n                width: 100%;\r\n                aspect-ratio: 3/2;\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: 1rem;\r\n                display: grid;\r\n                place-content: center;\r\n            }\r\n\r\n            small {\r\n                background-color: rgb(48, 48, 48);\r\n                border-radius: .2rem;\r\n                padding-inline: .2rem;\r\n                opacity: .8;\r\n                width: fit-content;\r\n            }\r\n\r\n            .price {\r\n                display: flex;\r\n                gap: clamp(0.1rem, 1vw, 1rem);\r\n                align-items: center;\r\n\r\n                .original-price {\r\n                    text-decoration: line-through;\r\n                    opacity: .6;\r\n                }\r\n\r\n                .btn {\r\n                    padding: .4rem;\r\n                }\r\n            }\r\n\r\n            .btn {\r\n                background-color: transparent;\r\n                padding: .5rem 1rem;\r\n                border: 2px solid white;\r\n                border-radius: .5rem;\r\n                color: white;\r\n                font-family: poppins;\r\n                cursor: pointer;\r\n            }\r\n\r\n            .buy {\r\n                background-color: white;\r\n                color: black;\r\n            }\r\n\r\n            .add {\r\n                margin-bottom: .7rem;\r\n            }\r\n\r\n            .detail {\r\n                display: flex;\r\n                justify-content: space-between;\r\n            }\r\n\r\n            hr {\r\n                opacity: .7;\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n.main-footer {\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 2rem;\r\n    margin-top: 2rem;\r\n\r\n    .title {\r\n        font-size: 1.3rem;\r\n    }\r\n\r\n    .follow-us {\r\n        display: flex;\r\n        flex-direction: column;\r\n        gap: 1rem;\r\n\r\n        .social {\r\n            background-color: rgb(53, 53, 53);\r\n            display: flex;\r\n            align-items: center;\r\n            justify-content: center;\r\n            gap: 1rem;\r\n            padding: 2rem;\r\n\r\n            img {\r\n                height: 50px;\r\n            }\r\n        }\r\n    }\r\n\r\n    .rating {\r\n        .points {\r\n            height: 150px;\r\n            aspect-ratio: 1;\r\n            background-color: gray;\r\n            border-radius: 100vh;\r\n            display: grid;\r\n            place-content: center;\r\n            margin: 2rem auto;\r\n\r\n            span {\r\n                font-size: 3rem;\r\n            }\r\n        }\r\n\r\n        .feature-cards {\r\n            padding: 1rem;\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr 1fr;\r\n            gap: 1rem;\r\n\r\n            @media screen and(max-width: 1000px) {\r\n                grid-template-columns: 1fr 1fr;\r\n            }\r\n\r\n            @media screen and(max-width: 720px) {\r\n                grid-template-columns: 1fr;\r\n            }\r\n\r\n            .card {\r\n                width: 100%;\r\n                aspect-ratio: 5/3;\r\n                background-color: rgb(54, 54, 54);\r\n                border-radius: 1rem;\r\n                padding: 1rem;\r\n                display: flex;\r\n                align-items: center;\r\n                flex-direction: column;\r\n                justify-content: center;\r\n\r\n                @media screen and(max-width: 720px) {\r\n                    flex-direction: row;\r\n                    aspect-ratio: unset;\r\n                }\r\n\r\n                .image-bg-div {\r\n                    height: 50%;\r\n                    aspect-ratio: 1;\r\n                    background-image: url('../imgs/icons/youtube-gaming-custom.png');\r\n                    background-size: cover;\r\n\r\n                    @media screen and(max-width: 720px) {\r\n                        height: 50px;\r\n                    }\r\n                }\r\n\r\n                .content {\r\n                    margin: auto;\r\n                    text-align: center;\r\n\r\n                    @media screen and(max-width: 720px) {\r\n                        margin-left: 2rem;\r\n                        text-align: start;\r\n                    }\r\n\r\n                    >p {\r\n                        font-weight: 600;\r\n                        font-size: 1.4rem;\r\n                    }\r\n\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                        font-weight: 400;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n    }\r\n\r\n    .requirements {\r\n        .title {\r\n            margin-bottom: 2rem;\r\n        }\r\n\r\n        .content {\r\n            background-color: rgb(46, 46, 46);\r\n            display: grid;\r\n            grid-template-columns: 1fr 1fr;\r\n            padding: 3rem;\r\n            max-width: 1200px;\r\n            margin: auto;\r\n            border-radius: .5rem;\r\n\r\n            @media screen and(max-width: 600px) {\r\n                padding: 1rem;\r\n            }\r\n\r\n            ul {\r\n                display: flex;\r\n                flex-direction: column;\r\n                gap: 1.5rem;\r\n\r\n                li {\r\n                    .title {\r\n                        opacity: .7;\r\n                        font-size: .9rem;\r\n                    }\r\n                }\r\n\r\n                .content-title {\r\n                    font-weight: 600;\r\n                    font-size: 1.2rem;\r\n                    opacity: .5;\r\n                    margin-bottom: .5rem;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n\r\n@media screen and(max-width: 600px) {\r\n    html {\r\n        font-size: 14px;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -212,6 +451,41 @@ module.exports = function (cssWithMappingToString) {
     }
   };
   return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    options = {};
+  }
+  if (!url) {
+    return url;
+  }
+  url = String(url.__esModule ? url.default : url);
+
+  // If url is already wrapped in quotes, remove them
+  if (/^['"].*['"]$/.test(url)) {
+    url = url.slice(1, -1);
+  }
+  if (options.hash) {
+    url += options.hash;
+  }
+
+  // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+  return url;
 };
 
 /***/ }),
@@ -610,6 +884,16 @@ function styleTagTransform(css, styleElement) {
 }
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/imgs/icons/youtube-gaming-custom.png":
+/*!**************************************************!*\
+  !*** ./src/imgs/icons/youtube-gaming-custom.png ***!
+  \**************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "e356c1ab169db610b755.png";
+
 /***/ })
 
 /******/ 	});
@@ -638,6 +922,9 @@ module.exports = styleTagTransform;
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -663,6 +950,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -677,6 +976,55 @@ module.exports = styleTagTransform;
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"gameView": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -701,4 +1049,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=gameView.b613f53a22755012de6b.bundle.js.map
+//# sourceMappingURL=gameView.ef269a04964c0ed2d126.bundle.js.map
