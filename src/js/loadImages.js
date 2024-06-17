@@ -1,4 +1,4 @@
-import carouselImage1 from '../imgs/carousel/controll.png';
+import carouselImage1 from '../imgs/carousel/controll.jpg';
 import carouselImage2 from '../imgs/carousel/genshin-impact.jpg';
 import carouselImage3 from '../imgs/carousel/watch-dogs2.jpg';
 import carouselImage4 from '../imgs/carousel/dont-starve.jpg';

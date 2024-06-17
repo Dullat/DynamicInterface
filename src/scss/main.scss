@@ -1,5 +1,5 @@
 .add-to-wishlist {
-    display: block;
+    display: none;
     height: 20px;
     aspect-ratio: 1;
     box-shadow: 0px 0px 2px 4px rgba(2, 2, 2, 0.274);
@@ -10,6 +10,10 @@
     margin-right: 4px;
     transition: all 1s;
     background-color: rgb(0, 0, 0);
+
+    @media screen and(max-width:600px) {
+        display: block;
+    }
 
     :hover {
         transform: scale(110%);
@@ -217,7 +221,7 @@ main {
                 height: 100%;
 
                 .carousel-item-1 {
-                    background: url(../imgs/carousel/controll.png);
+                    background: url(../imgs/carousel/controll.jpg);
                 }
 
                 .carousel-item-2 {
